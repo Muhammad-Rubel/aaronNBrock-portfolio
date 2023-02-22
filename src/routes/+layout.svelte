@@ -5,7 +5,9 @@
 
 <div class="relative">
 	<!-- <Header /> -->
-	<h1 class="text-4xl text-red-500">Test</h1>
+	<header>
+		<h2 class="">Test</h2>
+	</header>
 
 	<main>
 		<slot />
@@ -13,3 +15,15 @@
 
 	<!-- <Footer /> -->
 </div>
+
+<style lang="scss">
+	header {
+		h2 {
+			color: red;
+		}
+	}
+
+	h2 {
+		color: blue;
+	}
+</style>
