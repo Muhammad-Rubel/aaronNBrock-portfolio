@@ -3,3 +3,23 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+	html {
+		font-size: 1.25rem;
+	}
+}
+
+.container {
+	@apply sm:max-w-[540px] md:max-w-[720px] lg:max-w-[960px] xl:max-w-[1140px] mx-auto px-[15px];
+}
+
+.btn:hover {
+	box-shadow: 0 8px 20px rgb(56 87 241 / 30%);
+	transform: scale(1.03);
+}
+
+::selection {
+	color: #f8f9fa;
+	background: #400080;
+}
