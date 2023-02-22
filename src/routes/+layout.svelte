@@ -1,5 +1,6 @@
 <script>
 	import '$lib/css/tailwind.css';
+	import '$lib/css/_variables.scss';
 	// import Header from '$lib/components/Header.svelte';
 </script>
 
@@ -17,9 +18,13 @@
 </div>
 
 <style lang="scss">
+	@use '$lib/css/_variables.scss' as *;
+
 	header {
 		h2 {
-			color: red;
+			// add primary color from variables.scss
+			color: $primary;
+			font-size: 5rem;
 		}
 	}
 
