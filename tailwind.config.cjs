@@ -17,7 +17,7 @@ module.exports = {
 		// },
 		extend: {
 			colors: {
-				'gray-5': 'rgba(0, 0, 0, 0.8)',
+				'gray-50': 'rgba(0, 0, 0, 0.8)',
 				'gray-10': '#f1f6f9',
 				'purple-20': '#27004d',
 				'purple-30': '#200040',

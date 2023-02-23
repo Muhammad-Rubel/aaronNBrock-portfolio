@@ -1,14 +1,11 @@
 <script>
 	import '$lib/css/tailwind.css';
 	import '$lib/css/_variables.scss';
-	// import Header from '$lib/components/Header.svelte';
+	import Header from '$lib/components/Header.svelte';
 </script>
 
 <div class="relative">
-	<!-- <Header /> -->
-	<header>
-		<h2 class="">Test</h2>
-	</header>
+	<Header />
 
 	<main>
 		<slot />

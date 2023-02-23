@@ -6,7 +6,8 @@
 
 @layer base {
 	html {
-		font-size: 1.25rem;
+		/* font-size: 1.25rem; */
+		@apply text-gray-50 bg-white;
 	}
 }
 
@@ -14,9 +15,25 @@
 	@apply sm:max-w-[540px] md:max-w-[720px] lg:max-w-[960px] xl:max-w-[1140px] mx-auto px-[15px];
 }
 
-.btn:hover {
+.btn {
+	@apply py-[15px] px-[30px] text-base rounded-lg text-center;
+}
+
+.primary-btn {
+	@apply border border-primary bg-primary text-white hover:border-purple-20 hover:bg-purple-40 active:border-purple-30 active:bg-purple-20 transform transition-all duration-300 ease-in-out hover:scale-105;
+}
+
+.btn-zoom {
+	@apply transform transition-all duration-300 ease-in-out hover:scale-105;
+}
+
+.custom-transition {
+	@apply transform transition-all duration-300 ease-in-out hover:scale-105;
+}
+
+.btn-zoom:hover {
 	box-shadow: 0 8px 20px rgb(56 87 241 / 30%);
-	transform: scale(1.03);
+	/* transform: scale(1.03); */
 }
 
 ::selection {
