@@ -1,0 +1,7 @@
+<script lang="ts">
+	export let classNames = '';
+</script>
+
+<svg viewBox="0 0 1437 1180" class={classNames}>
+	<path fill="#f1f6f9" d="M0 0h1377l60 1010a120 120 0 01-120 120L0 1180z" data-name="Path 1350" />
+</svg>
