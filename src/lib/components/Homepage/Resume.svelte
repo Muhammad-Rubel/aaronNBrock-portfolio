@@ -1,0 +1,49 @@
+<script>
+	import portfolio1 from '$lib/assets/images/portfolio/portfolio-1.png';
+	import portfolio2 from '$lib/assets/images/portfolio/portfolio-2.png';
+	import portfolio3 from '$lib/assets/images/portfolio/portfolio-3.png';
+	import portfolio4 from '$lib/assets/images/portfolio/portfolio-4.png';
+	import PortfolioCard from './PortfolioCard.svelte';
+
+	const portfolio = [
+		{
+			slug: '',
+			category: 'Development, UX Design',
+			title: 'Case Study One',
+			image: portfolio1
+		},
+		{
+			slug: '',
+			category: 'Web Design, Branding',
+			title: 'Case Study One',
+			image: portfolio2
+		},
+		{
+			slug: '',
+			category: 'UX Design, UX Research',
+			title: 'Recipe App Ux Study',
+			image: portfolio3
+		},
+		{
+			slug: '',
+			category: 'UX Case Study for Agriculture App',
+			title: 'UX Design',
+			image: portfolio4
+		}
+	];
+</script>
+
+<section class="services py-[50px] lg:pt-[100px] lg:pb-[275px]">
+	<div class="container">
+		<div>
+			<h2 class="text-5xl leading-[1.2] mb-6 font-semibold text-center">My Portfolio</h2>
+			<p class="text-xl leading-[1.5] mb-16 text-center">Check Some of My Recent Work</p>
+		</div>
+
+		<div class="mt-12 lg:flex flex-wrap justify-start items-start">
+			{#each portfolio as item, i}
+				<PortfolioCard {item} index={i} />
+			{/each}
+		</div>
+	</div>
+</section>
