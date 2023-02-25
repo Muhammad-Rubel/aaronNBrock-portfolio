@@ -14,14 +14,14 @@
 		</div>
 
 		<!-- content -->
-		<div>
+		<div class="flex justify-between items-center">
 			<!-- image -->
-			<div>
-				<img src={AboutImage} alt="" />
+			<div class="lg:w-[45%]">
+				<img src={AboutImage} alt="" class="rounded-[20px]" />
 			</div>
 
 			<!-- text -->
-			<div class="bg-[#1b2031] mt-[30px] rounded-[20px] p-6">
+			<div class="bg-[#1b2031] mt-[30px] rounded-[20px] p-6 lg:w-[55%] lg:p-12 lg:-translate-x-12">
 				<h3 class="text-light text-3xl lg:text-[2.625rem] leading-[1.2] font-semibold mb-6">
 					Mission Statement
 				</h3>
