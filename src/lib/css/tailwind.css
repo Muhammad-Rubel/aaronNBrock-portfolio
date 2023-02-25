@@ -23,6 +23,10 @@
 	@apply border border-primary bg-primary text-white hover:border-purple-20 hover:bg-purple-40 active:border-purple-30 active:bg-purple-20 transform transition-all duration-300 ease-in-out hover:scale-105;
 }
 
+.btn-outline-light {
+	@apply border border-light text-light hover:border-light hover:bg-light active:border-light active:bg-light active:text-[#212529] transform transition-all duration-300 ease-in-out hover:scale-105;
+}
+
 .btn-zoom {
 	@apply transform transition-all duration-300 ease-in-out hover:scale-105;
 }

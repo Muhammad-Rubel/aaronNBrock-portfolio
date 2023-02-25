@@ -7,7 +7,7 @@
 	import HeroBg from '../Svg/HeroBg.svelte';
 </script>
 
-<section class="pt-[150px] pb-8 lg:pt-44 lg:pb-48 xl:py-48 relative z-0">
+<section id="home" class="pt-[150px] pb-8 lg:pt-44 lg:pb-48 xl:py-48 relative z-0">
 	<div
 		class="container space-y-[60px] lg:flex justify-between items-center lg:space-x-20 lg:space-y-0 relative z-10"
 	>
