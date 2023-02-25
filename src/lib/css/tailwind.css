@@ -31,6 +31,10 @@
 	@apply transform transition-all duration-300 ease-in-out hover:scale-105;
 }
 
+.top-title {
+	@apply text-xl leading-normal text-gray-dark mb-4 inline-block w-full;
+}
+
 .custom-transition {
 	@apply transform transition-all duration-300 ease-in-out hover:scale-105;
 }

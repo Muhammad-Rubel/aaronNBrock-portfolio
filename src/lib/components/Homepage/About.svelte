@@ -2,7 +2,7 @@
 	import AboutImage from '$lib/assets/images/about/about.jpg';
 </script>
 
-<section class="py-[50px] lg:py-[78px] xl:py-[100px]">
+<section id="about" class="py-[50px] lg:py-[78px] xl:py-[100px]">
 	<div class="container">
 		<!-- heading -->
 		<div>
