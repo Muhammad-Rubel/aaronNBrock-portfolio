@@ -26,7 +26,7 @@
 	];
 </script>
 
-<section id="services py-[50px] lg:pt-[100px] lg:pb-[275px]">
+<section id="services">
 	<div class="container">
 		<div>
 			<span class="top-title">Area of Work</span>

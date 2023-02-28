@@ -10,7 +10,7 @@
 	export let index: number;
 </script>
 
-<div class="pr-6 pb-6 w-1/2">
+<div class="pr-6 pb-6 md:w-1/2">
 	<div
 		class={`p-[30px] bg-white rounded-[20px] ${index === 3 && '-mt-56 xl:-mt-48'}`}
 		style="box-shadow: 0 20px 40px rgb(50 65 141 / 12%);"
