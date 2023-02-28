@@ -4,6 +4,7 @@
 	import Portfolio from '$lib/components/Homepage/Portfolio.svelte';
 	import Resume from '$lib/components/Homepage/Resume.svelte';
 	import Services from '$lib/components/Homepage/Services.svelte';
+	import Skillset from '$lib/components/Homepage/Skillset.svelte';
 </script>
 
 <Hero />
@@ -11,3 +12,4 @@
 <Services />
 <Portfolio />
 <Resume />
+<Skillset />
