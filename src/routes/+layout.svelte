@@ -2,6 +2,7 @@
 	import '$lib/css/tailwind.css';
 	import '$lib/css/_variables.scss';
 	import Header from '$lib/components/Header.svelte';
+	import Footer from '$lib/components/Footer.svelte';
 </script>
 
 <div class="relative">
@@ -11,7 +12,7 @@
 		<slot />
 	</main>
 
-	<!-- <Footer /> -->
+	<Footer />
 </div>
 
 <style lang="scss">
