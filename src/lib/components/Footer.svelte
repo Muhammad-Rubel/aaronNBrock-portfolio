@@ -1,6 +1,8 @@
 <script>
 	import Logo from '$lib/assets/images/widget-logo.png';
 	import Envelope from './Svg/Envelope.svelte';
+	import Shape1 from './Svg/Footer/Shape1.svelte';
+	import Shape2 from './Svg/Footer/Shape2.svelte';
 	import Location from './Svg/Location.svelte';
 	import Phone from './Svg/Phone.svelte';
 	import Facebook from './Svg/SocialMedia/Facebook.svelte';
@@ -43,17 +45,29 @@
 	<div class="container">
 		<!-- contact -->
 		<div
-			class="bg-[#400080] text-[#f8f9fa] py-[70px] px-10 md:px-20 lg:py-[84px] xl:py-[100px] rounded-[20px] -mt-32 lg:flex justify-between gap-4"
+			class="relative bg-[#400080] text-[#f8f9fa] py-[70px] px-10 md:px-20 lg:py-[84px] xl:py-[100px] rounded-[20px] -mt-32 overflow-hidden"
 		>
-			<div>
-				<span class="text-xl leading-none text-center inline-block w-full lg:text-left"
-					>Contact Me</span
-				>
-				<h2 class="h2 mt-5 text-center lg:text-left">Let's Start a Project</h2>
+			<div class="lg:flex justify-between gap-4 relative z-10">
+				<div>
+					<span class="text-xl leading-none text-center inline-block w-full lg:text-left"
+						>Contact Me</span
+					>
+					<h2 class="h2 mt-5 text-center lg:text-left">Let's Start a Project</h2>
+				</div>
+
+				<div class="mt-8 flex justify-center lg:justify-end lg:mt-0 lg:items-end">
+					<button class="btn btn-light btn-zoom">Get In Touch</button>
+				</div>
 			</div>
 
-			<div class="mt-8 flex justify-center lg:justify-end lg:mt-0 lg:items-end">
-				<button class="btn btn-light btn-zoom">Get In Touch</button>
+			<div
+				class="absolute -top-[43%] left-[2%] transform -rotate-[20deg] z-0 text-light footer-shape-1-move-left"
+			>
+				<Shape1 classNames="h-[315px] w-[357px]" />
+			</div>
+
+			<div class="absolute top-[12%] -right-[9%] transform rotate-[80deg] z-0 text-light">
+				<Shape2 classNames="h-[208px] w-[235px]" />
 			</div>
 		</div>
 
@@ -125,3 +139,18 @@
 		</div>
 	</div>
 </footer>
+
+<style>
+	.footer-shape-1-move-left {
+		animation: footer-shape-1-move-left 5s linear infinite;
+	}
+
+	@keyframes footer-shape-1-move-left {
+		0% {
+			transform: translateX(0) rotate(-20deg);
+		}
+		50% {
+			transform: translateX(15px) rotate(-20deg);
+		}
+	}
+</style>

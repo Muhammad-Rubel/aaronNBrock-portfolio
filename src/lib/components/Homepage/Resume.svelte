@@ -81,11 +81,11 @@
 	};
 </script>
 
-<section id="resume" class="relative">
+<section id="resume" class="relative py-[50px] md:py-[100px] lg:py-[150px]">
 	<div class="bg-[#1b2031] absolute top-0 left-0 right-0 bottom-0 transform -skew-y-2 z-[-1]" />
 
-	<div class="container py-[50px] lg:pt-[100px] lg:pb-[275px] lg:grid grid-cols-2 gap-x-6">
-		<div class="text-light lg:pr-20">
+	<div class="container lg:grid grid-cols-2 gap-x-6 relative">
+		<div class="text-light lg:pr-20 !sticky top-48">
 			<span class="top-title !text-light">Resume</span>
 			<h2 class="h2">Experiences.</h2>
 			<p class="mb-4">

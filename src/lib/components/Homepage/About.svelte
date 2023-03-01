@@ -1,8 +1,10 @@
 <script>
 	import AboutImage from '$lib/assets/images/about/about.jpg';
+	import Figure from '../Svg/Figure.svelte';
+	import AboutBlob from './AboutBlob.svelte';
 </script>
 
-<section id="about" class="py-[50px] lg:py-[78px] xl:py-[100px]">
+<section id="about" class="py-[50px] lg:py-[67px] xl:py-[100px] overflow-hidden">
 	<div class="container">
 		<!-- heading -->
 		<div>
@@ -14,26 +16,38 @@
 		</div>
 
 		<!-- content -->
-		<div class="flex justify-between items-center">
+		<div class="lg:flex justify-between items-center">
 			<!-- image -->
-			<div class="lg:w-[45%]">
+			<div class="lg:w-[45%] relative">
 				<img src={AboutImage} alt="" class="rounded-[20px]" />
+
+				<div class="absolute -top-[7%] -left-[16%] transform z-0 move_top">
+					<Figure classNames="h-[150px] w-[150px]" />
+				</div>
 			</div>
 
 			<!-- text -->
-			<div class="bg-[#1b2031] mt-[30px] rounded-[20px] p-6 lg:w-[55%] lg:p-12 lg:-translate-x-12">
-				<h3 class="h3 text-light">Mission Statement</h3>
-				<p class=" text-light mb-6">
-					As a the leader in <a href="/">Google Cloud memes</a>, I know a thing or two about both
-					communicating Google Cloud concepts and building applications on the platform. As a self
-					proclaimed fan boy also, I keep up-to-date with Google’s newest offerings so you don’t
-					have to. My goal is to streamline your GCP usage so you can fosus on what matters: growing
-					your business.
-				</p>
+			<div
+				class="bg-[#1b2031] mt-[30px] rounded-[20px] p-6 lg:w-[55%] lg:p-12 lg:-translate-x-12 relative z-0"
+			>
+				<div class="relative z-10">
+					<h3 class="h3 text-light">Mission Statement</h3>
+					<p class=" text-light mb-6">
+						As a the leader in <a href="/">Google Cloud memes</a>, I know a thing or two about both
+						communicating Google Cloud concepts and building applications on the platform. As a self
+						proclaimed fan boy also, I keep up-to-date with Google’s newest offerings so you don’t
+						have to. My goal is to streamline your GCP usage so you can fosus on what matters:
+						growing your business.
+					</p>
 
-				<div class="space-x-7 pb-4">
-					<a href="/contact" class="btn primary-btn btn-zoom inline-block">Contact me</a>
-					<a href="/" class="btn btn-zoom btn-outline-light inline-block">Let's Chat</a>
+					<div class="space-x-7 pb-4">
+						<a href="/contact" class="btn primary-btn btn-zoom inline-block">Contact me</a>
+						<a href="/" class="btn btn-zoom btn-outline-light inline-block">Let's Chat</a>
+					</div>
+				</div>
+
+				<div class="absolute -top-[55%] -right-[22%] z-0">
+					<AboutBlob classNames="h-[400px] w-[362px]" />
 				</div>
 			</div>
 		</div>

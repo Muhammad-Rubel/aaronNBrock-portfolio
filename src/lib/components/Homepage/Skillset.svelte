@@ -1,6 +1,9 @@
 <script lang="ts">
 	import SkillImage from '$lib/assets/images/skill/skill_image.jpg';
 	import Check from '../Svg/Check.svelte';
+	import Figure from '../Svg/Figure.svelte';
+	import BackgroundShape from '../Svg/service/BackgroundShape.svelte';
+
 	const skills = [
 		'AWS',
 		'GCP',
@@ -22,10 +25,14 @@
 
 <section id="skill" class="relative">
 	<div
-		class="container py-[50px] lg:py-[100px] lg:grid grid-cols-2 items-center gap-x-16 space-y-8 lg:space-y-0"
+		class="container py-[50px] lg:pt-[73px] lg:pb-[97px] xl:pt-[100px] xl:pb-[150px] lg:grid grid-cols-2 items-center gap-x-16 space-y-8 lg:space-y-0"
 	>
-		<div>
+		<div class="relative">
 			<img src={SkillImage} alt="" />
+
+			<div class="absolute -top-[11%] -left-[17%] transform z-0 move_top">
+				<Figure classNames="h-[150px] w-[150px]" />
+			</div>
 		</div>
 
 		<div class="">
@@ -45,5 +52,13 @@
 				{/each}
 			</div>
 		</div>
+	</div>
+
+	<div class="hidden lg:block absolute bottom-[5%] right-[10%] transform z-0 move_top">
+		<Figure classNames="h-[100px] w-[100px]" />
+	</div>
+
+	<div class="hidden lg:block absolute bottom-[2%] right-[2%] transform z-[-1]">
+		<BackgroundShape classNames="h-[300px] w-[300px]" />
 	</div>
 </section>

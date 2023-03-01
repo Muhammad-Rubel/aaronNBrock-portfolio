@@ -1,8 +1,12 @@
 <script>
+	import Figure from '../Svg/Figure.svelte';
+	import BackgroundShape from '../Svg/service/BackgroundShape.svelte';
 	import Branding from '../Svg/service/Branding.svelte';
 	import Creative from '../Svg/service/Creative.svelte';
 	import UiUx from '../Svg/service/UiUx.svelte';
 	import Web from '../Svg/service/Web.svelte';
+	import ServiceBg from '../Svg/ServiceBg.svelte';
+	import ServiceCardBlob from './ServiceCardBlob.svelte';
 
 	const services = [
 		{
@@ -26,9 +30,9 @@
 	];
 </script>
 
-<section id="services">
+<section id="services" class="py-[76px] md:py-[50px] lg:py-[78px] xl:py-[100px] relative">
 	<div class="container">
-		<div>
+		<div class="lg:w-1/2">
 			<span class="top-title">Area of Work</span>
 			<h2 class="text-[3.375rem] font-semibold leading-[1.2] mb-6">Google Cloud</h2>
 			<p class="mb-4 text-xl leading-normal">
@@ -36,7 +40,7 @@
 			</p>
 		</div>
 
-		<div class="mt-12 lg:flex justify-between items-start space-x-8">
+		<div class="mt-12 lg:flex justify-between items-start space-y-8 lg:space-y-0 lg:space-x-8">
 			{#each services as service}
 				<div
 					class="p-[30px] bg-white rounded-[20px]"
@@ -44,8 +48,12 @@
 				>
 					<!-- render icon -->
 					{#if service.icon}
-						<div class="mb-4">
+						<div class="mb-4 relative h-[125px] w-[100px] flex justify-start items-end z-0">
 							<svelte:component this={service.icon} />
+
+							<div class="absolute top-0 left-0 z-[-1]">
+								<ServiceCardBlob />
+							</div>
 						</div>
 					{/if}
 
@@ -55,4 +63,14 @@
 			{/each}
 		</div>
 	</div>
+
+	<div class="hidden lg:block absolute bottom-[4%] left-[6%] transform z-0 move_top">
+		<Figure classNames="h-[120px] w-[120px]" />
+	</div>
+
+	<div class="hidden lg:block absolute -bottom-[10%] -left-[7%] transform z-[-1]">
+		<BackgroundShape classNames="h-[465px] w-[410px]" />
+	</div>
+
+	<ServiceBg classNames="w-[61%] absolute top-0 right-0 z-[-2]" />
 </section>

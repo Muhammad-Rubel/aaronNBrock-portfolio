@@ -61,7 +61,9 @@
 	<!-- <div class="bg-[#f1f6f9] absolute top-0 left-0 right-0 bottom-0 transform skew-y-2 z-[-1]" /> -->
 	<svg viewBox="0 0 1920 79"><path d="M0 0h1920v79L0 0z" data-name="Path 1450" fill="white" /></svg>
 
-	<div class="container pt-[50px] pb-[100px] lg:pt-[100px] overflow-hidden">
+	<div
+		class="container pt-[100px] pb-[92px] md:py-[50px] lg:pt-[146px] lg:pb-[130px] xl:pt-[170px] xl:pb-[150px] overflow-hidden"
+	>
 		<div>
 			<span class="top-title text-center">Testimonials</span>
 			<h2 class="h2 text-center">What People Are Saying About Me?</h2>

@@ -33,7 +33,10 @@
 	];
 </script>
 
-<section id="portfolio" class="services py-[50px] lg:pt-[100px] lg:pb-[275px]">
+<section
+	id="portfolio"
+	class="services py-[82px] md:py-[50px] lg:py-[65px] xl:pt-[100px] xl:pb-[135px]"
+>
 	<div class="container">
 		<div>
 			<h2 class="h2 text-center">My Portfolio</h2>

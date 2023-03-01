@@ -5,6 +5,7 @@
 	import PopupThumb from '$lib/assets/images/hero/popup-thumb.jpg';
 	import Figure from '../Svg/Figure.svelte';
 	import HeroBg from '../Svg/HeroBg.svelte';
+	import HeroBlob from './HeroBlob.svelte';
 </script>
 
 <section id="home" class="pt-[150px] pb-8 lg:pt-44 lg:pb-48 xl:py-48 relative z-0">
@@ -12,18 +13,24 @@
 		class="container space-y-[60px] lg:flex justify-between items-center lg:space-x-20 lg:space-y-0 relative z-10"
 	>
 		<!-- text -->
-		<div class="text-center lg:text-left w-full">
-			<span class="text-2xl leading-normal">Hello there,</span>
+		<div class="text-center lg:text-left w-full relative">
+			<div class="relative z-0">
+				<span class="text-2xl leading-normal">Hello there,</span>
 
-			<h1 class="h1 mt-4">
-				Let’s make <br /> <span class="text-primary">Google Cloud</span> <br /> simple
-			</h1>
+				<h1 class="h1 mt-4">
+					Let’s make <br /> <span class="text-primary">Google Cloud</span> <br /> simple
+				</h1>
 
-			<p class="text-2xl mb-16 leading-normal">
-				Effortlessly navigate your way to success on Google Cloud with expert guidance.
-			</p>
+				<p class="text-2xl mb-16 leading-normal">
+					Effortlessly navigate your way to success on Google Cloud with expert guidance.
+				</p>
 
-			<a href="/contact" class="btn primary-btn btn-zoom inline-block">Contact me</a>
+				<a href="/contact" class="btn primary-btn btn-zoom inline-block">Contact me</a>
+			</div>
+
+			<div class="absolute -top-[45%] -left-[45%] z-[-1]">
+				<HeroBlob classNames="h-[440px] w-[440px]" />
+			</div>
 		</div>
 
 		<!-- image -->
@@ -60,9 +67,9 @@
 				</div>
 			</div>
 
-			<Figure
-				classNames="h-[150px] w-[150px] absolute top-0 left-1/2 -mt-14 transform -translate-x-1/2 z-0"
-			/>
+			<div class="absolute top-0 left-1/2 -mt-14 transform -translate-x-1/2 z-0 move_left">
+				<Figure classNames="h-[150px] w-[150px]" />
+			</div>
 		</div>
 	</div>
 

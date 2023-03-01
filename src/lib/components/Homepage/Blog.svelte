@@ -2,6 +2,7 @@
 	import Blog1 from '$lib/assets/images/blog/person-reaching-out-to-robot.jpg';
 	import Blog2 from '$lib/assets/images/allPost/turtles-all-the-way-down.jpeg';
 	import Blog3 from '$lib/assets/images/allPost/allPost-6.jpg';
+	import BlogBlob from './BlogBlob.svelte';
 
 	const blogPosts = [
 		{
@@ -25,8 +26,8 @@
 	];
 </script>
 
-<section id="blog" class="py-[50px] lg:pt-[100px] lg:pb-[275px]">
-	<div class="container">
+<section id="blog" class="py-[82px] md:py-[50px] lg:py-[73px] xl:py-[100px] relative">
+	<div class="container z-10 relative">
 		<div class="lg:flex justify-between items-end">
 			<div>
 				<span class="top-title">Blog</span>
@@ -72,5 +73,9 @@
 		<div class="lg:hidden flex justify-center mt-8">
 			<button class="btn btn-outline-secondary">See All Posts</button>
 		</div>
+	</div>
+
+	<div class="absolute top-[11%] right-[12%] z-0 ">
+		<BlogBlob classNames="h-[300px] w-[300px]" />
 	</div>
 </section>
