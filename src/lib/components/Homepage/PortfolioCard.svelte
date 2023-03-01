@@ -18,8 +18,8 @@
 		<img src={item?.image} alt="" />
 
 		<div>
-			<h4 class="mb-6 text-4xl font-semibold leading-[1.2]">{item?.category}</h4>
-			<p class="mb-4 text-xl leading-normal">{item?.title}</p>
+			<h4 class="h4">{item?.category}</h4>
+			<p class="mb-4">{item?.title}</p>
 
 			<a href={`/portfolio/${item.slug}`}>See Details</a>
 		</div>

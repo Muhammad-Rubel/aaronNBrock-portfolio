@@ -30,8 +30,8 @@
 		<div class="lg:flex justify-between items-end">
 			<div>
 				<span class="top-title">Blog</span>
-				<h2 class="text-[3.375rem] font-semibold leading-[1.2] mb-6">Recent Article</h2>
-				<p class="mb-4 text-xl leading-normal">Just a place for my thoughts...</p>
+				<h2 class="h2">Recent Article</h2>
+				<p class="mb-4">Just a place for my thoughts...</p>
 			</div>
 
 			<div class="hidden lg:block">
@@ -61,7 +61,7 @@
 						style="box-shadow: 0 20px 40px rgb(50 65 141 / 12%);"
 					>
 						<span class="text-[#400080] text-base">{post.date}</span>
-						<h5 class="mt-5 text-xl md:text-3xl leading-[1.2] font-semibold">
+						<h5 class="h5 mt-5">
 							<a href="#!">{post.title}</a>
 						</h5>
 					</div>

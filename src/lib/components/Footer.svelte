@@ -49,9 +49,7 @@
 				<span class="text-xl leading-none text-center inline-block w-full lg:text-left"
 					>Contact Me</span
 				>
-				<h2 class="mt-5 text-3xl md:text-5xl leading-[1.2] font-semibold text-center lg:text-left">
-					Let's Start a Project
-				</h2>
+				<h2 class="h2 mt-5 text-center lg:text-left">Let's Start a Project</h2>
 			</div>
 
 			<div class="mt-8 flex justify-center lg:justify-end lg:mt-0 lg:items-end">
@@ -68,7 +66,7 @@
 			</div>
 
 			<div>
-				<h4 class="text-2xl font-semibold leading-[1.2] mb-6 text-center lg:text-left">Sitemap</h4>
+				<h4 class="h4 mb-6 text-center lg:text-left">Sitemap</h4>
 
 				<nav class="flex flex-col items-center space-y-2 lg:items-start">
 					<a href="/">Home</a>
@@ -78,7 +76,7 @@
 			</div>
 
 			<div>
-				<h4 class="text-2xl font-semibold leading-[1.2] mb-6 text-center lg:text-left">Address</h4>
+				<h4 class="h4 mb-6 text-center lg:text-left">Address</h4>
 
 				<div class="flex flex-col items-center space-y-2 lg:items-start">
 					<a
@@ -109,7 +107,7 @@
 	<!-- copyright -->
 	<div>
 		<div class="container py-10 border-t border-[rgba(255,255,255,.2)] lg:grid grid-cols-2">
-			<p class="text-[#f8f9fa] text-xl leading-normal text-center lg:text-left">
+			<p class="text-[#f8f9fa] text-center lg:text-left">
 				All right reserved copyright © Aaron N. Brock 2023
 			</p>
 

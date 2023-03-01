@@ -15,7 +15,7 @@
 		<div class="text-center lg:text-left w-full">
 			<span class="text-2xl leading-normal">Hello there,</span>
 
-			<h1 class="text-4xl xl:text-6xl leading-[1.2] font-semibold mt-4 mb-6">
+			<h1 class="h1 mt-4">
 				Let’s make <br /> <span class="text-primary">Google Cloud</span> <br /> simple
 			</h1>
 

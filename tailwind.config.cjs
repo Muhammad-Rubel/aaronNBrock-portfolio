@@ -43,6 +43,10 @@ module.exports = {
 				danger: '#dc3545', //
 				light: '#f8f9fa',
 				dark: '#343a40' //
+			},
+			fontFamily: {
+				'source-sans-pro': ['Source Sans Pro', 'sans-serif'],
+				'source-serif-pro': ['Source Serif Pro', 'serif']
 			}
 		}
 	},

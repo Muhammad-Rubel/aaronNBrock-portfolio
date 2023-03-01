@@ -30,10 +30,8 @@
 
 		<div class="">
 			<span class="top-title">My Skills</span>
-			<h2 class="text-3xl md:text-[3.375rem] font-semibold leading-[1.2] mb-6">
-				What's my Skillset?
-			</h2>
-			<p class="mb-4 text-xl leading-normal">
+			<h2 class="h2">What's my Skillset?</h2>
+			<p class="mb-4">
 				I'll be honest, this section here is just the "buzzword bingo" that I play with the search
 				engines. (Also, can you find the two pokeimon?)
 			</p>

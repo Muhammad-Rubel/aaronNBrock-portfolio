@@ -5,10 +5,29 @@
 @tailwind utilities;
 
 @layer base {
-	html {
-		/* font-size: 1.25rem; */
-		@apply text-gray-50 bg-white;
+	body {
+		@apply text-gray-50 bg-white font-source-serif-pro text-xl leading-normal selection:text-[#f8f9fa] selection:bg-[#400080];
 	}
+}
+
+.h1 {
+	@apply text-[42px] leading-[1.2] font-source-sans-pro font-semibold xl:text-[3.375rem] mb-6;
+}
+
+.h2 {
+	@apply text-[32px] leading-[1.2] font-source-sans-pro font-semibold xl:text-[3rem] mb-6;
+}
+
+.h3 {
+	@apply text-[28px] leading-[1.2] font-source-sans-pro font-semibold xl:text-[2.625rem] mb-6;
+}
+
+.h4 {
+	@apply text-[25px] leading-[1.2] font-source-sans-pro font-semibold xl:text-[2.25rem] mb-6;
+}
+
+.h5 {
+	@apply text-[23px] leading-[1.2] font-source-sans-pro font-semibold xl:text-[1.875rem] mb-6;
 }
 
 .container {
@@ -54,9 +73,4 @@
 .btn-zoom:hover {
 	box-shadow: 0 8px 20px rgb(56 87 241 / 30%);
 	/* transform: scale(1.03); */
-}
-
-::selection {
-	color: #f8f9fa;
-	background: #400080;
 }

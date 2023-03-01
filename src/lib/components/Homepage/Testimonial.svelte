@@ -64,9 +64,7 @@
 	<div class="container pt-[50px] pb-[100px] lg:pt-[100px] overflow-hidden">
 		<div>
 			<span class="top-title text-center">Testimonials</span>
-			<h2 class="text-5xl leading-[1.2] mb-6 font-semibold text-center">
-				What People Are Saying About Me?
-			</h2>
+			<h2 class="h2 text-center">What People Are Saying About Me?</h2>
 		</div>
 
 		<div class="mt-12 lg:flex flex-wrap justify-start items-start">
@@ -80,7 +78,7 @@
 								{/each}
 							</div>
 
-							<p class="mt-6 mb-10 text-xl leading-[35px]">{item.comment}</p>
+							<p class="mt-6 mb-10">{item.comment}</p>
 
 							<div>
 								<span class="text-base leading-none text-[#282f49] font-bold">{item.name}</span>

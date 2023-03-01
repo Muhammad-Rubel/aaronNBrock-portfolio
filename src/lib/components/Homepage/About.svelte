@@ -9,8 +9,8 @@
 			<span class="text-xl leading-normal text-center text-gray-dark mb-4 inline-block w-full"
 				>About About</span
 			>
-			<h2 class="text-5xl leading-[1.2] mb-6 font-semibold text-center">About About About</h2>
-			<p class="text-xl leading-[1.5] mb-16 text-center">About About About About About</p>
+			<h2 class="h2 text-center">About About About</h2>
+			<p class="mb-16 text-center">About About About About About</p>
 		</div>
 
 		<!-- content -->
@@ -22,10 +22,8 @@
 
 			<!-- text -->
 			<div class="bg-[#1b2031] mt-[30px] rounded-[20px] p-6 lg:w-[55%] lg:p-12 lg:-translate-x-12">
-				<h3 class="text-light text-3xl lg:text-[2.625rem] leading-[1.2] font-semibold mb-6">
-					Mission Statement
-				</h3>
-				<p class="text-xl leading-normal text-light mb-6">
+				<h3 class="h3 text-light">Mission Statement</h3>
+				<p class=" text-light mb-6">
 					As a the leader in <a href="/">Google Cloud memes</a>, I know a thing or two about both
 					communicating Google Cloud concepts and building applications on the platform. As a self
 					proclaimed fan boy also, I keep up-to-date with Google’s newest offerings so you don’t

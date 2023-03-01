@@ -36,8 +36,8 @@
 <section id="portfolio" class="services py-[50px] lg:pt-[100px] lg:pb-[275px]">
 	<div class="container">
 		<div>
-			<h2 class="text-5xl leading-[1.2] mb-6 font-semibold text-center">My Portfolio</h2>
-			<p class="text-xl leading-[1.5] mb-16 text-center">Check Some of My Recent Work</p>
+			<h2 class="h2 text-center">My Portfolio</h2>
+			<p class="mb-16 text-center">Check Some of My Recent Work</p>
 		</div>
 
 		<div class="mt-12 lg:flex flex-wrap justify-start items-start">

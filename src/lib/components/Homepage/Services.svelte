@@ -49,8 +49,8 @@
 						</div>
 					{/if}
 
-					<h4 class="mb-6 text-4xl font-semibold leading-[1.2]">{service.title}</h4>
-					<p class="mb-4 text-xl leading-normal">{service.description}</p>
+					<h4 class="h4">{service.title}</h4>
+					<p class="mb-4">{service.description}</p>
 				</div>
 			{/each}
 		</div>

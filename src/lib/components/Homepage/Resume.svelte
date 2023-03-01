@@ -87,8 +87,8 @@
 	<div class="container py-[50px] lg:pt-[100px] lg:pb-[275px] lg:grid grid-cols-2 gap-x-6">
 		<div class="text-light lg:pr-20">
 			<span class="top-title !text-light">Resume</span>
-			<h2 class="text-3xl md:text-[3.375rem] font-semibold leading-[1.2] mb-6">Experiences.</h2>
-			<p class="mb-4 text-xl leading-normal">
+			<h2 class="h2">Experiences.</h2>
+			<p class="mb-4">
 				What? You don’t want to just take my word for it that I know what I’m talking about? I guess
 				some healthy scepticism is a good thing.
 			</p>

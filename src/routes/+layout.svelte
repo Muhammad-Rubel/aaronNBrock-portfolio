@@ -18,15 +18,15 @@
 <style lang="scss">
 	@use '$lib/css/_variables.scss' as *;
 
-	header {
-		h2 {
-			// add primary color from variables.scss
-			color: $primary;
-			font-size: 5rem;
-		}
-	}
+	// header {
+	// 	h2 {
+	// 		// add primary color from variables.scss
+	// 		color: $primary;
+	// 		font-size: 5rem;
+	// 	}
+	// }
 
-	h2 {
-		color: blue;
-	}
+	// h2 {
+	// 	color: blue;
+	// }
 </style>
