@@ -33,10 +33,10 @@
 </script>
 
 <header
-	class="fixed top-4 left-5 right-5 z-50 rounded-lg lg:top-0 lg:left-0 lg:right-0 lg:rounded-none {scrollY >
+	class="fixed bg-white top-4 left-5 right-5 z-50 rounded-lg lg:top-0 lg:left-0 lg:right-0 lg:rounded-none transition-all duration-300 ease-linear {scrollY >
 	300
-		? 'bg-white shadow-lg'
-		: ''}}"
+		? 'shadow-lg bg-opacity-100'
+		: 'bg-transparent bg-opacity-0'}}"
 >
 	<div class="flex justify-between items-center py-4 lg:py-5 container">
 		<a href="/">

@@ -95,7 +95,9 @@
 						href="tel:+6095551212"
 						class="flex justify-center items-center w-full space-x-3 lg:justify-start"
 					>
-						<Phone classNames="fill-[#f8f9fa] w-4" />
+						<span class="w-6 flex justify-center items-center">
+							<Phone classNames="fill-[#f8f9fa] w-4" />
+						</span>
 						<span>+(609) 555 1212</span>
 					</a>
 
@@ -103,12 +105,16 @@
 						href="mailto:hello@aaronnbrock.com"
 						class="flex justify-center items-center w-full space-x-3 lg:justify-start"
 					>
-						<Envelope classNames="fill-[#f8f9fa] w-6 stroke-[#1b2031]" />
+						<span class="w-6 flex justify-center items-center">
+							<Envelope classNames="fill-[#f8f9fa] w-6 stroke-[#1b2031]" />
+						</span>
 						<span>Hello@AaronNBrock.com</span>
 					</a>
 
 					<span class="flex justify-center items-center w-full space-x-3 lg:justify-start">
-						<Location classNames="fill-[#f8f9fa] w-4 stroke-[#1b2031]" />
+						<span class="w-6 flex justify-center items-center">
+							<Location classNames="fill-[#f8f9fa] w-4 stroke-[#1b2031]" />
+						</span>
 						<span>1234 Main Street, Anytown, USA 12345</span>
 					</span>
 				</div>

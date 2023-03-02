@@ -86,7 +86,9 @@
 							<p class="mt-6 mb-10">{item.comment}</p>
 
 							<div>
-								<span class="text-base leading-none text-[#282f49] font-bold">{item.name}</span>
+								<span class="text-base leading-none text-[#282f49] font-bold pre-line-top-title"
+									>{item.name}</span
+								>
 								<span class="text-base leading-none text-[#7e7e8a]"> | {item.time}</span>
 							</div>
 						</div>

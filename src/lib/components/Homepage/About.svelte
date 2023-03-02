@@ -22,7 +22,7 @@
 		<!-- content -->
 		<div class="lg:flex justify-between items-center">
 			<!-- image -->
-			<div class="lg:w-[45%] relative z-10">
+			<div class="lg:w-[45%] relative z-10 lg:z-0">
 				<!-- <img src={AboutImage} alt="" class="rounded-[20px]" /> -->
 				<img
 					src={AboutImage}
