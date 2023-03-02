@@ -1,10 +1,14 @@
 <script>
 	import AboutImage from '$lib/assets/images/about/about.jpg';
+	import AboutMaskImage from '$lib/assets/images/about/about-mask-svg.svg';
 	import Figure from '../Svg/Figure.svelte';
 	import AboutBlob from './AboutBlob.svelte';
 </script>
 
-<section id="about" class="py-[50px] lg:py-[67px] xl:py-[100px] overflow-hidden">
+<section
+	id="about"
+	class="md:mt-[450px] lg:mt-0 py-[50px] lg:py-[67px] xl:py-[100px] overflow-hidden"
+>
 	<div class="container">
 		<!-- heading -->
 		<div>
@@ -18,8 +22,13 @@
 		<!-- content -->
 		<div class="lg:flex justify-between items-center">
 			<!-- image -->
-			<div class="lg:w-[45%] relative">
-				<img src={AboutImage} alt="" class="rounded-[20px]" />
+			<div class="lg:w-[45%] relative z-10">
+				<!-- <img src={AboutImage} alt="" class="rounded-[20px]" /> -->
+				<img
+					src={AboutImage}
+					alt="about-img"
+					style="-webkit-mask:url({AboutMaskImage});-webkit-mask-repeat:no-repeat;-webkit-mask-size:contain;-webkit-mask-position:center center"
+				/>
 
 				<div class="absolute -top-[7%] -left-[16%] transform z-0 move_top">
 					<Figure classNames="h-[150px] w-[150px]" />
@@ -46,7 +55,7 @@
 					</div>
 				</div>
 
-				<div class="absolute -top-[55%] -right-[22%] z-0">
+				<div class="hidden lg:block absolute -top-[55%] -right-[22%] z-0">
 					<AboutBlob classNames="h-[400px] w-[362px]" />
 				</div>
 			</div>

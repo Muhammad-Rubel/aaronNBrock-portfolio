@@ -1,4 +1,7 @@
 <script>
+	import { Splide, SplideSlide, SplideTrack } from '@splidejs/svelte-splide';
+	import '@splidejs/svelte-splide/css';
+
 	import Figure from '../Svg/Figure.svelte';
 	import BackgroundShape from '../Svg/service/BackgroundShape.svelte';
 	import Branding from '../Svg/service/Branding.svelte';
@@ -6,7 +9,7 @@
 	import UiUx from '../Svg/service/UiUx.svelte';
 	import Web from '../Svg/service/Web.svelte';
 	import ServiceBg from '../Svg/ServiceBg.svelte';
-	import ServiceCardBlob from './ServiceCardBlob.svelte';
+	import ServiceCard from './ServiceCard.svelte';
 
 	const services = [
 		{
@@ -28,38 +31,71 @@
 			icon: Branding
 		}
 	];
+
+	const options = {
+		type: 'loop',
+		perPage: 2,
+		perMove: 1,
+		gap: 30,
+		autoplay: false,
+		interval: 3000,
+		padding: '2rem',
+		arrows: false,
+		pagination: true,
+		breakpoints: {
+			640: {
+				perPage: 1,
+				gap: 10
+			},
+			768: {
+				perPage: 2,
+				gap: 30
+			}
+		},
+		classes: {
+			// Add classes for arrows.
+			arrows: 'splide__arrows service-slide-arrows',
+			arrow: 'splide__arrow service-slide-arrow',
+			prev: 'splide__arrow--prev service-slide-prev',
+			next: 'splide__arrow--next service-slide-next',
+
+			// Add classes for pagination.
+			pagination: 'splide__pagination service-slide-pagination', // container
+			page: 'splide__pagination__page service-slide-page' // each button
+		}
+	};
 </script>
 
-<section id="services" class="py-[76px] md:py-[50px] lg:py-[78px] xl:py-[100px] relative">
-	<div class="container">
-		<div class="lg:w-1/2">
-			<span class="top-title pre-line-top-title">Area of Work</span>
-			<h2 class="text-[3.375rem] font-semibold leading-[1.2] mb-6">Google Cloud</h2>
-			<p class="mb-4 text-xl leading-normal">
-				Using technology to empower development teams to deliver software better faster stronger.
-			</p>
+<section
+	id="services"
+	class="py-[76px] md:py-[50px] lg:py-[78px] xl:py-[100px] relative overflow-hidden"
+>
+	<div>
+		<div class="container">
+			<div class="lg:w-1/2">
+				<span class="top-title pre-line-top-title">Area of Work</span>
+				<h2 class="text-[3.375rem] font-semibold leading-[1.2] mb-6">Google Cloud</h2>
+				<p class="mb-4 text-xl leading-normal">
+					Using technology to empower development teams to deliver software better faster stronger.
+				</p>
+			</div>
 		</div>
 
-		<div class="mt-12 lg:flex justify-between items-start space-y-8 lg:space-y-0 lg:space-x-8">
+		<div class="mt-12 lg:hidden">
+			<Splide hasTrack={false} {options}>
+				<SplideTrack>
+					{#each services as service}
+						<SplideSlide>
+							<ServiceCard {service} />
+						</SplideSlide>
+					{/each}
+				</SplideTrack>
+			</Splide>
+		</div>
+
+		<div class="hidden mt-12 container lg:flex justify-between items-start space-x-10">
 			{#each services as service}
-				<div
-					class="p-[30px] bg-white rounded-[20px]"
-					style="box-shadow: 0 20px 40px rgb(50 65 141 / 12%);"
-				>
-					<!-- render icon -->
-					{#if service.icon}
-						<div class="mb-4 relative h-[125px] w-[100px] flex justify-start items-end z-0">
-							<svelte:component this={service.icon} />
-
-							<div class="absolute top-0 left-0 z-[-1]">
-								<ServiceCardBlob />
-							</div>
-						</div>
-					{/if}
-
-					<h4 class="h4">{service.title}</h4>
-					<p class="mb-4">{service.description}</p>
-				</div>
+				<ServiceCard {service} />
 			{/each}
 		</div>
 	</div>
@@ -74,3 +110,24 @@
 
 	<ServiceBg classNames="w-[61%] absolute top-0 right-0 z-[-2]" />
 </section>
+
+<style>
+	:global(.service-slide-pagination) {
+		@apply -bottom-[4rem];
+	}
+
+	@media (min-width: 640px) {
+		:global(.service-slide-pagination) {
+			bottom: -2rem;
+		}
+	}
+
+	:global(.service-slide-page) {
+		background-color: #c2c8cc !important;
+	}
+
+	:global(.service-slide-pagination .is-active) {
+		background-color: #400080 !important;
+		transform: none;
+	}
+</style>

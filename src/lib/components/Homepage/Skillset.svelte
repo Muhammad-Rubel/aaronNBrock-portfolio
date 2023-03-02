@@ -1,5 +1,6 @@
 <script lang="ts">
 	import SkillImage from '$lib/assets/images/skill/skill_image.jpg';
+	import SkillMask from '$lib/assets/images/skill/skill-mask-svg.svg';
 	import Check from '../Svg/Check.svelte';
 	import Figure from '../Svg/Figure.svelte';
 	import BackgroundShape from '../Svg/service/BackgroundShape.svelte';
@@ -28,7 +29,13 @@
 		class="container py-[50px] lg:pt-[73px] lg:pb-[97px] xl:pt-[100px] xl:pb-[150px] lg:grid grid-cols-2 items-center gap-x-16 space-y-8 lg:space-y-0"
 	>
 		<div class="relative">
-			<img src={SkillImage} alt="" />
+			<!-- <img src={SkillImage} alt="" /> -->
+			<img
+				src={SkillImage}
+				alt=""
+				class=""
+				style="-webkit-mask:url({SkillMask});-webkit-mask-repeat:no-repeat;-webkit-mask-size:contain;-webkit-mask-position:center center"
+			/>
 
 			<div class="absolute -top-[11%] -left-[17%] transform z-0 move_top">
 				<Figure classNames="h-[150px] w-[150px]" />

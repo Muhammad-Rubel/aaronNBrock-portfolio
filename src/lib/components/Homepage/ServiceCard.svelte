@@ -1,0 +1,24 @@
+<script lang="ts">
+	import ServiceCardBlob from './ServiceCardBlob.svelte';
+
+	export let service = {} as any;
+</script>
+
+<div
+	class="p-[30px] bg-white rounded-[20px] mb-12"
+	style="box-shadow: 0 20px 40px rgb(50 65 141 / 12%);"
+>
+	<!-- render icon -->
+	{#if service.icon}
+		<div class="mb-4 relative h-[125px] w-[100px] flex justify-start items-end z-0">
+			<svelte:component this={service.icon} />
+
+			<div class="absolute top-0 left-0 z-[-1]">
+				<ServiceCardBlob />
+			</div>
+		</div>
+	{/if}
+
+	<h4 class="h4">{service.title}</h4>
+	<p class="mb-4">{service.description}</p>
+</div>

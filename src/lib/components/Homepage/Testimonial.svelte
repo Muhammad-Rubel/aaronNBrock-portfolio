@@ -72,7 +72,7 @@
 			<h2 class="h2 text-center">What People Are Saying About Me?</h2>
 		</div>
 
-		<div class="mt-12 lg:flex flex-wrap justify-start items-start">
+		<div class="mt-12">
 			<Splide {options}>
 				{#each testimonials as item, i}
 					<SplideSlide>

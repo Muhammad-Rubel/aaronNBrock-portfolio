@@ -84,8 +84,8 @@
 <section id="resume" class="relative py-[50px] md:py-[100px] lg:py-[150px]">
 	<div class="bg-[#1b2031] absolute top-0 left-0 right-0 bottom-0 transform -skew-y-2 z-[-1]" />
 
-	<div class="container lg:grid grid-cols-2 gap-x-6 relative">
-		<div class="text-light lg:pr-20 !sticky top-48">
+	<div class="container lg:flex justify-between items-start gap-x-6 relative">
+		<div class="text-light lg:pr-20 lg:!sticky !top-48 w-full">
 			<span class="top-title !text-light pre-line-top-title before:bg-light">Resume</span>
 			<h2 class="h2">Experiences.</h2>
 			<p class="mb-4">
@@ -105,7 +105,7 @@
 			</div>
 		</div>
 
-		<div class="mt-8 space-y-[30px]">
+		<div class="mt-8 space-y-[30px] w-full">
 			{#each resume as section}
 				{#if section.title === currentTab}
 					{#each section.items as item}

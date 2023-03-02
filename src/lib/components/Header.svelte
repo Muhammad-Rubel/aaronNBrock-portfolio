@@ -2,6 +2,8 @@
 	import Logo from '$lib/assets/images/logo.png';
 	import HamburgerMenu from './Svg/HamburgerMenu.svelte';
 
+	export let scrollY = 0;
+
 	const navItems = [
 		{
 			name: 'Home',
@@ -31,8 +33,10 @@
 </script>
 
 <header
-	class="bg-white fixed top-4 left-5 right-5 z-50 rounded-lg lg:top-0 lg:left-0 lg:right-0 lg:rounded-none"
-	style="box-shadow: 0 10px 20px rgb(50 65 141 / 10%)"
+	class="fixed top-4 left-5 right-5 z-50 rounded-lg lg:top-0 lg:left-0 lg:right-0 lg:rounded-none {scrollY >
+	300
+		? 'bg-white shadow-lg'
+		: ''}}"
 >
 	<div class="flex justify-between items-center py-4 lg:py-5 container">
 		<a href="/">

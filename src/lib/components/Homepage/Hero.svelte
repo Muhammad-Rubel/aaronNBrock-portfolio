@@ -13,7 +13,7 @@
 		class="container space-y-[60px] lg:flex justify-between items-center lg:space-x-20 lg:space-y-0 relative z-10"
 	>
 		<!-- text -->
-		<div class="text-center lg:text-left w-full relative">
+		<div class="text-center lg:text-left w-full relative lg:pr-20">
 			<div class="relative z-0">
 				<span class="top-title pre-line-top-title">Hello there,</span>
 
@@ -35,13 +35,17 @@
 
 		<!-- image -->
 		<div class="w-full relative z-0">
-			<div class="relative z-10">
-				<img src={HeroImage} alt="" class="clip-mask w-full" />
-				<!-- <img src={HeroImage} alt="hero-image" class={`-webkit-mask: url(${HeroMaskPng}); test`} /> -->
+			<div class="relative z-10  hero-image-container bg-cover">
+				<img
+					src={HeroImage}
+					alt=""
+					class=""
+					style="-webkit-mask:url({HeroMaskSvg});-webkit-mask-repeat:no-repeat;-webkit-mask-size:contain;-webkit-mask-position:center center"
+				/>
 
 				<!-- video -->
 				<div
-					class="h-40 w-[250px] border border-[#707070] rounded-[20px] overflow-hidden absolute top-full left-1/2 transform -translate-x-1/2 z-10 -mt-28 lg:left-0 lg:-mt-64"
+					class="h-40 w-[250px] border border-[#707070] rounded-[20px] overflow-hidden absolute top-full left-1/2 transform -translate-x-1/2 z-10 -mt-28 md:mt-[300px] lg:left-0 lg:-mt-64"
 				>
 					<img src={PopupThumb} alt="" class="h-full w-full object-cover object-center" />
 
@@ -102,6 +106,32 @@
 		-webkit-mask-size: contain;
 		-webkit-mask-position: center center;
 	} */
+
+	.hero-image-container {
+		width: 100%;
+		height: 500px;
+		background-image: url('/hero.jpg');
+		background-size: cover;
+		background-position: center;
+		background-color: blue;
+		position: relative;
+	}
+
+	.hero-image-container::before {
+		content: '';
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		background-image: url('/hero-mask-svg.png');
+		background-position: center;
+		mix-blend-mode: screen;
+	}
+	.hero-image {
+		-webkit-mask: url({HeroMaskSvg}) no-repeat center center;
+		-webkit-mask-size: contain;
+	}
 
 	.hero_footer_svg {
 		animation: hero_footer_svg_move_top 5s infinite linear;

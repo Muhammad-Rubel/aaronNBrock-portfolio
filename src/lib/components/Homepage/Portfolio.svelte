@@ -39,11 +39,11 @@
 >
 	<div class="container">
 		<div>
-			<span class="top-title mb-16 text-center">My Portfolio</span>
+			<span class="top-title mb-16 text-center inline-block w-full">My Portfolio</span>
 			<h2 class="h2 text-center">Check Some of My Recent Work</h2>
 		</div>
 
-		<div class="mt-12 lg:flex flex-wrap justify-start items-start">
+		<div class="mt-12 md:grid grid-cols-2">
 			{#each portfolio as item, i}
 				<PortfolioCard {item} index={i} />
 			{/each}
