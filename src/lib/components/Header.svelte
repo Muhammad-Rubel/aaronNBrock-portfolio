@@ -7,6 +7,7 @@
 	export let scrollY = 0;
 
 	let darkMode = false;
+	let showMobileMenu = false;
 
 	const navItems = [
 		{
@@ -85,8 +86,27 @@
 			<a href="/contact" class="hidden lg:block btn primary-btn btn-zoom">Get in Touch</a>
 		</div>
 
-		<button class="lg:hidden">
-			<HamburgerMenu classNames="h-6 w-6 text-primary" />
+		<button class="lg:hidden" on:click={() => (showMobileMenu = !showMobileMenu)}>
+			<!-- <HamburgerMenu classNames="h-6 w-6 text-primary" /> -->
+			<span class="navbar-toggle-icon {showMobileMenu && 'icon-1'}" />
+			<span class="navbar-toggle-icon {showMobileMenu && 'opacity-0'}" />
+			<span class="navbar-toggle-icon {showMobileMenu && 'icon-3'}" />
 		</button>
 	</div>
 </header>
+
+<style>
+	.navbar-toggle-icon {
+		@apply h-0.5 w-6 bg-primary block mb-[5px] transform transition-all duration-300 ease-linear;
+	}
+
+	.icon-1 {
+		transform: rotate(45deg);
+		transform-origin: 10% 10%;
+	}
+
+	.icon-3 {
+		transform: rotate(-45deg);
+		transform-origin: 10% 90%;
+	}
+</style>
