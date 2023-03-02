@@ -63,7 +63,7 @@
 }
 
 .top-title {
-	@apply text-xl leading-normal text-gray-dark mb-4 inline-block w-full;
+	@apply text-xl leading-normal text-gray-dark mb-4;
 }
 
 .custom-transition {
@@ -102,4 +102,19 @@
 	50% {
 		transform: translateX(-57%);
 	}
+}
+
+.vertical-bar::before {
+	content: '';
+	position: absolute;
+	top: 50%;
+	left: -30px;
+	width: 20px;
+	height: 2px;
+	background: #400080;
+	transform: translateY(-50%);
+}
+
+.pre-line-top-title {
+	@apply relative ml-[30px] before:absolute before:top-1/2 before:-left-[30px] before:w-5 before:h-0.5 before:bg-[#282f49] transform -translate-x-1/2;
 }

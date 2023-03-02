@@ -30,7 +30,7 @@
 	<div class="container z-10 relative">
 		<div class="lg:flex justify-between items-end">
 			<div>
-				<span class="top-title">Blog</span>
+				<span class="top-title pre-line-top-title">Blog</span>
 				<h2 class="h2">Recent Article</h2>
 				<p class="mb-4">Just a place for my thoughts...</p>
 			</div>

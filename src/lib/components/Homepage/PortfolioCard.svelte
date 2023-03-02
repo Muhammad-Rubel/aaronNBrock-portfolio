@@ -18,10 +18,14 @@
 		<img src={item?.image} alt="" />
 
 		<div>
-			<h4 class="h4">{item?.category}</h4>
-			<p class="mb-4">{item?.title}</p>
+			<span class="text-[#7e7e8a] text-lg leading-none inline-block mt-7 mb-5"
+				>{item?.category}</span
+			>
+			<h3 class="h3 !mb-0">{item?.title}</h3>
 
-			<a href={`/portfolio/${item.slug}`}>See Details</a>
+			<a href={`/portfolio/${item.slug}`} class="text-[#400080] relative ml-[30px] vertical-bar"
+				>See Details</a
+			>
 		</div>
 	</div>
 </div>

@@ -86,7 +86,7 @@
 
 	<div class="container lg:grid grid-cols-2 gap-x-6 relative">
 		<div class="text-light lg:pr-20 !sticky top-48">
-			<span class="top-title !text-light">Resume</span>
+			<span class="top-title !text-light pre-line-top-title before:bg-light">Resume</span>
 			<h2 class="h2">Experiences.</h2>
 			<p class="mb-4">
 				What? You don’t want to just take my word for it that I know what I’m talking about? I guess
@@ -110,7 +110,10 @@
 				{#if section.title === currentTab}
 					{#each section.items as item}
 						<div class="bg-white p-[30px] rounded-[20px]">
-							<span class="text-xl leading-normal text-[#400080]">{item.date}</span>
+							<span
+								class="text-xl leading-normal text-[#400080] pre-line-top-title before:bg-[#400080]"
+								>{item.date}</span
+							>
 							<h4 class="mt-5 mb-6 text-2xl md:text-3xl leading-[1.2] font-semibold">
 								{item.title}
 							</h4>

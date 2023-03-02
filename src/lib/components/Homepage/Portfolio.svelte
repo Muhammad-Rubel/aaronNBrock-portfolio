@@ -39,8 +39,8 @@
 >
 	<div class="container">
 		<div>
-			<h2 class="h2 text-center">My Portfolio</h2>
-			<p class="mb-16 text-center">Check Some of My Recent Work</p>
+			<span class="top-title mb-16 text-center">My Portfolio</span>
+			<h2 class="h2 text-center">Check Some of My Recent Work</h2>
 		</div>
 
 		<div class="mt-12 lg:flex flex-wrap justify-start items-start">

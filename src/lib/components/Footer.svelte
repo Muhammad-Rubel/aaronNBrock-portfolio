@@ -47,15 +47,13 @@
 		<div
 			class="relative bg-[#400080] text-[#f8f9fa] py-[70px] px-10 md:px-20 lg:py-[84px] xl:py-[100px] rounded-[20px] -mt-32 overflow-hidden"
 		>
-			<div class="lg:flex justify-between gap-4 relative z-10">
-				<div>
-					<span class="text-xl leading-none text-center inline-block w-full lg:text-left"
-						>Contact Me</span
-					>
-					<h2 class="h2 mt-5 text-center lg:text-left">Let's Start a Project</h2>
+			<div class="md:flex justify-between gap-4 relative z-10">
+				<div class="">
+					<span class="text-xl leading-none pre-line-top-title before:bg-light">Contact Me</span>
+					<h2 class="h2 mt-5 text-left md:mb-0">Let's Start a Project</h2>
 				</div>
 
-				<div class="mt-8 flex justify-center lg:justify-end lg:mt-0 lg:items-end">
+				<div class="mt-8 flex justify-center md:justify-end md:mt-0 md:items-end">
 					<button class="btn btn-light btn-zoom">Get In Touch</button>
 				</div>
 			</div>

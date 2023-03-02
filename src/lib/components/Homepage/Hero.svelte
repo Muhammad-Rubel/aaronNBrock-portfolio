@@ -15,7 +15,7 @@
 		<!-- text -->
 		<div class="text-center lg:text-left w-full relative">
 			<div class="relative z-0">
-				<span class="text-2xl leading-normal">Hello there,</span>
+				<span class="top-title pre-line-top-title">Hello there,</span>
 
 				<h1 class="h1 mt-4">
 					Let’s make <br /> <span class="text-primary">Google Cloud</span> <br /> simple
@@ -77,9 +77,9 @@
 	<HeroBg classNames="w-[65%] absolute top-0 left-0 z-0" />
 
 	<!-- figure -->
-	<Figure
-		classNames="h-[201px] w-[201px] absolute bottom-0 left-0 transform -translate-x-1/2 z-0 hidden lg:block"
-	/>
+	<div class="absolute bottom-[20px] -left-[130px] transform z-0 hidden lg:block hero_footer_svg">
+		<Figure classNames="h-[201px] w-[201px]" />
+	</div>
 </section>
 
 <style>
@@ -102,4 +102,20 @@
 		-webkit-mask-size: contain;
 		-webkit-mask-position: center center;
 	} */
+
+	.hero_footer_svg {
+		animation: hero_footer_svg_move_top 5s infinite linear;
+	}
+
+	@keyframes hero_footer_svg_move_top {
+		0% {
+			transform: translateY(0);
+		}
+		50% {
+			transform: translateY(15px);
+		}
+		100% {
+			transform: translateY(0);
+		}
+	}
 </style>

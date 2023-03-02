@@ -33,7 +33,7 @@
 <section id="services" class="py-[76px] md:py-[50px] lg:py-[78px] xl:py-[100px] relative">
 	<div class="container">
 		<div class="lg:w-1/2">
-			<span class="top-title">Area of Work</span>
+			<span class="top-title pre-line-top-title">Area of Work</span>
 			<h2 class="text-[3.375rem] font-semibold leading-[1.2] mb-6">Google Cloud</h2>
 			<p class="mb-4 text-xl leading-normal">
 				Using technology to empower development teams to deliver software better faster stronger.
