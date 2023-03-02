@@ -3,11 +3,11 @@
 	import '@splidejs/svelte-splide/css';
 
 	import Figure from '../Svg/Figure.svelte';
-	import BackgroundShape from '../Svg/service/BackgroundShape.svelte';
-	import Branding from '../Svg/service/Branding.svelte';
-	import Creative from '../Svg/service/Creative.svelte';
-	import UiUx from '../Svg/service/UiUx.svelte';
-	import Web from '../Svg/service/Web.svelte';
+	import BackgroundShape from '../Svg/Homepage/service/BackgroundShape.svelte';
+	import Branding from '../Svg/Homepage/service/Branding.svelte';
+	import Creative from '../Svg/Homepage/service/Creative.svelte';
+	import UiUx from '../Svg/Homepage/service/UiUx.svelte';
+	import Web from '../Svg/Homepage/service/Web.svelte';
 	import ServiceBg from '../Svg/ServiceBg.svelte';
 	import ServiceCard from './ServiceCard.svelte';
 

@@ -6,7 +6,7 @@
 
 @layer base {
 	body {
-		@apply text-gray-50 bg-white font-source-serif-pro text-xl leading-normal selection:text-[#f8f9fa] selection:bg-[#400080];
+		@apply text-gray-50 dark:text-light bg-white dark:bg-dark font-source-serif-pro text-xl leading-normal selection:text-[#f8f9fa] selection:bg-[#400080];
 	}
 }
 
@@ -117,4 +117,18 @@
 
 .pre-line-top-title {
 	@apply relative ml-[30px] before:absolute before:top-1/2 before:-left-[30px] before:w-5 before:h-0.5 before:bg-[#282f49] transform -translate-x-1/2;
+}
+
+/* spin animation */
+.amin_spin {
+	animation: spin 20s linear infinite;
+}
+
+@keyframes spin {
+	0% {
+		transform: rotate(0deg);
+	}
+	100% {
+		transform: rotate(360deg);
+	}
 }

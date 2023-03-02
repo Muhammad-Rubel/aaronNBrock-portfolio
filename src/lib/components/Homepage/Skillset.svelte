@@ -3,7 +3,7 @@
 	import SkillMask from '$lib/assets/images/skill/skill-mask-svg.svg';
 	import Check from '../Svg/Check.svelte';
 	import Figure from '../Svg/Figure.svelte';
-	import BackgroundShape from '../Svg/service/BackgroundShape.svelte';
+	import BackgroundShape from '../Svg/Homepage/service/BackgroundShape.svelte';
 
 	const skills = [
 		'AWS',

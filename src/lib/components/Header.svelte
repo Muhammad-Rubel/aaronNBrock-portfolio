@@ -1,8 +1,12 @@
 <script>
 	import Logo from '$lib/assets/images/logo.png';
 	import HamburgerMenu from './Svg/HamburgerMenu.svelte';
+	import Moon from './Svg/Moon.svelte';
+	import Sun from './Svg/Sun.svelte';
 
 	export let scrollY = 0;
+
+	let darkMode = false;
 
 	const navItems = [
 		{
@@ -30,10 +34,22 @@
 			href: '#blog'
 		}
 	];
+
+	function toggleDarkMode() {
+		darkMode = !darkMode;
+
+		if (darkMode) {
+			document.documentElement.classList.add('dark');
+		} else {
+			document.documentElement.classList.remove('dark');
+		}
+	}
 </script>
 
+<svelte:window />
+
 <header
-	class="fixed bg-white top-4 left-5 right-5 z-50 rounded-lg lg:top-0 lg:left-0 lg:right-0 lg:rounded-none transition-all duration-300 ease-linear {scrollY >
+	class="fixed bg-white dark:bg-dark top-4 left-5 right-5 z-50 rounded-lg lg:top-0 lg:left-0 lg:right-0 lg:rounded-none transition-all duration-300 ease-linear {scrollY >
 	300
 		? 'shadow-lg bg-opacity-100'
 		: 'bg-transparent bg-opacity-0'}}"
@@ -57,7 +73,17 @@
 			</ul>
 		</nav>
 
-		<a href="/contact" class="hidden lg:block btn primary-btn btn-zoom">Get in Touch</a>
+		<div class="flex justify-end items-center space-x-6">
+			<button on:click={toggleDarkMode}>
+				{#if darkMode}
+					<Sun classNames="h-6 w-6 text-primary" />
+				{:else}
+					<Moon classNames="h-6 w-6 text-primary" />
+				{/if}
+			</button>
+
+			<a href="/contact" class="hidden lg:block btn primary-btn btn-zoom">Get in Touch</a>
+		</div>
 
 		<button class="lg:hidden">
 			<HamburgerMenu classNames="h-6 w-6 text-primary" />

@@ -6,6 +6,9 @@
 	import Figure from '../Svg/Figure.svelte';
 	import HeroBg from '../Svg/HeroBg.svelte';
 	import HeroBlob from './HeroBlob.svelte';
+	import Close from '../Svg/Close.svelte';
+
+	let showModal = false;
 </script>
 
 <section id="home" class="pt-[150px] pb-8 lg:pt-44 lg:pb-48 xl:py-48 relative z-0">
@@ -54,6 +57,7 @@
 					>
 						<button
 							class="h-[60px] w-[60px] rounded-full flex justify-center items-center bg-white transform group-hover:scale-110 custom-transition"
+							on:click={() => (showModal = true)}
 						>
 							<svg
 								xmlns="http://www.w3.org/2000/svg"
@@ -85,6 +89,27 @@
 		<Figure classNames="h-[201px] w-[201px]" />
 	</div>
 </section>
+
+{#if showModal}
+	<div
+		class="h-screen w-screen fixed top-0 left-0 z-[1000] bg-black bg-opacity-70 p-2 flex justify-center items-center"
+	>
+		<div class="aspect-video max-w-[900px] w-full relative">
+			<iframe
+				src="https://www.youtube.com/embed/dQw4w9WgXcQ"
+				title="YouTube video player"
+				frameborder="0"
+				allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+				allowfullscreen
+				class="w-full h-full object-contain object-center"
+			/>
+
+			<button class="text-white absolute -top-12 right-0" on:click={() => (showModal = false)}>
+				<Close classNames="h-8 w-8" />
+			</button>
+		</div>
+	</div>
+{/if}
 
 <style>
 	/* .clip-mask {
