@@ -7,7 +7,7 @@
 
 <section
 	id="about"
-	class="md:mt-[450px] lg:mt-0 py-[50px] lg:py-[67px] xl:py-[100px] overflow-hidden"
+	class="md:mt-[450px] lg:mt-0 py-[50px] lg:py-[67px] xl:py-[100px] xl:mt-4 2xl:mt-40 overflow-hidden"
 >
 	<div class="container">
 		<!-- heading -->
@@ -22,14 +22,14 @@
 		<!-- content -->
 		<div class="lg:flex justify-between items-center">
 			<!-- image -->
-			<div class="lg:w-[45%] relative z-10 lg:z-0">
+			<div class="lg:w-[45%] relative">
 				<img
 					src={AboutImage}
 					alt="about-img"
 					style="-webkit-mask:url({AboutMaskImage});-webkit-mask-repeat:no-repeat;-webkit-mask-size:contain;-webkit-mask-position:center center"
 				/>
 
-				<div class="absolute -top-[7%] -left-[16%] transform z-0 move_top">
+				<div class="absolute -top-[7%] -left-[16%] transform z-[-1] move_top">
 					<Figure classNames="h-[150px] w-[150px]" />
 				</div>
 			</div>
@@ -38,7 +38,7 @@
 			<div
 				class="bg-[#1b2031] mt-[30px] rounded-[20px] p-6 lg:w-[55%] lg:p-12 lg:-translate-x-12 relative z-0"
 			>
-				<div class="relative z-10">
+				<div class="relative">
 					<h3 class="h3 text-light">Mission Statement</h3>
 					<p class=" text-light mb-6">
 						As a the leader in <a href="/">Google Cloud memes</a>, I know a thing or two about both
@@ -54,7 +54,7 @@
 					</div>
 				</div>
 
-				<div class="hidden lg:block absolute -top-[55%] -right-[22%] z-0">
+				<div class="hidden lg:block absolute -top-[55%] -right-[22%] z-[-1]">
 					<AboutBlob classNames="h-[400px] w-[362px] text-gray-10" />
 				</div>
 			</div>

@@ -58,10 +58,10 @@
 	};
 </script>
 
-<section id="testimonial" class="relative bg-gray-10">
-	<div class="absolute top-0 left-0 right-0">
+<section id="testimonial" class="relative bg-gray-10 dark:bg-gray">
+	<div class="absolute top-0 left-0 right-0 text-white dark:text-dark">
 		<svg viewBox="0 0 1920 79"
-			><path d="M0 0h1920v79L0 0z" data-name="Path 1450" fill="white" /></svg
+			><path d="M0 0h1920v79L0 0z" data-name="Path 1450" fill="currentColor" /></svg
 		>
 	</div>
 
@@ -77,7 +77,7 @@
 			<Splide {options}>
 				{#each testimonials as item, i}
 					<SplideSlide>
-						<div class="bg-white py-12 px-8 md:py-[60px] md:px-12 rounded-[20px]">
+						<div class="bg-white dark:bg-dark py-12 px-8 md:py-[60px] md:px-12 rounded-[20px]">
 							<div>
 								{#each Array(item.star) as star, i}
 									<Star classNames="w-5 h-5 text-[#ffc219] inline-block fill-[#ffc219]" />
@@ -87,10 +87,13 @@
 							<p class="mt-6 mb-10">{item.comment}</p>
 
 							<div>
-								<span class="text-base leading-none text-secondary font-bold pre-line-top-title"
+								<span
+									class="text-base leading-none text-secondary dark:text-light font-bold pre-line-top-title"
 									>{item.name}</span
 								>
-								<span class="text-base leading-none text-[#7e7e8a]"> | {item.time}</span>
+								<span class="text-base leading-none text-[#7e7e8a] dark:text-light">
+									| {item.time}</span
+								>
 							</div>
 						</div>
 					</SplideSlide>

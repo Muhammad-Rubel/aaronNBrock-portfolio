@@ -1,4 +1,5 @@
 <script lang="ts">
+	import { slide } from 'svelte/transition';
 	import type { INavItem } from '$lib/types/generalTypes';
 	import Logo from '$lib/assets/images/logo.png';
 	import Moon from './Svg/Moon.svelte';
@@ -53,7 +54,7 @@
 	class="fixed bg-white dark:bg-dark top-4 left-5 right-5 z-50 rounded-lg lg:top-0 lg:left-0 lg:right-0 lg:rounded-none transition-all duration-300 ease-linear {scrollY >
 	300
 		? 'shadow-lg bg-opacity-100'
-		: 'bg-transparent bg-opacity-0'}"
+		: 'bg-transparent lg:bg-opacity-0'}"
 >
 	<div class="flex justify-between items-center py-4 lg:py-5 container">
 		<a href="/">
@@ -84,14 +85,37 @@
 			</button>
 
 			<a href="/contact" class="hidden lg:block btn primary-btn btn-zoom">Get in Touch</a>
-		</div>
 
-		<button class="lg:hidden" on:click={() => (showMobileMenu = !showMobileMenu)}>
-			<span class="navbar-toggle-icon {showMobileMenu && 'icon-1'}" />
-			<span class="navbar-toggle-icon {showMobileMenu && 'opacity-0'}" />
-			<span class="navbar-toggle-icon {showMobileMenu && 'icon-3'}" />
-		</button>
+			<button class="lg:hidden" on:click={() => (showMobileMenu = !showMobileMenu)}>
+				<span class="navbar-toggle-icon {showMobileMenu && 'icon-1'}" />
+				<span class="navbar-toggle-icon {showMobileMenu && 'opacity-0'}" />
+				<span class="navbar-toggle-icon {showMobileMenu && 'icon-3'}" />
+			</button>
+		</div>
 	</div>
+
+	<!-- mobile nav -->
+	{#if showMobileMenu}
+		<div transition:slide={{ duration: 400 }} class="lg:hidden bg-white rounded-xl shadow-lg">
+			<nav class="px-5 py-4 ">
+				<ul class="space-y-2">
+					{#each navItems as item}
+						<li>
+							<a
+								href={item.href}
+								class="text-gray-dark p-2 hover:text-primary active:text-primary custom-transition text-center text-lg"
+								>{item.name}</a
+							>
+						</li>
+					{/each}
+
+					<li>
+						<a href="/contact" class="btn primary-btn btn-zoom inline-block w-full">Get in Touch</a>
+					</li>
+				</ul>
+			</nav>
+		</div>
+	{/if}
 </header>
 
 <style lang="scss">

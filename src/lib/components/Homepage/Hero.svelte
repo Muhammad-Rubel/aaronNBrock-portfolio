@@ -30,8 +30,8 @@
 				<a href="/contact" class="btn primary-btn btn-zoom inline-block">Contact me</a>
 			</div>
 
-			<div class="absolute -top-[45%] -left-[45%] z-[-1]">
-				<HeroBlob classNames="h-[440px] w-[440px] text-white" />
+			<div class="hidden lg:block absolute -top-[45%] -left-[45%] z-[-1]">
+				<HeroBlob classNames="h-[440px] w-[440px] text-white dark:text-dark" />
 			</div>
 		</div>
 
@@ -81,7 +81,7 @@
 	</div>
 
 	<!-- gray bg -->
-	<HeroBg classNames="w-[65%] absolute top-0 left-0 z-0 text-gray-10" />
+	<HeroBg classNames="w-[65%] absolute top-0 left-0 z-0 text-gray-10 dark:text-gray" />
 
 	<!-- figure -->
 	<div class="absolute bottom-[20px] -left-[130px] transform z-0 hidden lg:block hero_footer_svg">

@@ -80,7 +80,7 @@
 	};
 </script>
 
-<section id="resume" class="relative py-[50px] md:py-[100px] lg:py-[150px]">
+<section id="resume" class="relative py-[50px] md:py-[100px] lg:py-[150px] mb-10 lg:mb-[100px]">
 	<div class="bg-[#1b2031] absolute top-0 left-0 right-0 bottom-0 transform -skew-y-2 z-[-1]" />
 
 	<div class="container lg:flex justify-between items-start gap-x-6 relative">
@@ -94,7 +94,7 @@
 
 			<div class="flex justify-between items-center mt-12">
 				<button
-					class="btn primary-btn !rounded-r-none w-full"
+					class="btn primary-btn !rounded-r-none w-full "
 					on:click={() => setActiveTab(ActiveTab.Achievements)}>Achievements</button
 				>
 				<button
@@ -108,7 +108,7 @@
 			{#each resume as section}
 				{#if section.title === currentTab}
 					{#each section.items as item}
-						<div class="bg-white p-[30px] rounded-[20px]">
+						<div class="bg-white p-[30px] rounded-[20px] dark:bg-gray">
 							<span class="text-xl leading-normal text-primary pre-line-top-title before:bg-primary"
 								>{item.date}</span
 							>

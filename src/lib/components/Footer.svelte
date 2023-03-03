@@ -38,9 +38,9 @@
 </script>
 
 <footer class="bg-[#1b2031] mt-40 relative z-0">
-	<div class="relative z-[-1]">
+	<div class="relative z-[-1] text-white dark:text-dark">
 		<svg viewBox="0 0 1920 79"
-			><path d="M0 0h1920v79L0 0z" data-name="Path 1450" fill="white" /></svg
+			><path d="M0 0h1920v79L0 0z" data-name="Path 1450" fill="currentColor" /></svg
 		>
 	</div>
 

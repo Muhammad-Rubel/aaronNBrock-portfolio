@@ -68,7 +68,7 @@
 					</div>
 
 					<div
-						class="bg-white p-[30px] absolute bottom-[-100px] left-0 md:left-10 right-0 md:right-auto lg:right-0 rounded-[20px]"
+						class="bg-white p-[30px] absolute bottom-[-100px] left-0 md:left-10 right-0 md:right-auto lg:right-0 rounded-[20px] dark:bg-gray"
 						style="box-shadow: 0 20px 40px rgb(50 65 141 / 12%);"
 					>
 						<span class="text-primary text-base">{post.date}</span>

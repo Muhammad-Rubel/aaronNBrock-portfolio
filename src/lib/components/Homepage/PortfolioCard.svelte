@@ -14,16 +14,17 @@
 		/>
 
 		<div class="overflow-hidden">
-			<span class="text-[#7e7e8a] text-lg leading-none inline-block mt-7 mb-5"
+			<span class="text-[#7e7e8a] text-lg leading-none inline-block mt-7 mb-5 dark:text-light"
 				>{item?.category}</span
 			>
 			<h3 class="h3 !mb-0">{item?.title}</h3>
 
 			<a
 				href={`/portfolio/${item.slug}`}
-				class="text-primary relative ml-[30px] inline-block pre-line-top-title transform translate-y-20 group-hover:translate-y-0 transition-all duration-300 ease-in-out"
-				>See Details</a
+				class="text-primary relative ml-[30px] pre-line-top-title before:!bg-primary xl:inline-block xl:transform translate-y-20 xl:translate-x-2 group-hover:translate-y-0 transition-all duration-300 ease-in-out"
 			>
+				See Details
+			</a>
 		</div>
 	</div>
 </div>

@@ -41,7 +41,7 @@
 	}
 
 	.btn {
-		@apply py-[15px] px-[30px] text-base rounded-lg text-center;
+		@apply py-[15px] px-[30px] text-base rounded-lg text-center transform transition-all duration-300 ease-in-out;
 	}
 
 	.primary-btn {
@@ -53,11 +53,11 @@
 	}
 
 	.primary-btn-alt {
-		@apply text-white border active:border-primary active:bg-primary hover:border-purple-20 hover:bg-purple-40 border-purple-30 bg-purple-20;
+		@apply text-white bg-purple-20 border hover:text-light active:border-primary active:bg-primary hover:border-purple-20 hover:bg-purple-40 border-purple-30;
 	}
 
 	.btn-outline-light {
-		@apply text-light border border-light hover:border-light hover:bg-light active:border-light active:bg-light active:text-[#212529];
+		@apply text-light border border-light hover:text-dark hover:border-light hover:bg-light active:border-light active:bg-light active:text-[#212529];
 	}
 
 	.btn-outline-secondary {
@@ -65,11 +65,11 @@
 	}
 
 	.btn-zoom {
-		@apply transform transition-all duration-300 ease-in-out hover:scale-105;
+		@apply hover:scale-105;
 	}
 
 	.top-title {
-		@apply text-xl leading-normal text-gray-dark mb-4;
+		@apply text-xl leading-normal text-gray-dark mb-4 dark:text-light;
 	}
 
 	.custom-transition {
@@ -82,7 +82,7 @@
 	}
 
 	.pre-line-top-title {
-		@apply relative ml-[30px] before:absolute before:top-1/2 before:-left-[30px] before:w-5 before:h-0.5 before:bg-secondary transform -translate-x-1/2;
+		@apply relative ml-[30px] before:absolute before:top-1/2 before:-left-[30px] before:w-5 before:h-0.5 before:bg-secondary transform -translate-x-1/2 dark:before:bg-light;
 	}
 
 	.move_top {

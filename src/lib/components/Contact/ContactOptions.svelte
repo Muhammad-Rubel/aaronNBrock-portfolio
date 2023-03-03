@@ -49,7 +49,7 @@
 		>
 			{#each contactOptions as item}
 				<div
-					class="p-[30px] bg-white rounded-[20px] mb-4 w-full"
+					class="p-[30px] bg-white rounded-[20px] mb-4 w-full dark:bg-gray"
 					style="box-shadow: 0 20px 40px rgb(50 65 141 / 12%);"
 				>
 					<!-- render icon -->

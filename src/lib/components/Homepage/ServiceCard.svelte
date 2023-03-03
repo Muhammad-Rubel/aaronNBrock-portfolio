@@ -6,7 +6,7 @@
 </script>
 
 <div
-	class="p-[30px] bg-white rounded-[20px] mb-12"
+	class="p-[30px] bg-white dark:bg-gray rounded-[20px] mb-12"
 	style="box-shadow: 0 20px 40px rgb(50 65 141 / 12%);"
 >
 	<!-- render icon -->
@@ -20,6 +20,6 @@
 		</div>
 	{/if}
 
-	<h4 class="h4">{service?.title}</h4>
+	<h4 class="h4 mt-12">{service?.title}</h4>
 	<p class="mb-4">{service?.description}</p>
 </div>

@@ -52,7 +52,7 @@
 >
 	<div class="container">
 		<div>
-			<span class="top-title mb-16 text-center inline-block w-full">My Portfolio</span>
+			<span class="top-title mb-4 text-center inline-block w-full">My Portfolio</span>
 			<h2 class="h2 text-center">Check Some of My Recent Work</h2>
 		</div>
 
