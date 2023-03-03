@@ -2,6 +2,7 @@
 	export let classNames = '';
 </script>
 
+<!-- #f1f6f9 -->
 <svg
 	id="blob-shape_7_"
 	data-name="blob-shape (7)"
@@ -19,8 +20,8 @@
 			y2="1.164"
 			gradientUnits="objectBoundingBox"
 		>
-			<stop offset="0" stop-color="#f1f6f9" />
-			<stop offset="1" stop-color="#f1f6f9" stop-opacity="0" />
+			<stop offset="0" stop-color="currentColor" />
+			<stop offset="1" stop-color="currentColor" stop-opacity="0" />
 		</linearGradient>
 	</defs>
 	<path

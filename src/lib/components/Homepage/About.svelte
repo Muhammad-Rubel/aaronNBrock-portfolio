@@ -2,7 +2,7 @@
 	import AboutImage from '$lib/assets/images/about/about.jpg';
 	import AboutMaskImage from '$lib/assets/images/about/about-mask-svg.svg';
 	import Figure from '../Svg/Figure.svelte';
-	import AboutBlob from './AboutBlob.svelte';
+	import AboutBlob from '$lib/components/Svg/Homepage/About/AboutBlob.svelte';
 </script>
 
 <section
@@ -12,9 +12,9 @@
 	<div class="container">
 		<!-- heading -->
 		<div>
-			<span class="text-xl leading-normal text-center text-gray-dark mb-4 inline-block w-full"
-				>About About</span
-			>
+			<span class="text-xl leading-normal text-center text-gray-dark mb-4 inline-block w-full">
+				About About
+			</span>
 			<h2 class="h2 text-center">About About About</h2>
 			<p class="mb-16 text-center">About About About About About</p>
 		</div>
@@ -23,7 +23,6 @@
 		<div class="lg:flex justify-between items-center">
 			<!-- image -->
 			<div class="lg:w-[45%] relative z-10 lg:z-0">
-				<!-- <img src={AboutImage} alt="" class="rounded-[20px]" /> -->
 				<img
 					src={AboutImage}
 					alt="about-img"
@@ -56,7 +55,7 @@
 				</div>
 
 				<div class="hidden lg:block absolute -top-[55%] -right-[22%] z-0">
-					<AboutBlob classNames="h-[400px] w-[362px]" />
+					<AboutBlob classNames="h-[400px] w-[362px] text-gray-10" />
 				</div>
 			</div>
 		</div>

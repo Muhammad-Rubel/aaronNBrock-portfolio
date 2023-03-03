@@ -63,11 +63,11 @@
 			<div
 				class="absolute -top-[43%] left-[2%] transform -rotate-[20deg] z-0 text-light footer-shape-1-move-left"
 			>
-				<Shape1 classNames="h-[315px] w-[357px]" />
+				<Shape1 classNames="h-[315px] w-[357px] text-gray-10" />
 			</div>
 
 			<div class="absolute top-[12%] -right-[9%] transform rotate-[80deg] z-0 text-light">
-				<Shape2 classNames="h-[208px] w-[235px]" />
+				<Shape2 classNames="h-[208px] w-[235px] text-gray-10" />
 			</div>
 		</div>
 

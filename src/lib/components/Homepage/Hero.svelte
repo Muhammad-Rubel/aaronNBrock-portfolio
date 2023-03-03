@@ -3,8 +3,8 @@
 	import HeroMaskSvg from '$lib/assets/images/hero/hero-mask-svg.svg';
 	import PopupThumb from '$lib/assets/images/hero/popup-thumb.jpg';
 	import Figure from '../Svg/Figure.svelte';
-	import HeroBg from '../Svg/HeroBg.svelte';
-	import HeroBlob from './HeroBlob.svelte';
+	import HeroBg from '$lib/components/Svg/Homepage/Hero/HeroBg.svelte';
+	import HeroBlob from '$lib/components/Svg/Homepage/Hero/HeroBlob.svelte';
 	import Close from '../Svg/Close.svelte';
 
 	let showModal = false;
@@ -31,7 +31,7 @@
 			</div>
 
 			<div class="absolute -top-[45%] -left-[45%] z-[-1]">
-				<HeroBlob classNames="h-[440px] w-[440px]" />
+				<HeroBlob classNames="h-[440px] w-[440px] text-white" />
 			</div>
 		</div>
 
@@ -67,8 +67,8 @@
 								<path
 									d="M17.961 10.264a2 2 0 010 3.473L2.992 22.29A2 2 0 010 20.554V3.446A2 2 0 012.992 1.71z"
 									data-name="Polygon 4"
-								/></svg
-							>
+								/>
+							</svg>
 						</button>
 					</div>
 				</div>
@@ -81,7 +81,7 @@
 	</div>
 
 	<!-- gray bg -->
-	<HeroBg classNames="w-[65%] absolute top-0 left-0 z-0" />
+	<HeroBg classNames="w-[65%] absolute top-0 left-0 z-0 text-gray-10" />
 
 	<!-- figure -->
 	<div class="absolute bottom-[20px] -left-[130px] transform z-0 hidden lg:block hero_footer_svg">

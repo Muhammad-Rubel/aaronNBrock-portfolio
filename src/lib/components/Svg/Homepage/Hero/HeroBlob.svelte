@@ -2,6 +2,7 @@
 	export let classNames = '';
 </script>
 
+<!-- #fff -->
 <svg viewBox="0 0 550 550" class={classNames}>
 	<defs>
 		<linearGradient
@@ -12,7 +13,11 @@
 			y2=".858"
 			gradientUnits="objectBoundingBox"
 		>
-			<stop offset="0" stop-color="#fff" /><stop offset="1" stop-color="#fff" stop-opacity=".012" />
+			<stop offset="0" stop-color="currentColor" /><stop
+				offset="1"
+				stop-color="currentColor"
+				stop-opacity=".012"
+			/>
 		</linearGradient>
 	</defs>
 	<g data-name="blob-shape (3)">

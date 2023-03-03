@@ -1,11 +1,11 @@
 <script lang="ts">
 	import type { IContactOption } from '$lib/types/generalTypes';
-	import ServiceCardBlob from '$lib/components/Homepage/ServiceCardBlob.svelte';
 	import Clock from '$lib/components/Svg/Clock.svelte';
 	import Figure from '$lib/components/Svg/Figure.svelte';
 	import LocationOutline from '$lib/components/Svg/LocationOutline.svelte';
 	import Phone from '$lib/components/Svg/Phone.svelte';
-	import BackgroundShape from '$lib/components/Svg/Homepage/service/BackgroundShape.svelte';
+	import ContactBgBlob from '../Svg/Contact/ContactBgBlob.svelte';
+	import ContactCardBlob from '../Svg/Contact/ContactCardBlob.svelte';
 
 	const contactOptions: IContactOption[] = [
 		{
@@ -36,7 +36,7 @@
 	</div>
 
 	<div class="hidden lg:block absolute top-[6%] right-[2%] transform z-[-1] amin_spin">
-		<BackgroundShape classNames="h-[200px] w-[200px]" />
+		<ContactBgBlob classNames="h-[200px] w-[200px] text-gray-10" />
 	</div>
 
 	<div class="container relative">
@@ -58,7 +58,7 @@
 							<svelte:component this={item.icon} classNames="h-16 text-primary" />
 
 							<div class="absolute top-0 left-0 z-[-1]">
-								<ServiceCardBlob />
+								<ContactCardBlob classNames="text-gray-10" />
 							</div>
 						</div>
 					{/if}

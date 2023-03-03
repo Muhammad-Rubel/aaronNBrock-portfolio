@@ -53,7 +53,7 @@
 	class="fixed bg-white dark:bg-dark top-4 left-5 right-5 z-50 rounded-lg lg:top-0 lg:left-0 lg:right-0 lg:rounded-none transition-all duration-300 ease-linear {scrollY >
 	300
 		? 'shadow-lg bg-opacity-100'
-		: 'bg-transparent bg-opacity-0'}}"
+		: 'bg-transparent bg-opacity-0'}"
 >
 	<div class="flex justify-between items-center py-4 lg:py-5 container">
 		<a href="/">

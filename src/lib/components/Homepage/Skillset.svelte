@@ -3,7 +3,7 @@
 	import SkillMask from '$lib/assets/images/skill/skill-mask-svg.svg';
 	import Check from '../Svg/Check.svelte';
 	import Figure from '../Svg/Figure.svelte';
-	import BackgroundShape from '../Svg/Homepage/service/BackgroundShape.svelte';
+	import SkillBlob from '../Svg/Homepage/Skill/SkillBlob.svelte';
 
 	const skills: string[] = [
 		'AWS',
@@ -66,6 +66,6 @@
 	</div>
 
 	<div class="hidden lg:block absolute bottom-[2%] right-[2%] transform z-[-1]">
-		<BackgroundShape classNames="h-[300px] w-[300px]" />
+		<SkillBlob classNames="h-[300px] w-[300px]" />
 	</div>
 </section>

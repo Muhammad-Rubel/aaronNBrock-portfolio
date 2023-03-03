@@ -2,6 +2,7 @@
 	export let classNames = '';
 </script>
 
+<!-- #f1f6f9 -->
 <svg
 	xmlns="http://www.w3.org/2000/svg"
 	xmlns:xlink="http://www.w3.org/1999/xlink"
@@ -19,8 +20,8 @@
 			y2="0.935"
 			gradientUnits="objectBoundingBox"
 		>
-			<stop offset="0" stop-color="#f1f6f9" />
-			<stop offset="1" stop-color="#f1f6f9" stop-opacity="0" />
+			<stop offset="0" stop-color="currentColor" />
+			<stop offset="1" stop-color="currentColor" stop-opacity="0" />
 		</linearGradient>
 	</defs>
 	<g id="blob-shape" transform="translate(217.489 188.626)">

@@ -3,7 +3,7 @@
 	import Blog1 from '$lib/assets/images/blog/person-reaching-out-to-robot.jpg';
 	import Blog2 from '$lib/assets/images/allPost/turtles-all-the-way-down.jpeg';
 	import Blog3 from '$lib/assets/images/allPost/allPost-6.jpg';
-	import BlogBlob from './BlogBlob.svelte';
+	import BlogBlob from '$lib/components/Svg/Homepage/Blog/BlogBlob.svelte';
 
 	const blogPosts: IBlog[] = [
 		{
@@ -86,6 +86,6 @@
 	</div>
 
 	<div class="absolute top-[11%] right-[12%] z-0 ">
-		<BlogBlob classNames="h-[300px] w-[300px]" />
+		<BlogBlob classNames="h-[300px] w-[300px] text-gray-10" />
 	</div>
 </section>

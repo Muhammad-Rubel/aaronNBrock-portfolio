@@ -4,11 +4,11 @@
 
 	import type { IService } from '$lib/types/generalTypes';
 	import Figure from '../Svg/Figure.svelte';
-	import BackgroundShape from '../Svg/Homepage/service/BackgroundShape.svelte';
-	import Branding from '../Svg/Homepage/service/Branding.svelte';
-	import Creative from '../Svg/Homepage/service/Creative.svelte';
-	import Web from '../Svg/Homepage/service/Web.svelte';
-	import ServiceBg from '../Svg/ServiceBg.svelte';
+	import ServiceBlob from '../Svg/Homepage/Service/ServiceBlob.svelte';
+	import Branding from '../Svg/Homepage/Service/Branding.svelte';
+	import Creative from '../Svg/Homepage/Service/Creative.svelte';
+	import Web from '../Svg/Homepage/Service/Web.svelte';
+	import ServiceBg from '../Svg/Homepage/Service/ServiceBg.svelte';
 	import ServiceCard from './ServiceCard.svelte';
 
 	const services: IService[] = [
@@ -105,10 +105,10 @@
 	</div>
 
 	<div class="hidden lg:block absolute -bottom-[10%] -left-[7%] transform z-[-1]">
-		<BackgroundShape classNames="h-[465px] w-[410px]" />
+		<ServiceBlob classNames="h-[465px] w-[410px] text-gray-10" />
 	</div>
 
-	<ServiceBg classNames="w-[61%] absolute top-0 right-0 z-[-2]" />
+	<ServiceBg classNames="w-[61%] absolute top-0 right-0 z-[-2] text-gray-10" />
 </section>
 
 <style>

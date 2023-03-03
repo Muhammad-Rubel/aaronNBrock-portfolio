@@ -1,6 +1,6 @@
 <script lang="ts">
 	import type { IService } from '$lib/types/generalTypes';
-	import ServiceCardBlob from './ServiceCardBlob.svelte';
+	import ServiceCardBlob from '$lib/components/Svg/Homepage/Service/ServiceCardBlob.svelte';
 
 	export let service: IService;
 </script>
@@ -15,7 +15,7 @@
 			<svelte:component this={service?.icon} />
 
 			<div class="absolute top-0 left-0 z-[-1]">
-				<ServiceCardBlob />
+				<ServiceCardBlob classNames="text-gray-10" />
 			</div>
 		</div>
 	{/if}
