@@ -6,77 +6,96 @@
 
 @layer base {
 	body {
-		@apply text-gray-50 dark:text-light bg-white dark:bg-dark font-source-serif-pro text-xl leading-normal selection:text-[#f8f9fa] selection:bg-[#400080];
+		@apply text-gray-50 dark:text-light bg-white dark:bg-dark font-source-serif-pro text-xl leading-normal selection:text-light selection:bg-primary;
 	}
 }
 
-.h1 {
-	@apply text-[42px] leading-[1.2] font-source-sans-pro font-semibold xl:text-[3.375rem] mb-6;
-}
+@layer components {
+	.h1 {
+		font-size: calc(1.4625rem + 2.55vw);
+		@apply leading-[1.2] font-source-sans-pro font-semibold xl:text-[3.375rem] mb-6;
+	}
 
-.h2 {
-	@apply text-[32px] leading-[1.2] font-source-sans-pro font-semibold xl:text-[3rem] mb-6;
-}
+	.h2 {
+		font-size: calc(1.425rem + 2.1vw);
+		@apply leading-[1.2] font-source-sans-pro font-semibold xl:text-5xl xl:leading-[1.2] mb-6;
+	}
 
-.h3 {
-	@apply text-[28px] leading-[1.2] font-source-sans-pro font-semibold xl:text-[2.625rem] mb-6;
-}
+	.h3 {
+		font-size: calc(1.3875rem + 1.65vw);
+		@apply leading-[1.2] font-source-sans-pro font-semibold xl:text-[2.625rem] mb-6;
+	}
 
-.h4 {
-	@apply text-[25px] leading-[1.2] font-source-sans-pro font-semibold xl:text-[2.25rem] mb-6;
-}
+	.h4 {
+		font-size: calc(1.35rem + 1.2vw);
+		@apply leading-[1.2] font-source-sans-pro font-semibold xl:text-[2.25rem] mb-6;
+	}
 
-.h5 {
-	@apply text-[23px] leading-[1.2] font-source-sans-pro font-semibold xl:text-[1.875rem] mb-6;
-}
+	.h5 {
+		font-size: calc(1.3125rem + 0.75vw);
+		@apply leading-[1.2] font-source-sans-pro font-semibold xl:text-[1.875rem] mb-6;
+	}
 
-.container {
-	@apply sm:max-w-[540px] md:max-w-[720px] lg:max-w-[960px] xl:max-w-[1140px] mx-auto px-[15px];
-}
+	.container {
+		@apply sm:max-w-[540px] md:max-w-[720px] lg:max-w-[960px] xl:max-w-[1140px] mx-auto px-[15px];
+	}
 
-.btn {
-	@apply py-[15px] px-[30px] text-base rounded-lg text-center;
-}
+	.btn {
+		@apply py-[15px] px-[30px] text-base rounded-lg text-center;
+	}
 
-.primary-btn {
-	@apply border border-primary bg-primary text-white hover:border-purple-20 hover:bg-purple-40 active:border-purple-30 active:bg-purple-20 transform transition-all duration-300 ease-in-out hover:scale-105;
-}
+	.primary-btn {
+		@apply text-white bg-primary border border-primary hover:border-purple-20 hover:bg-purple-40 active:border-purple-30 active:bg-purple-20;
+	}
 
-.btn-light {
-	@apply text-[#400080] bg-[#f8f9fa] border border-[#f8f9fa] hover:bg-[#e2e6ea] hover:border-[#dae0e5] active:text-[#212529] active:bg-[#dae0e5] active:border-[#d3d9df] transform transition-all duration-300 ease-in-out hover:scale-105;
-}
+	.btn-light {
+		@apply text-primary bg-light border border-light hover:bg-[#e2e6ea] hover:border-[#dae0e5] active:text-[#212529] active:bg-[#dae0e5] active:border-[#d3d9df];
+	}
 
-.primary-btn-alt {
-	@apply border active:border-primary active:bg-primary text-white hover:border-purple-20 hover:bg-purple-40 border-purple-30 bg-purple-20 transform transition-all duration-300 ease-in-out hover:scale-105;
-}
+	.primary-btn-alt {
+		@apply text-white border active:border-primary active:bg-primary hover:border-purple-20 hover:bg-purple-40 border-purple-30 bg-purple-20;
+	}
 
-.btn-outline-light {
-	@apply border border-light text-light hover:border-light hover:bg-light active:border-light active:bg-light active:text-[#212529] transform transition-all duration-300 ease-in-out hover:scale-105;
-}
+	.btn-outline-light {
+		@apply text-light border border-light hover:border-light hover:bg-light active:border-light active:bg-light active:text-[#212529];
+	}
 
-.btn-outline-secondary {
-	@apply border border-secondary text-secondary hover:border-secondary hover:bg-secondary active:border-secondary active:bg-secondary hover:text-white active:text-white transform transition-all duration-300 ease-in-out hover:scale-105;
-}
+	.btn-outline-secondary {
+		@apply text-secondary border border-secondary hover:border-secondary hover:bg-secondary active:border-secondary active:bg-secondary hover:text-white active:text-white;
+	}
 
-.btn-zoom {
-	@apply transform transition-all duration-300 ease-in-out hover:scale-105;
-}
+	.btn-zoom {
+		@apply transform transition-all duration-300 ease-in-out hover:scale-105;
+	}
 
-.top-title {
-	@apply text-xl leading-normal text-gray-dark mb-4;
-}
+	.top-title {
+		@apply text-xl leading-normal text-gray-dark mb-4;
+	}
 
-.custom-transition {
-	@apply transform transition-all duration-300 ease-in-out hover:scale-105;
-}
+	.custom-transition {
+		@apply transform transition-all duration-300 ease-in-out hover:scale-105;
+	}
 
-.btn-zoom:hover {
-	box-shadow: 0 8px 20px rgb(56 87 241 / 30%);
-	/* transform: scale(1.03); */
-}
+	.btn-zoom:hover {
+		box-shadow: 0 8px 20px rgb(56 87 241 / 30%);
+		/* transform: scale(1.03); */
+	}
 
-.move_top {
-	animation: move_top 4s infinite;
+	.pre-line-top-title {
+		@apply relative ml-[30px] before:absolute before:top-1/2 before:-left-[30px] before:w-5 before:h-0.5 before:bg-secondary transform -translate-x-1/2;
+	}
+
+	.move_top {
+		animation: move_top 4s infinite;
+	}
+
+	.move_left {
+		animation: move_left 4s infinite;
+	}
+
+	.amin_spin {
+		animation: spin 20s linear infinite;
+	}
 }
 
 @keyframes move_top {
@@ -91,10 +110,6 @@
 	}
 }
 
-.move_left {
-	animation: move_left 4s infinite;
-}
-
 @keyframes move_left {
 	0% {
 		transform: translateX(-50%);
@@ -102,26 +117,6 @@
 	50% {
 		transform: translateX(-57%);
 	}
-}
-
-.vertical-bar::before {
-	content: '';
-	position: absolute;
-	top: 50%;
-	left: -30px;
-	width: 20px;
-	height: 2px;
-	background: #400080;
-	transform: translateY(-50%);
-}
-
-.pre-line-top-title {
-	@apply relative ml-[30px] before:absolute before:top-1/2 before:-left-[30px] before:w-5 before:h-0.5 before:bg-[#282f49] transform -translate-x-1/2;
-}
-
-/* spin animation */
-.amin_spin {
-	animation: spin 20s linear infinite;
 }
 
 @keyframes spin {

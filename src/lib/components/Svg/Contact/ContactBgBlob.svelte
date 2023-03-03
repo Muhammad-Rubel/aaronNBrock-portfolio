@@ -11,7 +11,7 @@
 >
 	<defs>
 		<linearGradient id="d" x1=".929" y1=".111" x2=".263" y2=".935" gradientUnits="objectBoundingBox"
-			><stop offset="0" stop-color="#f1f6f9" /><stop
+			><stop offset="0" stop-color="currentColor" /><stop
 				offset="1"
 				stop-color="currentColor"
 				stop-opacity="0"

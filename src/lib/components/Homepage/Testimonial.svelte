@@ -58,7 +58,7 @@
 	};
 </script>
 
-<section id="testimonial" class="relative bg-[#f1f6f9] ">
+<section id="testimonial" class="relative bg-gray-10">
 	<div class="absolute top-0 left-0 right-0">
 		<svg viewBox="0 0 1920 79"
 			><path d="M0 0h1920v79L0 0z" data-name="Path 1450" fill="white" /></svg
@@ -87,7 +87,7 @@
 							<p class="mt-6 mb-10">{item.comment}</p>
 
 							<div>
-								<span class="text-base leading-none text-[#282f49] font-bold pre-line-top-title"
+								<span class="text-base leading-none text-secondary font-bold pre-line-top-title"
 									>{item.name}</span
 								>
 								<span class="text-base leading-none text-[#7e7e8a]"> | {item.time}</span>

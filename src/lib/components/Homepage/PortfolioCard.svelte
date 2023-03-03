@@ -21,7 +21,7 @@
 
 			<a
 				href={`/portfolio/${item.slug}`}
-				class="text-[#400080] relative ml-[30px] inline-block vertical-bar transform translate-y-20 group-hover:translate-y-0 transition-all duration-300 ease-in-out"
+				class="text-primary relative ml-[30px] inline-block pre-line-top-title transform translate-y-20 group-hover:translate-y-0 transition-all duration-300 ease-in-out"
 				>See Details</a
 			>
 		</div>

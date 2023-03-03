@@ -47,7 +47,7 @@
 	<div class="container">
 		<!-- contact -->
 		<div
-			class="relative bg-[#400080] text-[#f8f9fa] py-[70px] px-10 md:px-20 lg:py-[84px] xl:py-[100px] rounded-[20px] -mt-32 overflow-hidden"
+			class="relative bg-primary text-light py-[70px] px-10 md:px-20 lg:py-[84px] xl:py-[100px] rounded-[20px] -mt-32 overflow-hidden"
 		>
 			<div class="md:flex justify-between gap-4 relative z-10">
 				<div class="">
@@ -73,7 +73,7 @@
 
 		<!-- footer -->
 		<div
-			class="text-[#f8f9fa] space-y-12 py-12 flex flex-col items-center lg:py-[74px] lg:flex-row lg:justify-between lg:items-center"
+			class="text-light space-y-12 py-12 flex flex-col items-center lg:py-[74px] lg:flex-row lg:justify-between lg:items-center"
 		>
 			<div>
 				<img src={Logo} alt="" />
@@ -98,7 +98,7 @@
 						class="flex justify-center items-center w-full space-x-3 lg:justify-start"
 					>
 						<span class="w-6 flex justify-center items-center">
-							<Phone classNames="fill-[#f8f9fa] w-4" />
+							<Phone classNames="fill-light w-4" />
 						</span>
 						<span>+(609) 555 1212</span>
 					</a>
@@ -108,14 +108,14 @@
 						class="flex justify-center items-center w-full space-x-3 lg:justify-start"
 					>
 						<span class="w-6 flex justify-center items-center">
-							<Envelope classNames="fill-[#f8f9fa] w-6 stroke-[#1b2031]" />
+							<Envelope classNames="fill-light w-6 stroke-[#1b2031]" />
 						</span>
 						<span>Hello@AaronNBrock.com</span>
 					</a>
 
 					<span class="flex justify-center items-center w-full space-x-3 lg:justify-start">
 						<span class="w-6 flex justify-center items-center">
-							<Location classNames="fill-[#f8f9fa] w-4 stroke-[#1b2031]" />
+							<Location classNames="fill-light w-4 stroke-[#1b2031]" />
 						</span>
 						<span>1234 Main Street, Anytown, USA 12345</span>
 					</span>
@@ -127,7 +127,7 @@
 	<!-- copyright -->
 	<div>
 		<div class="container py-10 border-t border-[rgba(255,255,255,.2)] lg:grid grid-cols-2">
-			<p class="text-[#f8f9fa] text-center lg:text-left">
+			<p class="text-light text-center lg:text-left">
 				All right reserved copyright © Aaron N. Brock 2023
 			</p>
 
@@ -137,7 +137,7 @@
 					<a href={item?.url} class="group">
 						<svelte:component
 							this={item?.icon}
-							classNames="h-5 fill-[#f8f9fa] group-hover:fill-[#400080] transition-colors duration-300 ease-in-out"
+							classNames="h-5 fill-light group-hover:fill-primary transition-colors duration-300 ease-in-out"
 						/>
 					</a>
 				{/each}

@@ -53,7 +53,7 @@
 			<div class="grid grid-cols-3">
 				{#each skills as skill}
 					<span class="flex justify-start items-center space-x-2 p-1 border-t border-[#dee2e6]">
-						<Check classNames="h-5 w-5 text-[#400080] fill-current" />
+						<Check classNames="h-5 w-5 text-primary fill-current" />
 						<span class="text-xl leading-normal">{skill}</span>
 					</span>
 				{/each}

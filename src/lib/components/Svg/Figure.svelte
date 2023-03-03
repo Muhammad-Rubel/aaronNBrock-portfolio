@@ -11,7 +11,7 @@
 			height="2"
 			rx="1"
 			transform="translate(391 1392) rotate(90)"
-			fill="#282f49"
+			fill="currentColor"
 		/>
 		<rect
 			id="Rectangle_2271"
@@ -20,7 +20,7 @@
 			height="2"
 			rx="1"
 			transform="translate(391 1500) rotate(90)"
-			fill="#282f49"
+			fill="currentColor"
 		/>
 		<rect
 			id="Rectangle_2238"
@@ -29,7 +29,7 @@
 			height="2"
 			rx="1"
 			transform="translate(391 1446) rotate(90)"
-			fill="#282f49"
+			fill="currentColor"
 		/>
 		<rect
 			id="Rectangle_2278"
@@ -38,7 +38,7 @@
 			height="2"
 			rx="1"
 			transform="translate(391 1554) rotate(90)"
-			fill="#282f49"
+			fill="currentColor"
 		/>
 		<rect
 			id="Rectangle_2222"
@@ -47,7 +47,7 @@
 			height="2"
 			rx="1"
 			transform="translate(391 1419) rotate(90)"
-			fill="#282f49"
+			fill="currentColor"
 		/>
 		<rect
 			id="Rectangle_2272"
@@ -56,7 +56,7 @@
 			height="2"
 			rx="1"
 			transform="translate(391 1527) rotate(90)"
-			fill="#282f49"
+			fill="currentColor"
 		/>
 		<rect
 			id="Rectangle_2241"
@@ -65,7 +65,7 @@
 			height="2"
 			rx="1"
 			transform="translate(391 1473) rotate(90)"
-			fill="#282f49"
+			fill="currentColor"
 		/>
 		<rect
 			id="Rectangle_2288"
@@ -74,7 +74,7 @@
 			height="2"
 			rx="1"
 			transform="translate(391 1581) rotate(90)"
-			fill="#282f49"
+			fill="currentColor"
 		/>
 		<rect
 			id="Rectangle_2214"
@@ -83,7 +83,7 @@
 			height="2"
 			rx="1"
 			transform="translate(499 1392) rotate(90)"
-			fill="#282f49"
+			fill="currentColor"
 		/>
 		<rect
 			id="Rectangle_2289"
@@ -92,7 +92,7 @@
 			height="2"
 			rx="1"
 			transform="translate(499 1500) rotate(90)"
-			fill="#282f49"
+			fill="currentColor"
 		/>
 		<rect
 			id="Rectangle_2256"
@@ -101,7 +101,7 @@
 			height="2"
 			rx="1"
 			transform="translate(499 1446) rotate(90)"
-			fill="#282f49"
+			fill="currentColor"
 		/>
 		<rect
 			id="Rectangle_2290"
@@ -110,7 +110,7 @@
 			height="2"
 			rx="1"
 			transform="translate(499 1554) rotate(90)"
-			fill="#282f49"
+			fill="currentColor"
 		/>
 		<rect
 			id="Rectangle_2231"
@@ -119,7 +119,7 @@
 			height="2"
 			rx="1"
 			transform="translate(499 1419) rotate(90)"
-			fill="#282f49"
+			fill="currentColor"
 		/>
 		<rect
 			id="Rectangle_2291"
@@ -128,7 +128,7 @@
 			height="2"
 			rx="1"
 			transform="translate(499 1527) rotate(90)"
-			fill="#282f49"
+			fill="currentColor"
 		/>
 		<rect
 			id="Rectangle_2257"
@@ -137,7 +137,7 @@
 			height="2"
 			rx="1"
 			transform="translate(499 1473) rotate(90)"
-			fill="#282f49"
+			fill="currentColor"
 		/>
 		<rect
 			id="Rectangle_2292"
@@ -146,7 +146,7 @@
 			height="2"
 			rx="1"
 			transform="translate(499 1581) rotate(90)"
-			fill="#282f49"
+			fill="currentColor"
 		/>
 		<rect
 			id="Rectangle_2210"
@@ -155,7 +155,7 @@
 			height="2"
 			rx="1"
 			transform="translate(445 1392) rotate(90)"
-			fill="#282f49"
+			fill="currentColor"
 		/>
 		<rect
 			id="Rectangle_2279"
@@ -164,7 +164,7 @@
 			height="2"
 			rx="1"
 			transform="translate(445 1500) rotate(90)"
-			fill="#282f49"
+			fill="currentColor"
 		/>
 		<rect
 			id="Rectangle_2248"
@@ -173,7 +173,7 @@
 			height="2"
 			rx="1"
 			transform="translate(445 1446) rotate(90)"
-			fill="#282f49"
+			fill="currentColor"
 		/>
 		<rect
 			id="Rectangle_2280"
@@ -182,7 +182,7 @@
 			height="2"
 			rx="1"
 			transform="translate(445 1554) rotate(90)"
-			fill="#282f49"
+			fill="currentColor"
 		/>
 		<rect
 			id="Rectangle_2226"
@@ -191,7 +191,7 @@
 			height="2"
 			rx="1"
 			transform="translate(445 1419) rotate(90)"
-			fill="#282f49"
+			fill="currentColor"
 		/>
 		<rect
 			id="Rectangle_2281"
@@ -200,7 +200,7 @@
 			height="2"
 			rx="1"
 			transform="translate(445 1527) rotate(90)"
-			fill="#282f49"
+			fill="currentColor"
 		/>
 		<rect
 			id="Rectangle_2249"
@@ -209,7 +209,7 @@
 			height="2"
 			rx="1"
 			transform="translate(445 1473) rotate(90)"
-			fill="#282f49"
+			fill="currentColor"
 		/>
 		<rect
 			id="Rectangle_2293"
@@ -218,7 +218,7 @@
 			height="2"
 			rx="1"
 			transform="translate(445 1581) rotate(90)"
-			fill="#282f49"
+			fill="currentColor"
 		/>
 		<rect
 			id="Rectangle_2219"
@@ -227,7 +227,7 @@
 			height="2"
 			rx="1"
 			transform="translate(553 1392) rotate(90)"
-			fill="#282f49"
+			fill="currentColor"
 		/>
 		<rect
 			id="Rectangle_2310"
@@ -236,7 +236,7 @@
 			height="2"
 			rx="1"
 			transform="translate(553 1500) rotate(90)"
-			fill="#282f49"
+			fill="currentColor"
 		/>
 		<rect
 			id="Rectangle_2262"
@@ -245,7 +245,7 @@
 			height="2"
 			rx="1"
 			transform="translate(553 1446) rotate(90)"
-			fill="#282f49"
+			fill="currentColor"
 		/>
 		<rect
 			id="Rectangle_2311"
@@ -254,7 +254,7 @@
 			height="2"
 			rx="1"
 			transform="translate(553 1554) rotate(90)"
-			fill="#282f49"
+			fill="currentColor"
 		/>
 		<rect
 			id="Rectangle_2232"
@@ -263,7 +263,7 @@
 			height="2"
 			rx="1"
 			transform="translate(553 1419) rotate(90)"
-			fill="#282f49"
+			fill="currentColor"
 		/>
 		<rect
 			id="Rectangle_2312"
@@ -272,7 +272,7 @@
 			height="2"
 			rx="1"
 			transform="translate(553 1527) rotate(90)"
-			fill="#282f49"
+			fill="currentColor"
 		/>
 		<rect
 			id="Rectangle_2263"
@@ -281,7 +281,7 @@
 			height="2"
 			rx="1"
 			transform="translate(553 1473) rotate(90)"
-			fill="#282f49"
+			fill="currentColor"
 		/>
 		<rect
 			id="Rectangle_2313"
@@ -290,7 +290,7 @@
 			height="2"
 			rx="1"
 			transform="translate(553 1581) rotate(90)"
-			fill="#282f49"
+			fill="currentColor"
 		/>
 		<rect
 			id="Rectangle_2209"
@@ -299,7 +299,7 @@
 			height="2"
 			rx="1"
 			transform="translate(418 1392) rotate(90)"
-			fill="#282f49"
+			fill="currentColor"
 		/>
 		<rect
 			id="Rectangle_2273"
@@ -308,7 +308,7 @@
 			height="2"
 			rx="1"
 			transform="translate(418 1500) rotate(90)"
-			fill="#282f49"
+			fill="currentColor"
 		/>
 		<rect
 			id="Rectangle_2242"
@@ -317,7 +317,7 @@
 			height="2"
 			rx="1"
 			transform="translate(418 1446) rotate(90)"
-			fill="#282f49"
+			fill="currentColor"
 		/>
 		<rect
 			id="Rectangle_2282"
@@ -326,7 +326,7 @@
 			height="2"
 			rx="1"
 			transform="translate(418 1554) rotate(90)"
-			fill="#282f49"
+			fill="currentColor"
 		/>
 		<rect
 			id="Rectangle_2223"
@@ -335,7 +335,7 @@
 			height="2"
 			rx="1"
 			transform="translate(418 1419) rotate(90)"
-			fill="#282f49"
+			fill="currentColor"
 		/>
 		<rect
 			id="Rectangle_2274"
@@ -344,7 +344,7 @@
 			height="2"
 			rx="1"
 			transform="translate(418 1527) rotate(90)"
-			fill="#282f49"
+			fill="currentColor"
 		/>
 		<rect
 			id="Rectangle_2243"
@@ -353,7 +353,7 @@
 			height="2"
 			rx="1"
 			transform="translate(418 1473) rotate(90)"
-			fill="#282f49"
+			fill="currentColor"
 		/>
 		<rect
 			id="Rectangle_2294"
@@ -362,7 +362,7 @@
 			height="2"
 			rx="1"
 			transform="translate(418 1581) rotate(90)"
-			fill="#282f49"
+			fill="currentColor"
 		/>
 		<rect
 			id="Rectangle_2217"
@@ -371,7 +371,7 @@
 			height="2"
 			rx="1"
 			transform="translate(526 1392) rotate(90)"
-			fill="#282f49"
+			fill="currentColor"
 		/>
 		<rect
 			id="Rectangle_2314"
@@ -380,7 +380,7 @@
 			height="2"
 			rx="1"
 			transform="translate(526 1500) rotate(90)"
-			fill="#282f49"
+			fill="currentColor"
 		/>
 		<rect
 			id="Rectangle_2258"
@@ -389,7 +389,7 @@
 			height="2"
 			rx="1"
 			transform="translate(526 1446) rotate(90)"
-			fill="#282f49"
+			fill="currentColor"
 		/>
 		<rect
 			id="Rectangle_2315"
@@ -398,7 +398,7 @@
 			height="2"
 			rx="1"
 			transform="translate(526 1554) rotate(90)"
-			fill="#282f49"
+			fill="currentColor"
 		/>
 		<rect
 			id="Rectangle_2233"
@@ -407,7 +407,7 @@
 			height="2"
 			rx="1"
 			transform="translate(526 1419) rotate(90)"
-			fill="#282f49"
+			fill="currentColor"
 		/>
 		<rect
 			id="Rectangle_2316"
@@ -416,7 +416,7 @@
 			height="2"
 			rx="1"
 			transform="translate(526 1527) rotate(90)"
-			fill="#282f49"
+			fill="currentColor"
 		/>
 		<rect
 			id="Rectangle_2259"
@@ -425,7 +425,7 @@
 			height="2"
 			rx="1"
 			transform="translate(526 1473) rotate(90)"
-			fill="#282f49"
+			fill="currentColor"
 		/>
 		<rect
 			id="Rectangle_2317"
@@ -434,7 +434,7 @@
 			height="2"
 			rx="1"
 			transform="translate(526 1581) rotate(90)"
-			fill="#282f49"
+			fill="currentColor"
 		/>
 		<rect
 			id="Rectangle_2211"
@@ -443,7 +443,7 @@
 			height="2"
 			rx="1"
 			transform="translate(472 1392) rotate(90)"
-			fill="#282f49"
+			fill="currentColor"
 		/>
 		<rect
 			id="Rectangle_2295"
@@ -452,7 +452,7 @@
 			height="2"
 			rx="1"
 			transform="translate(472 1500) rotate(90)"
-			fill="#282f49"
+			fill="currentColor"
 		/>
 		<rect
 			id="Rectangle_2250"
@@ -461,7 +461,7 @@
 			height="2"
 			rx="1"
 			transform="translate(472 1446) rotate(90)"
-			fill="#282f49"
+			fill="currentColor"
 		/>
 		<rect
 			id="Rectangle_2296"
@@ -470,7 +470,7 @@
 			height="2"
 			rx="1"
 			transform="translate(472 1554) rotate(90)"
-			fill="#282f49"
+			fill="currentColor"
 		/>
 		<rect
 			id="Rectangle_2227"
@@ -479,7 +479,7 @@
 			height="2"
 			rx="1"
 			transform="translate(472 1419) rotate(90)"
-			fill="#282f49"
+			fill="currentColor"
 		/>
 		<rect
 			id="Rectangle_2297"
@@ -488,7 +488,7 @@
 			height="2"
 			rx="1"
 			transform="translate(472 1527) rotate(90)"
-			fill="#282f49"
+			fill="currentColor"
 		/>
 		<rect
 			id="Rectangle_2251"
@@ -497,7 +497,7 @@
 			height="2"
 			rx="1"
 			transform="translate(472 1473) rotate(90)"
-			fill="#282f49"
+			fill="currentColor"
 		/>
 		<rect
 			id="Rectangle_2298"
@@ -506,7 +506,7 @@
 			height="2"
 			rx="1"
 			transform="translate(472 1581) rotate(90)"
-			fill="#282f49"
+			fill="currentColor"
 		/>
 		<rect
 			id="Rectangle_2221"
@@ -515,7 +515,7 @@
 			height="2"
 			rx="1"
 			transform="translate(580 1392) rotate(90)"
-			fill="#282f49"
+			fill="currentColor"
 		/>
 		<rect
 			id="Rectangle_2318"
@@ -524,7 +524,7 @@
 			height="2"
 			rx="1"
 			transform="translate(580 1500) rotate(90)"
-			fill="#282f49"
+			fill="currentColor"
 		/>
 		<rect
 			id="Rectangle_2264"
@@ -533,7 +533,7 @@
 			height="2"
 			rx="1"
 			transform="translate(580 1446) rotate(90)"
-			fill="#282f49"
+			fill="currentColor"
 		/>
 		<rect
 			id="Rectangle_2319"
@@ -542,7 +542,7 @@
 			height="2"
 			rx="1"
 			transform="translate(580 1554) rotate(90)"
-			fill="#282f49"
+			fill="currentColor"
 		/>
 		<rect
 			id="Rectangle_2236"
@@ -551,7 +551,7 @@
 			height="2"
 			rx="1"
 			transform="translate(580 1419) rotate(90)"
-			fill="#282f49"
+			fill="currentColor"
 		/>
 		<rect
 			id="Rectangle_2320"
@@ -560,7 +560,7 @@
 			height="2"
 			rx="1"
 			transform="translate(580 1527) rotate(90)"
-			fill="#282f49"
+			fill="currentColor"
 		/>
 		<rect
 			id="Rectangle_2265"
@@ -569,7 +569,7 @@
 			height="2"
 			rx="1"
 			transform="translate(580 1473) rotate(90)"
-			fill="#282f49"
+			fill="currentColor"
 		/>
 		<rect
 			id="Rectangle_2321"
@@ -578,7 +578,7 @@
 			height="2"
 			rx="1"
 			transform="translate(580 1581) rotate(90)"
-			fill="#282f49"
+			fill="currentColor"
 		/>
 		<rect
 			id="Rectangle_2207"
@@ -587,7 +587,7 @@
 			height="2"
 			rx="1"
 			transform="translate(396 1399) rotate(-180)"
-			fill="#282f49"
+			fill="currentColor"
 		/>
 		<rect
 			id="Rectangle_2270"
@@ -596,7 +596,7 @@
 			height="2"
 			rx="1"
 			transform="translate(396 1507) rotate(-180)"
-			fill="#282f49"
+			fill="currentColor"
 		/>
 		<rect
 			id="Rectangle_2239"
@@ -605,7 +605,7 @@
 			height="2"
 			rx="1"
 			transform="translate(396 1453) rotate(-180)"
-			fill="#282f49"
+			fill="currentColor"
 		/>
 		<rect
 			id="Rectangle_2283"
@@ -614,7 +614,7 @@
 			height="2"
 			rx="1"
 			transform="translate(396 1561) rotate(-180)"
-			fill="#282f49"
+			fill="currentColor"
 		/>
 		<rect
 			id="Rectangle_2224"
@@ -623,7 +623,7 @@
 			height="2"
 			rx="1"
 			transform="translate(396 1426) rotate(-180)"
-			fill="#282f49"
+			fill="currentColor"
 		/>
 		<rect
 			id="Rectangle_2275"
@@ -632,7 +632,7 @@
 			height="2"
 			rx="1"
 			transform="translate(396 1534) rotate(-180)"
-			fill="#282f49"
+			fill="currentColor"
 		/>
 		<rect
 			id="Rectangle_2244"
@@ -641,7 +641,7 @@
 			height="2"
 			rx="1"
 			transform="translate(396 1480) rotate(-180)"
-			fill="#282f49"
+			fill="currentColor"
 		/>
 		<rect
 			id="Rectangle_2299"
@@ -650,7 +650,7 @@
 			height="2"
 			rx="1"
 			transform="translate(396 1588) rotate(-180)"
-			fill="#282f49"
+			fill="currentColor"
 		/>
 		<rect
 			id="Rectangle_2215"
@@ -659,7 +659,7 @@
 			height="2"
 			rx="1"
 			transform="translate(504 1399) rotate(-180)"
-			fill="#282f49"
+			fill="currentColor"
 		/>
 		<rect
 			id="Rectangle_2300"
@@ -668,7 +668,7 @@
 			height="2"
 			rx="1"
 			transform="translate(504 1507) rotate(-180)"
-			fill="#282f49"
+			fill="currentColor"
 		/>
 		<rect
 			id="Rectangle_2252"
@@ -677,7 +677,7 @@
 			height="2"
 			rx="1"
 			transform="translate(504 1453) rotate(-180)"
-			fill="#282f49"
+			fill="currentColor"
 		/>
 		<rect
 			id="Rectangle_2301"
@@ -686,7 +686,7 @@
 			height="2"
 			rx="1"
 			transform="translate(504 1561) rotate(-180)"
-			fill="#282f49"
+			fill="currentColor"
 		/>
 		<rect
 			id="Rectangle_2228"
@@ -695,7 +695,7 @@
 			height="2"
 			rx="1"
 			transform="translate(504 1426) rotate(-180)"
-			fill="#282f49"
+			fill="currentColor"
 		/>
 		<rect
 			id="Rectangle_2302"
@@ -704,7 +704,7 @@
 			height="2"
 			rx="1"
 			transform="translate(504 1534) rotate(-180)"
-			fill="#282f49"
+			fill="currentColor"
 		/>
 		<rect
 			id="Rectangle_2253"
@@ -713,7 +713,7 @@
 			height="2"
 			rx="1"
 			transform="translate(504 1480) rotate(-180)"
-			fill="#282f49"
+			fill="currentColor"
 		/>
 		<rect
 			id="Rectangle_2303"
@@ -722,7 +722,7 @@
 			height="2"
 			rx="1"
 			transform="translate(504 1588) rotate(-180)"
-			fill="#282f49"
+			fill="currentColor"
 		/>
 		<rect
 			id="Rectangle_2212"
@@ -731,7 +731,7 @@
 			height="2"
 			rx="1"
 			transform="translate(450 1399) rotate(-180)"
-			fill="#282f49"
+			fill="currentColor"
 		/>
 		<rect
 			id="Rectangle_2284"
@@ -740,7 +740,7 @@
 			height="2"
 			rx="1"
 			transform="translate(450 1507) rotate(-180)"
-			fill="#282f49"
+			fill="currentColor"
 		/>
 		<rect
 			id="Rectangle_2245"
@@ -749,7 +749,7 @@
 			height="2"
 			rx="1"
 			transform="translate(450 1453) rotate(-180)"
-			fill="#282f49"
+			fill="currentColor"
 		/>
 		<rect
 			id="Rectangle_2285"
@@ -758,7 +758,7 @@
 			height="2"
 			rx="1"
 			transform="translate(450 1561) rotate(-180)"
-			fill="#282f49"
+			fill="currentColor"
 		/>
 		<rect
 			id="Rectangle_2229"
@@ -767,7 +767,7 @@
 			height="2"
 			rx="1"
 			transform="translate(450 1426) rotate(-180)"
-			fill="#282f49"
+			fill="currentColor"
 		/>
 		<rect
 			id="Rectangle_2286"
@@ -776,7 +776,7 @@
 			height="2"
 			rx="1"
 			transform="translate(450 1534) rotate(-180)"
-			fill="#282f49"
+			fill="currentColor"
 		/>
 		<rect
 			id="Rectangle_2246"
@@ -785,7 +785,7 @@
 			height="2"
 			rx="1"
 			transform="translate(450 1480) rotate(-180)"
-			fill="#282f49"
+			fill="currentColor"
 		/>
 		<rect
 			id="Rectangle_2304"
@@ -794,7 +794,7 @@
 			height="2"
 			rx="1"
 			transform="translate(450 1588) rotate(-180)"
-			fill="#282f49"
+			fill="currentColor"
 		/>
 		<rect
 			id="Rectangle_2218"
@@ -803,7 +803,7 @@
 			height="2"
 			rx="1"
 			transform="translate(558 1399) rotate(-180)"
-			fill="#282f49"
+			fill="currentColor"
 		/>
 		<rect
 			id="Rectangle_2322"
@@ -812,7 +812,7 @@
 			height="2"
 			rx="1"
 			transform="translate(558 1507) rotate(-180)"
-			fill="#282f49"
+			fill="currentColor"
 		/>
 		<rect
 			id="Rectangle_2266"
@@ -821,7 +821,7 @@
 			height="2"
 			rx="1"
 			transform="translate(558 1453) rotate(-180)"
-			fill="#282f49"
+			fill="currentColor"
 		/>
 		<rect
 			id="Rectangle_2323"
@@ -830,7 +830,7 @@
 			height="2"
 			rx="1"
 			transform="translate(558 1561) rotate(-180)"
-			fill="#282f49"
+			fill="currentColor"
 		/>
 		<rect
 			id="Rectangle_2234"
@@ -839,7 +839,7 @@
 			height="2"
 			rx="1"
 			transform="translate(558 1426) rotate(-180)"
-			fill="#282f49"
+			fill="currentColor"
 		/>
 		<rect
 			id="Rectangle_2324"
@@ -848,7 +848,7 @@
 			height="2"
 			rx="1"
 			transform="translate(558 1534) rotate(-180)"
-			fill="#282f49"
+			fill="currentColor"
 		/>
 		<rect
 			id="Rectangle_2267"
@@ -857,7 +857,7 @@
 			height="2"
 			rx="1"
 			transform="translate(558 1480) rotate(-180)"
-			fill="#282f49"
+			fill="currentColor"
 		/>
 		<rect
 			id="Rectangle_2325"
@@ -866,7 +866,7 @@
 			height="2"
 			rx="1"
 			transform="translate(558 1588) rotate(-180)"
-			fill="#282f49"
+			fill="currentColor"
 		/>
 		<rect
 			id="Rectangle_2208"
@@ -875,7 +875,7 @@
 			height="2"
 			rx="1"
 			transform="translate(423 1399) rotate(-180)"
-			fill="#282f49"
+			fill="currentColor"
 		/>
 		<rect
 			id="Rectangle_2276"
@@ -884,7 +884,7 @@
 			height="2"
 			rx="1"
 			transform="translate(423 1507) rotate(-180)"
-			fill="#282f49"
+			fill="currentColor"
 		/>
 		<rect
 			id="Rectangle_2240"
@@ -893,7 +893,7 @@
 			height="2"
 			rx="1"
 			transform="translate(423 1453) rotate(-180)"
-			fill="#282f49"
+			fill="currentColor"
 		/>
 		<rect
 			id="Rectangle_2287"
@@ -902,7 +902,7 @@
 			height="2"
 			rx="1"
 			transform="translate(423 1561) rotate(-180)"
-			fill="#282f49"
+			fill="currentColor"
 		/>
 		<rect
 			id="Rectangle_2225"
@@ -911,7 +911,7 @@
 			height="2"
 			rx="1"
 			transform="translate(423 1426) rotate(-180)"
-			fill="#282f49"
+			fill="currentColor"
 		/>
 		<rect
 			id="Rectangle_2277"
@@ -920,7 +920,7 @@
 			height="2"
 			rx="1"
 			transform="translate(423 1534) rotate(-180)"
-			fill="#282f49"
+			fill="currentColor"
 		/>
 		<rect
 			id="Rectangle_2247"
@@ -929,7 +929,7 @@
 			height="2"
 			rx="1"
 			transform="translate(423 1480) rotate(-180)"
-			fill="#282f49"
+			fill="currentColor"
 		/>
 		<rect
 			id="Rectangle_2305"
@@ -938,7 +938,7 @@
 			height="2"
 			rx="1"
 			transform="translate(423 1588) rotate(-180)"
-			fill="#282f49"
+			fill="currentColor"
 		/>
 		<rect
 			id="Rectangle_2216"
@@ -947,7 +947,7 @@
 			height="2"
 			rx="1"
 			transform="translate(531 1399) rotate(-180)"
-			fill="#282f49"
+			fill="currentColor"
 		/>
 		<rect
 			id="Rectangle_2326"
@@ -956,7 +956,7 @@
 			height="2"
 			rx="1"
 			transform="translate(531 1507) rotate(-180)"
-			fill="#282f49"
+			fill="currentColor"
 		/>
 		<rect
 			id="Rectangle_2260"
@@ -965,7 +965,7 @@
 			height="2"
 			rx="1"
 			transform="translate(531 1453) rotate(-180)"
-			fill="#282f49"
+			fill="currentColor"
 		/>
 		<rect
 			id="Rectangle_2327"
@@ -974,7 +974,7 @@
 			height="2"
 			rx="1"
 			transform="translate(531 1561) rotate(-180)"
-			fill="#282f49"
+			fill="currentColor"
 		/>
 		<rect
 			id="Rectangle_2235"
@@ -983,7 +983,7 @@
 			height="2"
 			rx="1"
 			transform="translate(531 1426) rotate(-180)"
-			fill="#282f49"
+			fill="currentColor"
 		/>
 		<rect
 			id="Rectangle_2328"
@@ -992,7 +992,7 @@
 			height="2"
 			rx="1"
 			transform="translate(531 1534) rotate(-180)"
-			fill="#282f49"
+			fill="currentColor"
 		/>
 		<rect
 			id="Rectangle_2261"
@@ -1001,7 +1001,7 @@
 			height="2"
 			rx="1"
 			transform="translate(531 1480) rotate(-180)"
-			fill="#282f49"
+			fill="currentColor"
 		/>
 		<rect
 			id="Rectangle_2329"
@@ -1010,7 +1010,7 @@
 			height="2"
 			rx="1"
 			transform="translate(531 1588) rotate(-180)"
-			fill="#282f49"
+			fill="currentColor"
 		/>
 		<rect
 			id="Rectangle_2213"
@@ -1019,7 +1019,7 @@
 			height="2"
 			rx="1"
 			transform="translate(477 1399) rotate(-180)"
-			fill="#282f49"
+			fill="currentColor"
 		/>
 		<rect
 			id="Rectangle_2306"
@@ -1028,7 +1028,7 @@
 			height="2"
 			rx="1"
 			transform="translate(477 1507) rotate(-180)"
-			fill="#282f49"
+			fill="currentColor"
 		/>
 		<rect
 			id="Rectangle_2254"
@@ -1037,7 +1037,7 @@
 			height="2"
 			rx="1"
 			transform="translate(477 1453) rotate(-180)"
-			fill="#282f49"
+			fill="currentColor"
 		/>
 		<rect
 			id="Rectangle_2307"
@@ -1046,7 +1046,7 @@
 			height="2"
 			rx="1"
 			transform="translate(477 1561) rotate(-180)"
-			fill="#282f49"
+			fill="currentColor"
 		/>
 		<rect
 			id="Rectangle_2230"
@@ -1055,7 +1055,7 @@
 			height="2"
 			rx="1"
 			transform="translate(477 1426) rotate(-180)"
-			fill="#282f49"
+			fill="currentColor"
 		/>
 		<rect
 			id="Rectangle_2308"
@@ -1064,7 +1064,7 @@
 			height="2"
 			rx="1"
 			transform="translate(477 1534) rotate(-180)"
-			fill="#282f49"
+			fill="currentColor"
 		/>
 		<rect
 			id="Rectangle_2255"
@@ -1073,7 +1073,7 @@
 			height="2"
 			rx="1"
 			transform="translate(477 1480) rotate(-180)"
-			fill="#282f49"
+			fill="currentColor"
 		/>
 		<rect
 			id="Rectangle_2309"
@@ -1082,7 +1082,7 @@
 			height="2"
 			rx="1"
 			transform="translate(477 1588) rotate(-180)"
-			fill="#282f49"
+			fill="currentColor"
 		/>
 		<rect
 			id="Rectangle_2220"
@@ -1091,7 +1091,7 @@
 			height="2"
 			rx="1"
 			transform="translate(585 1399) rotate(-180)"
-			fill="#282f49"
+			fill="currentColor"
 		/>
 		<rect
 			id="Rectangle_2330"
@@ -1100,7 +1100,7 @@
 			height="2"
 			rx="1"
 			transform="translate(585 1507) rotate(-180)"
-			fill="#282f49"
+			fill="currentColor"
 		/>
 		<rect
 			id="Rectangle_2268"
@@ -1109,7 +1109,7 @@
 			height="2"
 			rx="1"
 			transform="translate(585 1453) rotate(-180)"
-			fill="#282f49"
+			fill="currentColor"
 		/>
 		<rect
 			id="Rectangle_2331"
@@ -1118,7 +1118,7 @@
 			height="2"
 			rx="1"
 			transform="translate(585 1561) rotate(-180)"
-			fill="#282f49"
+			fill="currentColor"
 		/>
 		<rect
 			id="Rectangle_2237"
@@ -1127,7 +1127,7 @@
 			height="2"
 			rx="1"
 			transform="translate(585 1426) rotate(-180)"
-			fill="#282f49"
+			fill="currentColor"
 		/>
 		<rect
 			id="Rectangle_2332"
@@ -1136,7 +1136,7 @@
 			height="2"
 			rx="1"
 			transform="translate(585 1534) rotate(-180)"
-			fill="#282f49"
+			fill="currentColor"
 		/>
 		<rect
 			id="Rectangle_2269"
@@ -1145,7 +1145,7 @@
 			height="2"
 			rx="1"
 			transform="translate(585 1480) rotate(-180)"
-			fill="#282f49"
+			fill="currentColor"
 		/>
 		<rect
 			id="Rectangle_2333"
@@ -1154,7 +1154,7 @@
 			height="2"
 			rx="1"
 			transform="translate(585 1588) rotate(-180)"
-			fill="#282f49"
+			fill="currentColor"
 		/>
 	</g>
 </svg>

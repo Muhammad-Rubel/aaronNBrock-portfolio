@@ -109,8 +109,7 @@
 				{#if section.title === currentTab}
 					{#each section.items as item}
 						<div class="bg-white p-[30px] rounded-[20px]">
-							<span
-								class="text-xl leading-normal text-[#400080] pre-line-top-title before:bg-[#400080]"
+							<span class="text-xl leading-normal text-primary pre-line-top-title before:bg-primary"
 								>{item.date}</span
 							>
 							<h4 class="mt-5 mb-6 text-2xl md:text-3xl leading-[1.2] font-semibold">
