@@ -5,7 +5,7 @@
 	import Figure from '../Svg/Figure.svelte';
 	import BackgroundShape from '../Svg/Homepage/service/BackgroundShape.svelte';
 
-	const skills = [
+	const skills: string[] = [
 		'AWS',
 		'GCP',
 		'Kubernetes',

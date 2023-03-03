@@ -1,4 +1,4 @@
-<script>
+<script lang="ts">
 	import AboutImage from '$lib/assets/images/about/about.jpg';
 	import AboutMaskImage from '$lib/assets/images/about/about-mask-svg.svg';
 	import Figure from '../Svg/Figure.svelte';

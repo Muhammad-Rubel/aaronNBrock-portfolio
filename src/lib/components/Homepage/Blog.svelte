@@ -1,25 +1,35 @@
-<script>
+<script lang="ts">
+	import type { IBlog } from '$lib/types/generalTypes';
 	import Blog1 from '$lib/assets/images/blog/person-reaching-out-to-robot.jpg';
 	import Blog2 from '$lib/assets/images/allPost/turtles-all-the-way-down.jpeg';
 	import Blog3 from '$lib/assets/images/allPost/allPost-6.jpg';
 	import BlogBlob from './BlogBlob.svelte';
 
-	const blogPosts = [
+	const blogPosts: IBlog[] = [
 		{
 			slug: 'Optimal-dating-strategy',
-			image: Blog1,
+			image: {
+				src: Blog1,
+				alt: ''
+			},
 			title: 'Optimal Dating Strategy',
 			date: 'February 13, 2023'
 		},
 		{
 			slug: 'docker-in-docker-in-docker-in...',
-			image: Blog2,
+			image: {
+				src: Blog2,
+				alt: ''
+			},
 			title: 'Docker in Docker in Docker in...',
 			date: 'September 13, 2020'
 		},
 		{
 			slug: 'markdown-dormatting-demo',
-			image: Blog3,
+			image: {
+				src: Blog3,
+				alt: ''
+			},
 			title: 'Markdown Formatting Demo',
 			date: 'September 13, 2020'
 		}
@@ -50,8 +60,8 @@
 							class="rounded-[20px] overflow-hidden w-[90%] md:w-[80%] md:mx-auto lg:w-[90%] lg:ml-0"
 						>
 							<img
-								src={post.image}
-								alt=""
+								src={post.image.src}
+								alt={post.image.alt}
 								class="transform group-hover:scale-110 custom-transition w-full"
 							/>
 						</div>

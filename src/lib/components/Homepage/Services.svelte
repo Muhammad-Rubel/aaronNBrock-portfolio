@@ -1,17 +1,17 @@
-<script>
+<script lang="ts">
 	import { Splide, SplideSlide, SplideTrack } from '@splidejs/svelte-splide';
 	import '@splidejs/svelte-splide/css';
 
+	import type { IService } from '$lib/types/generalTypes';
 	import Figure from '../Svg/Figure.svelte';
 	import BackgroundShape from '../Svg/Homepage/service/BackgroundShape.svelte';
 	import Branding from '../Svg/Homepage/service/Branding.svelte';
 	import Creative from '../Svg/Homepage/service/Creative.svelte';
-	import UiUx from '../Svg/Homepage/service/UiUx.svelte';
 	import Web from '../Svg/Homepage/service/Web.svelte';
 	import ServiceBg from '../Svg/ServiceBg.svelte';
 	import ServiceCard from './ServiceCard.svelte';
 
-	const services = [
+	const services: IService[] = [
 		{
 			title: 'Teaching',
 			description:

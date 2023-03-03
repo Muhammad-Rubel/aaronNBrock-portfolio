@@ -1,4 +1,5 @@
-<script>
+<script lang="ts">
+	import type { IContactOption } from '$lib/types/generalTypes';
 	import ServiceCardBlob from '$lib/components/Homepage/ServiceCardBlob.svelte';
 	import Clock from '$lib/components/Svg/Clock.svelte';
 	import Figure from '$lib/components/Svg/Figure.svelte';
@@ -6,7 +7,7 @@
 	import Phone from '$lib/components/Svg/Phone.svelte';
 	import BackgroundShape from '$lib/components/Svg/Homepage/service/BackgroundShape.svelte';
 
-	const contactOptions = [
+	const contactOptions: IContactOption[] = [
 		{
 			icon: LocationOutline,
 			title: 'Socials',

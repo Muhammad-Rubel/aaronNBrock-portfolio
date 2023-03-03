@@ -1,9 +1,10 @@
-<script>
+<script lang="ts">
 	import Star from '../Svg/Star.svelte';
 	import '@splidejs/svelte-splide/css';
 	import { Splide, SplideSlide } from '@splidejs/svelte-splide';
+	import type { ITestimonial } from '$lib/types/generalTypes';
 
-	const testimonials = [
+	const testimonials: ITestimonial[] = [
 		{
 			name: 'Gregory Patmore',
 			comment:

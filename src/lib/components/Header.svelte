@@ -1,6 +1,6 @@
-<script>
+<script lang="ts">
+	import type { INavItem } from '$lib/types/generalTypes';
 	import Logo from '$lib/assets/images/logo.png';
-	import HamburgerMenu from './Svg/HamburgerMenu.svelte';
 	import Moon from './Svg/Moon.svelte';
 	import Sun from './Svg/Sun.svelte';
 
@@ -9,30 +9,30 @@
 	let darkMode = false;
 	let showMobileMenu = false;
 
-	const navItems = [
+	const navItems: INavItem[] = [
 		{
 			name: 'Home',
-			href: '#home'
+			href: '/#home'
 		},
 		{
 			name: 'About',
-			href: '#about'
+			href: '/#about'
 		},
 		{
 			name: 'Services',
-			href: '#services'
+			href: '/#services'
 		},
 		{
 			name: 'Resume',
-			href: '#resume'
+			href: '/#resume'
 		},
 		{
 			name: 'Reviews',
-			href: '#reviews'
+			href: '/#reviews'
 		},
 		{
 			name: 'Blog',
-			href: '#blog'
+			href: '/#blog'
 		}
 	];
 
@@ -87,7 +87,6 @@
 		</div>
 
 		<button class="lg:hidden" on:click={() => (showMobileMenu = !showMobileMenu)}>
-			<!-- <HamburgerMenu classNames="h-6 w-6 text-primary" /> -->
 			<span class="navbar-toggle-icon {showMobileMenu && 'icon-1'}" />
 			<span class="navbar-toggle-icon {showMobileMenu && 'opacity-0'}" />
 			<span class="navbar-toggle-icon {showMobileMenu && 'icon-3'}" />
@@ -95,9 +94,9 @@
 	</div>
 </header>
 
-<style>
+<style lang="scss">
 	.navbar-toggle-icon {
-		@apply h-0.5 w-6 bg-primary block mb-[5px] transform transition-all duration-300 ease-linear;
+		@apply h-0.5 w-6 bg-primary block mb-[5px] transition-all duration-300 ease-linear;
 	}
 
 	.icon-1 {

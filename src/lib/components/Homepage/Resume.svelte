@@ -1,5 +1,5 @@
 <script lang="ts">
-	import { writable } from 'svelte/store';
+	import type { IResumeSection } from '$lib/types/generalTypes';
 
 	enum ActiveTab {
 		Achievements = 'Achievements',
@@ -8,7 +8,7 @@
 
 	let currentTab: ActiveTab = ActiveTab.Achievements;
 
-	const resume = [
+	const resume: IResumeSection[] = [
 		{
 			title: 'Achievements',
 			items: [
@@ -77,7 +77,6 @@
 
 	const setActiveTab = (tab: ActiveTab) => {
 		currentTab = tab;
-		console.log(currentTab);
 	};
 </script>
 

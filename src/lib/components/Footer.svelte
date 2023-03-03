@@ -1,4 +1,6 @@
-<script>
+<script lang="ts">
+	import type { ISocialMediaLink } from '$lib/types/generalTypes';
+
 	import Logo from '$lib/assets/images/widget-logo.png';
 	import Envelope from './Svg/Envelope.svelte';
 	import Shape1 from './Svg/Footer/Shape1.svelte';
@@ -11,7 +13,7 @@
 	import Medium from './Svg/SocialMedia/Medium.svelte';
 	import Twitter from './Svg/SocialMedia/Twitter.svelte';
 
-	const socialMediaLinks = [
+	const socialMediaLinks: ISocialMediaLink[] = [
 		{
 			url: 'https://github.com/AaronNBrock',
 			icon: Github

@@ -1,20 +1,15 @@
 <script lang="ts">
-	interface IPortfolioItem {
-		slug: string;
-		category: string;
-		title: string;
-		image: string;
-	}
+	import type { IPortfolio } from '$lib/types/generalTypes';
 
-	export let item: IPortfolioItem;
+	export let item: IPortfolio;
 	export let index: number;
 </script>
 
 <div class="mb-8 md:m-6">
 	<div class={`group ${index === 3 && 'md:-mt-44 lg:-mt-56 xl:-mt-64'}`}>
 		<img
-			src={item?.image}
-			alt=""
+			src={item?.image?.src}
+			alt={item?.image?.alt}
 			class="rounded-[20px] w-full group-hover:shadow-xl transition-all duration-300"
 		/>
 

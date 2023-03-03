@@ -1,7 +1,6 @@
-<script>
+<script lang="ts">
 	import HeroImage from '$lib/assets/images/hero/hero.jpg';
 	import HeroMaskSvg from '$lib/assets/images/hero/hero-mask-svg.svg';
-	import HeroMaskPng from '$lib/assets/images/hero/hero-mask-svg.png';
 	import PopupThumb from '$lib/assets/images/hero/popup-thumb.jpg';
 	import Figure from '../Svg/Figure.svelte';
 	import HeroBg from '../Svg/HeroBg.svelte';
@@ -65,7 +64,7 @@
 								class="h-6 w-6 ml-1 text-primary"
 								fill="currentColor"
 							>
-								><path
+								<path
 									d="M17.961 10.264a2 2 0 010 3.473L2.992 22.29A2 2 0 010 20.554V3.446A2 2 0 012.992 1.71z"
 									data-name="Polygon 4"
 								/></svg
@@ -112,26 +111,6 @@
 {/if}
 
 <style>
-	/* .clip-mask {
-		-webkit-clip-path: inset(200px round 80px 20px 30px 10px);
-		clip-path: inset(200px round 80px 20px 30px 10px);
-	} */
-	.clip-mask {
-		-webkit-clip-path: path(
-			'M30,0H590a30,30,0,0,1,30,30V800a30,30,0,0,1-30,30L30,770A30,30,0,0,1,0,740V30A30,30,0,0,1,30,0Z'
-		);
-		clip-path: path(
-			'M30,0H590a30,30,0,0,1,30,30V800a30,30,0,0,1-30,30L30,770A30,30,0,0,1,0,740V30A30,30,0,0,1,30,0Z'
-		);
-	}
-	/* 
-	.test {
-		-webkit-mask: url(https://aaronnbrock.com/images/hero/hero-mask-svg.png);
-		-webkit-mask-repeat: no-repeat;
-		-webkit-mask-size: contain;
-		-webkit-mask-position: center center;
-	} */
-
 	.hero-image-container {
 		width: 100%;
 		height: 500px;
@@ -152,10 +131,6 @@
 		background-image: url('/hero-mask-svg.png');
 		background-position: center;
 		mix-blend-mode: screen;
-	}
-	.hero-image {
-		-webkit-mask: url({HeroMaskSvg}) no-repeat center center;
-		-webkit-mask-size: contain;
 	}
 
 	.hero_footer_svg {
