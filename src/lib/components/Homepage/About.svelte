@@ -33,7 +33,7 @@
 
 			<!-- text -->
 			<div
-				class="bg-[#1b2031] mt-[30px] rounded-[20px] p-6 lg:w-[55%] lg:p-12 lg:-translate-x-12 relative z-0"
+				class="bg-[#1b2031] mt-[30px] rounded-[20px] p-6 lg:w-[55%] lg:p-12 transform lg:-translate-x-12 relative z-0"
 			>
 				<div class="relative z-10">
 					<h3 class="h3 text-light">Mission Statement</h3>

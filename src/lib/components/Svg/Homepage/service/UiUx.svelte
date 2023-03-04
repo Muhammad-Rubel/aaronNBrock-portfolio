@@ -11,7 +11,7 @@
 					data-name="Path 1441"
 					d="M60.712,3.224a11,11,0,0,0-15.548,0L.268,48.119,0,63.935l15.816-.268L60.711,18.772a10.995,10.995,0,0,0,0-15.548ZM14.74,61.128,2.6,61.334l.206-12.139L6.513,45.49,18.445,57.423Zm5.512-5.512L8.32,43.682,41.573,10.43,53.506,22.362ZM58.9,16.965l-3.59,3.59L43.381,8.623l3.591-3.591A8.437,8.437,0,1,1,58.9,16.965Z"
 					transform="translate(0 -0.005)"
-					fill="#400080"
+					fill="currentColor"
 				/>
 			</g>
 		</g>
@@ -23,7 +23,7 @@
 					width="2.556"
 					height="2.556"
 					transform="translate(0 1.808) rotate(-45)"
-					fill="#400080"
+					fill="currentColor"
 				/>
 			</g>
 		</g>
@@ -35,7 +35,7 @@
 					width="2.556"
 					height="2.556"
 					transform="translate(0 1.808) rotate(-45)"
-					fill="#400080"
+					fill="currentColor"
 				/>
 			</g>
 		</g>
@@ -47,7 +47,7 @@
 					width="2.556"
 					height="2.556"
 					transform="translate(0 1.808) rotate(-45)"
-					fill="#400080"
+					fill="currentColor"
 				/>
 			</g>
 		</g>
@@ -59,7 +59,7 @@
 					width="2.497"
 					height="2.556"
 					transform="translate(0 1.766) rotate(-45)"
-					fill="#400080"
+					fill="currentColor"
 				/>
 			</g>
 		</g>
@@ -70,7 +70,7 @@
 					data-name="Rectangle 2427"
 					width="32.095"
 					height="2.556"
-					fill="#400080"
+					fill="currentColor"
 				/>
 			</g>
 		</g>
