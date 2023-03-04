@@ -103,7 +103,7 @@
 	</div>
 </section>
 
-<style>
+<style lang="scss">
 	:global(.testimonial-slide-pagination) {
 		@apply -bottom-[4rem];
 	}

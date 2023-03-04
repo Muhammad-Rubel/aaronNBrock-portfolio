@@ -71,7 +71,7 @@
 	</div>
 </section>
 
-<style>
+<style lang="scss">
 	.contact_svg {
 		animation: contact_svg_move_top 5s infinite linear;
 	}

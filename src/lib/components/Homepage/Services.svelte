@@ -111,7 +111,7 @@
 	<ServiceBg classNames="w-[61%] absolute top-0 right-0 z-[-2] text-gray-10 dark:text-gray" />
 </section>
 
-<style>
+<style lang="scss">
 	:global(.service-slide-pagination) {
 		@apply -bottom-[4rem];
 	}

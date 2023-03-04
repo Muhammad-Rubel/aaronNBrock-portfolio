@@ -38,7 +38,7 @@
 			<div
 				class="bg-[#1b2031] mt-[30px] rounded-[20px] p-6 lg:w-[55%] lg:p-12 lg:-translate-x-12 relative z-0"
 			>
-				<div class="relative">
+				<div class="relative z-10">
 					<h3 class="h3 text-light">Mission Statement</h3>
 					<p class=" text-light mb-6">
 						As a the leader in <a href="/">Google Cloud memes</a>, I know a thing or two about both
@@ -54,7 +54,7 @@
 					</div>
 				</div>
 
-				<div class="hidden lg:block absolute -top-[55%] -right-[22%] z-[-1]">
+				<div class="hidden lg:block absolute -top-[55%] -right-[22%] z-0">
 					<AboutBlob classNames="h-[400px] w-[362px] text-gray-10" />
 				</div>
 			</div>

@@ -110,7 +110,7 @@
 	</div>
 {/if}
 
-<style>
+<style lang="scss">
 	.hero-image-container {
 		width: 100%;
 		height: 500px;

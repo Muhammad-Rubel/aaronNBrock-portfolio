@@ -35,7 +35,7 @@
 	</div>
 </section>
 
-<style>
+<style lang="scss">
 	.input {
 		@apply w-full py-1.5 px-3 text-[#495057] bg-white border border-[#ced4da] rounded transition-all duration-150 ease-in-out;
 	}
