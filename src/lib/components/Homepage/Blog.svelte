@@ -73,7 +73,7 @@
 					>
 						<span class="text-primary text-base">{post.date}</span>
 						<h5 class="h5 mt-5">
-							<a href="#!">{post.title}</a>
+							<a href="/">{post.title}</a>
 						</h5>
 					</div>
 				</div>

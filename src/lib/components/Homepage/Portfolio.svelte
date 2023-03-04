@@ -1,9 +1,9 @@
 <script lang="ts">
 	import type { IPortfolio } from '$lib/types/generalTypes';
-	import portfolio1 from '$lib/assets/images/portfolio/portfolio-1.png';
-	import portfolio2 from '$lib/assets/images/portfolio/portfolio-2.png';
-	import portfolio3 from '$lib/assets/images/portfolio/portfolio-3.png';
-	import portfolio4 from '$lib/assets/images/portfolio/portfolio-4.png';
+	import Portfolio1 from '$lib/assets/images/portfolio/portfolio-1.png';
+	import Portfolio2 from '$lib/assets/images/portfolio/portfolio-2.png';
+	import Portfolio3 from '$lib/assets/images/portfolio/portfolio-3.png';
+	import Portfolio4 from '$lib/assets/images/portfolio/portfolio-4.png';
 	import PortfolioCard from './PortfolioCard.svelte';
 
 	const portfolio: IPortfolio[] = [
@@ -12,7 +12,7 @@
 			category: 'Development, UX Design',
 			title: 'Case Study One',
 			image: {
-				src: portfolio1,
+				src: Portfolio1,
 				alt: ''
 			}
 		},
@@ -21,7 +21,7 @@
 			category: 'Web Design, Branding',
 			title: 'Case Study One',
 			image: {
-				src: portfolio2,
+				src: Portfolio2,
 				alt: ''
 			}
 		},
@@ -30,7 +30,7 @@
 			category: 'UX Design, UX Research',
 			title: 'Recipe App Ux Study',
 			image: {
-				src: portfolio3,
+				src: Portfolio3,
 				alt: ''
 			}
 		},
@@ -39,7 +39,7 @@
 			category: 'UX Case Study for Agriculture App',
 			title: 'UX Design',
 			image: {
-				src: portfolio4,
+				src: Portfolio4,
 				alt: ''
 			}
 		}

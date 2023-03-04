@@ -58,7 +58,7 @@
 	};
 </script>
 
-<section id="testimonial" class="relative bg-gray-10 dark:bg-gray">
+<section id="reviews" class="relative bg-gray-10 dark:bg-gray">
 	<div class="absolute top-0 left-0 right-0 text-white dark:text-dark">
 		<svg viewBox="0 0 1920 79"
 			><path d="M0 0h1920v79L0 0z" data-name="Path 1450" fill="currentColor" /></svg

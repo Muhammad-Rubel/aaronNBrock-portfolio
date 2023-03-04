@@ -5,6 +5,10 @@
 @tailwind utilities;
 
 @layer base {
+	* {
+		@apply scroll-smooth;
+	}
+
 	body {
 		@apply text-gray-50 dark:text-light bg-white dark:bg-dark font-source-serif-pro text-xl leading-normal selection:text-light selection:bg-primary;
 	}
