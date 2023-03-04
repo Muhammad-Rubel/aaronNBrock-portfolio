@@ -17,7 +17,7 @@
 		</div>
 
 		<!-- content -->
-		<div class="lg:flex justify-between items-center">
+		<div class="lg:flex justify-between items-center relative">
 			<!-- image -->
 			<div class="lg:w-[45%] relative">
 				<img
@@ -33,27 +33,25 @@
 
 			<!-- text -->
 			<div
-				class="bg-[#1b2031] mt-[30px] rounded-[20px] p-6 lg:w-[55%] lg:p-12 transform lg:-translate-x-12 relative z-0"
+				class="bg-[#1b2031] mt-[30px] rounded-[20px] p-6 lg:w-[55%] lg:p-12 lg:-translate-x-12 relative z-0"
 			>
-				<div class="relative z-10">
-					<h3 class="h3 text-light">Mission Statement</h3>
-					<p class=" text-light mb-6">
-						As a the leader in <a href="/">Google Cloud memes</a>, I know a thing or two about both
-						communicating Google Cloud concepts and building applications on the platform. As a self
-						proclaimed fan boy also, I keep up-to-date with Google’s newest offerings so you don’t
-						have to. My goal is to streamline your GCP usage so you can fosus on what matters:
-						growing your business.
-					</p>
+				<h3 class="h3 text-light">Mission Statement</h3>
+				<p class=" text-light mb-6">
+					As a the leader in <a href="/">Google Cloud memes</a>, I know a thing or two about both
+					communicating Google Cloud concepts and building applications on the platform. As a self
+					proclaimed fan boy also, I keep up-to-date with Google’s newest offerings so you don’t
+					have to. My goal is to streamline your GCP usage so you can fosus on what matters: growing
+					your business.
+				</p>
 
-					<div class="space-x-7 pb-4">
-						<a href="/contact" class="btn primary-btn btn-zoom inline-block">Contact me</a>
-						<a href="/" class="btn btn-zoom btn-outline-light inline-block">Let's Chat</a>
-					</div>
+				<div class="space-x-7 pb-4">
+					<a href="/contact" class="btn primary-btn btn-zoom inline-block">Contact me</a>
+					<a href="/" class="btn btn-zoom btn-outline-light inline-block">Let's Chat</a>
 				</div>
+			</div>
 
-				<div class="hidden lg:block absolute -top-[55%] -right-[22%] z-0">
-					<AboutBlob classNames="h-[400px] w-[362px] text-gray-10" />
-				</div>
+			<div class="hidden lg:block absolute -top-[20%] -right-[12%] z-[-1]">
+				<AboutBlob classNames="h-[400px] w-[362px] text-gray-10" />
 			</div>
 		</div>
 	</div>
