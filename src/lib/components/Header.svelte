@@ -56,7 +56,12 @@
 		? 'shadow-lg bg-opacity-100'
 		: 'bg-transparent lg:bg-opacity-0'}"
 >
-	<div class="flex justify-between items-center py-4 lg:py-5 container">
+	<div
+		class="flex justify-between items-center container transition-all duration-300 ease-in-out {scrollY >
+		300
+			? 'py-4 lg:py-5'
+			: 'py-4 lg:py-10'}"
+	>
 		<a href="/">
 			<img src={Logo} alt="" class="h-10 w-10" />
 		</a>

@@ -5,10 +5,7 @@
 	import AboutBlob from '$lib/components/Svg/Homepage/About/AboutBlob.svelte';
 </script>
 
-<section
-	id="about"
-	class="md:mt-[450px] lg:mt-0 py-[50px] lg:py-[67px] xl:py-[100px] xl:mt-4 2xl:mt-40 overflow-hidden"
->
+<section id="about" class="py-[50px] lg:py-[67px] xl:py-[100px] overflow-hidden">
 	<div class="container">
 		<!-- heading -->
 		<div>

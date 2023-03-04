@@ -37,7 +37,7 @@
 
 		<!-- image -->
 		<div class="w-full relative z-0">
-			<div class="relative z-10  hero-image-container bg-cover">
+			<div class="relative z-10">
 				<img
 					src={HeroImage}
 					alt=""
@@ -47,7 +47,7 @@
 
 				<!-- video -->
 				<div
-					class="h-40 w-[250px] border border-[#707070] rounded-[20px] overflow-hidden absolute top-full left-1/2 transform -translate-x-1/2 z-10 -mt-28 md:mt-[300px] lg:left-0 lg:-mt-64"
+					class="h-40 w-[250px] border border-[#707070] rounded-[20px] overflow-hidden absolute top-full left-1/2 transform -translate-x-1/2 z-10 -mt-28 lg:left-0"
 				>
 					<img src={PopupThumb} alt="" class="h-full w-full object-cover object-center" />
 
@@ -111,28 +111,6 @@
 {/if}
 
 <style lang="scss">
-	.hero-image-container {
-		width: 100%;
-		height: 500px;
-		background-image: url('/hero.jpg');
-		background-size: cover;
-		background-position: center;
-		background-color: blue;
-		position: relative;
-	}
-
-	.hero-image-container::before {
-		content: '';
-		position: absolute;
-		top: 0;
-		left: 0;
-		width: 100%;
-		height: 100%;
-		background-image: url('/hero-mask-svg.png');
-		background-position: center;
-		mix-blend-mode: screen;
-	}
-
 	.hero_footer_svg {
 		animation: hero_footer_svg_move_top 5s infinite linear;
 	}
