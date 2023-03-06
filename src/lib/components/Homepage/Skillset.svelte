@@ -45,7 +45,7 @@
 
 		<div class="">
 			<span class="top-title pre-line-top-title">My Skills</span>
-			<h2 class="h2">What's my Skillset?</h2>
+			<h2 class="h2 mt-4">What's my Skillset?</h2>
 			<p class="mb-4">
 				I'll be honest, this section here is just the "buzzword bingo" that I play with the search
 				engines. (Also, can you find the two pokeimon?)

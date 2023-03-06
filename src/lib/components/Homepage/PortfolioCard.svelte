@@ -6,7 +6,7 @@
 </script>
 
 <div class="mb-8 md:m-6">
-	<a href={`/portfolio/${item.slug}`}>
+	<a href="/">
 		<div class={`group ${index === 3 && 'md:-mt-44 lg:-mt-56 xl:-mt-64'}`}>
 			<img
 				src={item?.image?.src}

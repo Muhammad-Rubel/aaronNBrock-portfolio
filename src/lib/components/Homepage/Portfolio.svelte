@@ -1,9 +1,9 @@
 <script lang="ts">
 	import type { IPortfolio } from '$lib/types/generalTypes';
-	import Portfolio1 from '$lib/assets/images/portfolio/portfolio-1.png';
-	import Portfolio2 from '$lib/assets/images/portfolio/portfolio-2.png';
-	import Portfolio3 from '$lib/assets/images/portfolio/portfolio-3.png';
-	import Portfolio4 from '$lib/assets/images/portfolio/portfolio-4.png';
+	import Portfolio1 from '$lib/assets/images/portfolio/portfolio1.png';
+	import Portfolio2 from '$lib/assets/images/portfolio/portfolio2.png';
+	import Portfolio3 from '$lib/assets/images/portfolio/portfolio3.png';
+	import Portfolio4 from '$lib/assets/images/portfolio/portfolio4.png';
 	import PortfolioCard from './PortfolioCard.svelte';
 
 	const portfolio: IPortfolio[] = [

@@ -112,7 +112,9 @@
 							<span class="text-xl leading-normal text-primary pre-line-top-title before:bg-primary"
 								>{item.date}</span
 							>
-							<h4 class="mt-5 mb-6 text-2xl md:text-3xl leading-[1.2] font-semibold">
+							<h4
+								class="mt-5 mb-6 text-2xl md:text-3xl leading-[1.2] font-semibold font-source-serif-pro"
+							>
 								{item.title}
 							</h4>
 							<p class="text-xl leading-normal">{item.description}</p>
