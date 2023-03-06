@@ -86,7 +86,7 @@
 	<div class="container lg:flex justify-between items-start gap-x-6 relative">
 		<div class="text-light lg:pr-20 lg:!sticky !top-48 w-full">
 			<span class="top-title !text-light pre-line-top-title before:bg-light">Resume</span>
-			<h2 class="h2">Experiences.</h2>
+			<h2 class="h2 mt-4">Experiences.</h2>
 			<p class="mb-4">
 				What? You don’t want to just take my word for it that I know what I’m talking about? I guess
 				some healthy scepticism is a good thing.
@@ -113,7 +113,7 @@
 								>{item.date}</span
 							>
 							<h4
-								class="mt-5 mb-6 text-2xl md:text-3xl leading-[1.2] font-semibold font-source-serif-pro"
+								class="mt-5 mb-6 text-2xl md:text-3xl leading-[1.2] font-semibold font-source-sans-pro"
 							>
 								{item.title}
 							</h4>
