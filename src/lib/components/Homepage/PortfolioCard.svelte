@@ -6,25 +6,26 @@
 </script>
 
 <div class="mb-8 md:m-6">
-	<div class={`group ${index === 3 && 'md:-mt-44 lg:-mt-56 xl:-mt-64'}`}>
-		<img
-			src={item?.image?.src}
-			alt={item?.image?.alt}
-			class="rounded-[20px] w-full group-hover:shadow-xl transition-all duration-300"
-		/>
+	<a href={`/portfolio/${item.slug}`}>
+		<div class={`group ${index === 3 && 'md:-mt-44 lg:-mt-56 xl:-mt-64'}`}>
+			<img
+				src={item?.image?.src}
+				alt={item?.image?.alt}
+				class="rounded-[20px] w-full group-hover:shadow-xl transition-all duration-300"
+			/>
 
-		<div class="overflow-hidden">
-			<span class="text-[#7e7e8a] text-lg leading-none inline-block mt-7 mb-5 dark:text-light"
-				>{item?.category}</span
-			>
-			<h3 class="h3 !mb-0">{item?.title}</h3>
+			<div class="overflow-hidden">
+				<span class="text-[#7e7e8a] text-lg leading-none inline-block mt-7 mb-5 dark:text-light"
+					>{item?.category}</span
+				>
+				<h3 class="h3 !mb-0">{item?.title}</h3>
 
-			<a
-				href={`/portfolio/${item.slug}`}
-				class="text-primary relative ml-[30px] pre-line-top-title before:!bg-primary xl:inline-block xl:transform translate-y-20 xl:translate-x-2 group-hover:translate-y-0 transition-all duration-300 ease-in-out"
-			>
-				See Details
-			</a>
+				<span
+					class="text-primary relative ml-[30px] pre-line-top-title before:!bg-primary xl:inline-block xl:transform translate-y-20 xl:translate-x-2 group-hover:translate-y-0 transition-all duration-300 ease-in-out"
+				>
+					See Details
+				</span>
+			</div>
 		</div>
-	</div>
+	</a>
 </div>

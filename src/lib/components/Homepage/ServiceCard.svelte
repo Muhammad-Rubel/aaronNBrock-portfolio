@@ -6,7 +6,7 @@
 </script>
 
 <div
-	class="p-[30px] bg-white dark:bg-gray rounded-[20px] mb-12"
+	class="p-[30px] bg-white dark:bg-gray rounded-[20px] mb-12 h-[500px] lg:h-[550px] xl:h-[500px]"
 	style="box-shadow: 0 20px 40px rgb(50 65 141 / 12%);"
 >
 	<!-- render icon -->
@@ -15,7 +15,7 @@
 			<svelte:component this={service?.icon} classNames="text-primary h-16" />
 
 			<div class="absolute top-0 left-0 z-[-1]">
-				<ServiceCardBlob classNames="text-gray-10" />
+				<ServiceCardBlob classNames="text-gray-10 dark:text-gray-dark" />
 			</div>
 		</div>
 	{/if}

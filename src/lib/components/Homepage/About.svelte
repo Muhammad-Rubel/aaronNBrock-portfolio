@@ -51,7 +51,7 @@
 			</div>
 
 			<div class="hidden lg:block absolute -top-[20%] -right-[12%] z-[-1]">
-				<AboutBlob classNames="h-[400px] w-[362px] text-gray-10" />
+				<AboutBlob classNames="h-[400px] w-[362px] text-gray-10 dark:text-gray" />
 			</div>
 		</div>
 	</div>

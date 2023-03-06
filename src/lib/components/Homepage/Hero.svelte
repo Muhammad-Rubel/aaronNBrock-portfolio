@@ -47,7 +47,7 @@
 
 				<!-- video -->
 				<div
-					class="h-40 w-[250px] border border-[#707070] rounded-[20px] overflow-hidden absolute top-full left-1/2 transform -translate-x-1/2 z-10 -mt-28 lg:left-0"
+					class="h-40 w-[250px] border border-[#707070] rounded-[20px] overflow-hidden absolute top-full left-1/2 transform -translate-x-1/2 z-10 -mt-28 lg:left-0 lg:-mt-60"
 				>
 					<img src={PopupThumb} alt="" class="h-full w-full object-cover object-center" />
 

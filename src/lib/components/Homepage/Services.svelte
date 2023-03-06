@@ -3,13 +3,13 @@
 	import '@splidejs/svelte-splide/css';
 
 	import type { IService } from '$lib/types/generalTypes';
-	import Figure from '../Svg/Figure.svelte';
 	import ServiceBlob from '../Svg/Homepage/Service/ServiceBlob.svelte';
 	import Branding from '../Svg/Homepage/Service/Branding.svelte';
 	import Creative from '../Svg/Homepage/Service/Creative.svelte';
 	import Web from '../Svg/Homepage/Service/Web.svelte';
 	import ServiceBg from '../Svg/Homepage/Service/ServiceBg.svelte';
 	import ServiceCard from './ServiceCard.svelte';
+	import FigureSmall from '../Svg/FigureSmall.svelte';
 
 	const services: IService[] = [
 		{
@@ -42,6 +42,7 @@
 		padding: '2rem',
 		arrows: false,
 		pagination: true,
+		height: '550px',
 		breakpoints: {
 			640: {
 				perPage: 1,
@@ -66,10 +67,7 @@
 	};
 </script>
 
-<section
-	id="services"
-	class="py-[76px] md:py-[50px] lg:pt-[100px] lg:pb-[275px] relative overflow-hidden"
->
+<section id="services" class="py-[50px] lg:pt-[100px] lg:pb-[275px] relative overflow-hidden">
 	<div>
 		<div class="container">
 			<div class="lg:w-1/2">
@@ -81,7 +79,7 @@
 			</div>
 		</div>
 
-		<div class="mt-12 lg:hidden">
+		<div class="mt-12 mb-12 lg:hidden">
 			<Splide hasTrack={false} {options}>
 				<SplideTrack>
 					{#each services as service}
@@ -101,11 +99,11 @@
 	</div>
 
 	<div class="hidden lg:block absolute bottom-[4%] left-[6%] transform z-0 move_top">
-		<Figure classNames="h-[120px] w-[120px]" />
+		<FigureSmall classNames="h-[120px] w-[120px]" />
 	</div>
 
 	<div class="hidden lg:block absolute -bottom-[10%] -left-[7%] transform z-[-1]">
-		<ServiceBlob classNames="h-[465px] w-[410px] text-gray-10" />
+		<ServiceBlob classNames="h-[465px] w-[410px] text-gray-10 dark:text-gray" />
 	</div>
 
 	<ServiceBg classNames="w-[61%] absolute top-0 right-0 z-[-2] text-gray-10 dark:text-gray" />
@@ -113,7 +111,7 @@
 
 <style lang="scss">
 	:global(.service-slide-pagination) {
-		@apply -bottom-[4rem];
+		@apply -bottom-[2rem];
 	}
 
 	@media (min-width: 640px) {

@@ -7,7 +7,6 @@
 	let scrollY = 0;
 
 	const handleOnScroll = () => {
-		console.log(window.scrollY, 'scrollY');
 		scrollY = window.scrollY;
 	};
 </script>

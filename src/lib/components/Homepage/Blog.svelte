@@ -41,7 +41,7 @@
 		<div class="lg:flex justify-between items-end">
 			<div>
 				<span class="top-title pre-line-top-title">Blog</span>
-				<h2 class="h2">Recent Article</h2>
+				<h2 class="h2 mt-4">Recent Article</h2>
 				<p class="mb-4">Just a place for my thoughts...</p>
 			</div>
 
@@ -55,27 +55,25 @@
 		>
 			{#each blogPosts as post}
 				<div class="group w-full relative">
-					<div>
-						<div
-							class="rounded-[20px] overflow-hidden w-[90%] md:w-[80%] md:mx-auto lg:w-[90%] lg:ml-0"
-						>
-							<img
-								src={post.image.src}
-								alt={post.image.alt}
-								class="transform group-hover:scale-110 custom-transition w-full"
-							/>
+					<a href="/">
+						<div>
+							<div class="rounded-[20px] overflow-hidden w-[80%] mx-auto lg:w-[90%] lg:ml-0">
+								<img
+									src={post.image.src}
+									alt={post.image.alt}
+									class="transform group-hover:scale-110 custom-transition w-full"
+								/>
+							</div>
 						</div>
-					</div>
 
-					<div
-						class="bg-white p-[30px] absolute bottom-[-100px] left-0 md:left-10 right-0 md:right-auto lg:right-0 rounded-[20px] dark:bg-gray"
-						style="box-shadow: 0 20px 40px rgb(50 65 141 / 12%);"
-					>
-						<span class="text-primary text-base">{post.date}</span>
-						<h5 class="h5 mt-5">
-							<a href="/">{post.title}</a>
-						</h5>
-					</div>
+						<div
+							class="bg-white p-[30px] absolute bottom-[-100px] left-0 md:left-10 lg:right-0 rounded-[20px] dark:bg-gray"
+							style="box-shadow: 0 20px 40px rgb(50 65 141 / 12%);"
+						>
+							<span class="text-primary text-base pre-line-top-title">{post.date}</span>
+							<h5 class="h5 mt-5 mb-0">{post.title}</h5>
+						</div>
+					</a>
 				</div>
 			{/each}
 		</div>

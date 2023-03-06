@@ -4,6 +4,7 @@
 	import Check from '../Svg/Check.svelte';
 	import Figure from '../Svg/Figure.svelte';
 	import SkillBlob from '../Svg/Homepage/Skill/SkillBlob.svelte';
+	import FigureSmall from '../Svg/FigureSmall.svelte';
 
 	const skills: string[] = [
 		'AWS',
@@ -62,7 +63,7 @@
 	</div>
 
 	<div class="hidden lg:block absolute bottom-[5%] right-[10%] transform z-0 move_top">
-		<Figure classNames="h-[100px] w-[100px]" />
+		<FigureSmall classNames="h-[100px] w-[100px]" />
 	</div>
 
 	<div class="hidden lg:block absolute bottom-[2%] right-[2%] transform z-[-1]">

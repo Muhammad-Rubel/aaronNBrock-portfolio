@@ -77,7 +77,9 @@
 			<Splide {options}>
 				{#each testimonials as item, i}
 					<SplideSlide>
-						<div class="bg-white dark:bg-dark py-12 px-8 md:py-[60px] md:px-12 rounded-[20px]">
+						<div
+							class="bg-white dark:bg-dark py-12 px-8 md:py-[60px] md:px-12 rounded-[20px] h-full"
+						>
 							<div>
 								{#each Array(item.star) as star, i}
 									<Star classNames="w-5 h-5 text-[#ffc219] inline-block fill-[#ffc219]" />

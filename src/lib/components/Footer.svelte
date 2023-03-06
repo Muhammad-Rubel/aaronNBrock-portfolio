@@ -47,7 +47,7 @@
 	<div class="container">
 		<!-- contact -->
 		<div
-			class="relative bg-primary text-light py-[70px] px-10 md:px-20 lg:py-[84px] xl:py-[100px] rounded-[20px] -mt-32 overflow-hidden"
+			class="relative bg-primary dark:bg-teal text-light py-[70px] px-10 md:px-20 lg:py-[84px] xl:py-[100px] rounded-[20px] -mt-32 overflow-hidden"
 		>
 			<div class="md:flex justify-between gap-4 relative z-10">
 				<div class="">
@@ -63,11 +63,11 @@
 			<div
 				class="absolute -top-[43%] left-[2%] transform -rotate-[20deg] z-0 footer-shape-1-move-left"
 			>
-				<Shape1 classNames="h-[315px] w-[357px] fill-[#0101011a]" />
+				<Shape1 classNames="h-[315px] w-[357px] fill-[#0101011a] dark:fill-[#0101011a]" />
 			</div>
 
 			<div class="absolute top-[12%] -right-[9%] transform rotate-[80deg] z-0">
-				<Shape2 classNames="h-[208px] w-[235px] fill-[#0101011a]" />
+				<Shape2 classNames="h-[208px] w-[235px] fill-[#0101011a] dark:fill-[#0101011a]" />
 			</div>
 		</div>
 

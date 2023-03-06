@@ -6,6 +6,7 @@
 	import Phone from '$lib/components/Svg/Phone.svelte';
 	import ContactBgBlob from '../Svg/Contact/ContactBgBlob.svelte';
 	import ContactCardBlob from '../Svg/Contact/ContactCardBlob.svelte';
+	import FigureSmall from '../Svg/FigureSmall.svelte';
 
 	const contactOptions: IContactOption[] = [
 		{
@@ -32,7 +33,7 @@
 	</div>
 
 	<div class="hidden lg:block absolute top-[15%] right-[10%] transform z-0 move_top">
-		<Figure classNames="h-[100px] w-[100px]" />
+		<FigureSmall classNames="h-[100px] w-[100px]" />
 	</div>
 
 	<div class="hidden lg:block absolute top-[6%] right-[2%] transform z-[-1] amin_spin">
@@ -45,11 +46,11 @@
 
 		<!-- contact options -->
 		<div
-			class="py-[50px] lg:py-[100px] space-y-8 lg:flex justify-between items-start lg:space-y-0 lg:space-x-8"
+			class="py-[50px] lg:py-[100px] space-y-8 lg:flex justify-between items-stretch lg:space-y-0 lg:space-x-8"
 		>
 			{#each contactOptions as item}
 				<div
-					class="p-[30px] bg-white rounded-[20px] mb-4 w-full dark:bg-gray"
+					class="p-[30px] bg-white rounded-[20px] w-full dark:bg-gray"
 					style="box-shadow: 0 20px 40px rgb(50 65 141 / 12%);"
 				>
 					<!-- render icon -->
