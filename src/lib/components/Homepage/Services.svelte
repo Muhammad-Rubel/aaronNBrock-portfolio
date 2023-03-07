@@ -72,7 +72,7 @@
 		<div class="container">
 			<div class="lg:w-1/2">
 				<span class="top-title pre-line-top-title">Area of Work</span>
-				<h2 class="text-[3.375rem] font-semibold leading-[1.2] mt-4 mb-6">Google Cloud</h2>
+				<h2 class="h2 mt-4">Google Cloud</h2>
 				<p class="mb-4 text-xl leading-normal">
 					Using technology to empower development teams to deliver software better faster stronger.
 				</p>
