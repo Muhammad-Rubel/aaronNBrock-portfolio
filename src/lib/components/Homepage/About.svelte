@@ -5,7 +5,7 @@
 	import AboutBlob from '$lib/components/Svg/Homepage/About/AboutBlob.svelte';
 </script>
 
-<section id="about" class="py-[50px] lg:py-[67px] xl:py-[100px] overflow-hidden">
+<section id="about" class="py-12 lg:py-16 xl:py-24 overflow-hidden">
 	<div class="container">
 		<!-- heading -->
 		<div>
@@ -19,22 +19,20 @@
 		<!-- content -->
 		<div class="lg:flex justify-between items-center relative">
 			<!-- image -->
-			<div class="lg:w-[45%] relative">
+			<div class="lg:w-2/5 relative">
 				<img
 					src={AboutImage}
 					alt="about-img"
 					style="-webkit-mask:url({AboutMaskImage});-webkit-mask-repeat:no-repeat;-webkit-mask-size:contain;-webkit-mask-position:center center"
 				/>
 
-				<div class="absolute -top-[7%] -left-[16%] transform z-[-1] move_top">
-					<Figure classNames="h-[150px] w-[150px]" />
+				<div class="absolute -top-[7%] -left-[16%] transform z-00 animate-move-top">
+					<Figure classNames="h-36 w-36" />
 				</div>
 			</div>
 
 			<!-- text -->
-			<div
-				class="bg-[#1b2031] mt-[30px] rounded-[20px] p-6 lg:w-[55%] lg:p-12 lg:-translate-x-12 relative z-0"
-			>
+			<div class="bg-gray-20 mt-8 rounded-20 p-6 lg:w-3/5 lg:p-12 lg:-translate-x-12 relative z-0">
 				<h3 class="h3 text-light">Mission Statement</h3>
 				<p class=" text-light mb-6">
 					As a the leader in <a href="/">Google Cloud memes</a>, I know a thing or two about both
@@ -50,8 +48,8 @@
 				</div>
 			</div>
 
-			<div class="hidden lg:block absolute -top-[20%] -right-[12%] z-[-1]">
-				<AboutBlob classNames="h-[400px] w-[362px] text-gray-10 dark:text-gray" />
+			<div class="hidden lg:block absolute -top-[20%] -right-[12%] z-00">
+				<AboutBlob classNames="h-96 w-96 text-gray-10 dark:text-gray" />
 			</div>
 		</div>
 	</div>

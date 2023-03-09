@@ -6,17 +6,22 @@ module.exports = {
 		extend: {
 			colors: {
 				'gray-50': 'rgba(0, 0, 0, 0.8)',
+				'gray-5': '#dee2e6',
 				'gray-10': '#f1f6f9',
+				'gray-15': '#495057',
+				'gray-20': '#1b2031',
 				'purple-20': '#27004d',
 				'purple-30': '#200040',
 				'purple-40': '#2d005a',
 				blue: '#007bff',
+				'blue-light': '#8001ff',
 				indigo: '#6610f2',
 				purple: '#6f42c1',
 				pink: '#e83e8c',
 				red: '#dc3545', //
 				orange: '#fd7e14',
 				yellow: '#ffc107', //
+				'yellow-dark': '#ffc219', //
 				green: '#28a745', //
 				teal: '#20c997',
 				cyan: '#17a2b8', //
@@ -35,6 +40,31 @@ module.exports = {
 			fontFamily: {
 				'source-sans-pro': ['Source Sans Pro', 'sans-serif'],
 				'source-serif-pro': ['Source Serif Pro', 'serif']
+			},
+			keyframes: {
+				'move-top': {
+					'0%, 100%': { transform: 'translateY(0)' },
+					'50%': { transform: 'translateY(15px)' }
+				},
+				'move-left': {
+					'0%': { transform: 'translateX(-50%)' },
+					'50%': { transform: 'translateX(-57%)' }
+				},
+				'anim-spin': {
+					'0%': { transform: 'rotate(0deg)' },
+					'50%': { transform: 'rotate(360deg)' }
+				}
+			},
+			animation: {
+				'move-top': 'move-top 4s linear infinite',
+				'move-left': 'move-left 4s linear infinite',
+				'anim-spin': 'anim-spin 40s linear infinite'
+			},
+			borderRadius: {
+				20: '20px'
+			},
+			zIndex: {
+				'00': '-1'
 			}
 		}
 	},

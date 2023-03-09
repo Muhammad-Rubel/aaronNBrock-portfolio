@@ -11,17 +11,17 @@
 			<img
 				src={item?.image?.src}
 				alt={item?.image?.alt}
-				class="rounded-[20px] w-full group-hover:shadow-xl transition-all duration-300"
+				class="rounded-20 w-full group-hover:shadow-xl transition-all duration-300"
 			/>
 
 			<div class="overflow-hidden">
-				<span class="text-[#7e7e8a] text-lg leading-none inline-block mt-7 mb-5 dark:text-light"
+				<span class="text-gray text-lg leading-none inline-block mt-7 mb-5 dark:text-light"
 					>{item?.category}</span
 				>
 				<h3 class="h3 !mb-0">{item?.title}</h3>
 
 				<span
-					class="text-primary relative ml-[30px] pre-line-top-title before:!bg-primary xl:inline-block xl:transform translate-y-20 xl:translate-x-2 group-hover:translate-y-0 transition-all duration-300 ease-in-out"
+					class="text-primary relative ml-8 pre-line-top-title before:!bg-primary xl:inline-block xl:transform translate-y-20 xl:translate-x-2 group-hover:translate-y-0 transition-all duration-300 ease-in-out"
 				>
 					See Details
 				</span>

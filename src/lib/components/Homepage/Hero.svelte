@@ -10,9 +10,9 @@
 	let showModal = false;
 </script>
 
-<section id="home" class="pt-[150px] pb-8 lg:pt-44 lg:pb-48 xl:py-48 relative z-0">
+<section id="home" class="pt-36 pb-8 lg:pt-44 lg:pb-48 xl:py-48 relative z-0">
 	<div
-		class="container space-y-[60px] lg:flex justify-between items-center lg:space-x-20 lg:space-y-0 relative z-10"
+		class="container space-y-16 lg:flex justify-between items-center lg:space-x-20 lg:space-y-0 relative z-10"
 	>
 		<!-- text -->
 		<div class="text-center lg:text-left w-full relative lg:pr-20">
@@ -30,8 +30,8 @@
 				<a href="/contact" class="btn primary-btn btn-zoom inline-block">Contact me</a>
 			</div>
 
-			<div class="hidden lg:block absolute -top-[45%] -left-[45%] z-[-1]">
-				<HeroBlob classNames="h-[440px] w-[440px] text-white dark:text-dark" />
+			<div class="hidden lg:block absolute -top-[45%] -left-[45%] z-00">
+				<HeroBlob classNames="h-96 w-96 text-white dark:text-dark" />
 			</div>
 		</div>
 
@@ -47,7 +47,7 @@
 
 				<!-- video -->
 				<div
-					class="h-40 w-[250px] border border-[#707070] rounded-[20px] overflow-hidden absolute top-full left-1/2 transform -translate-x-1/2 z-10 -mt-28 lg:left-0 lg:-mt-60"
+					class="h-40 w-64 border border-gray-10/90 rounded-20 overflow-hidden absolute top-full left-1/2 transform -translate-x-1/2 z-10 -mt-28 lg:left-0 lg:-mt-60"
 				>
 					<img src={PopupThumb} alt="" class="h-full w-full object-cover object-center" />
 
@@ -55,7 +55,7 @@
 						class="absolute top-0 left-0 right-0 bottom-0 bg-[rgba(0,0,0,.6)] z-10 flex justify-center items-center group"
 					>
 						<button
-							class="h-[60px] w-[60px] rounded-full flex justify-center items-center bg-white transform group-hover:scale-110 custom-transition"
+							class="h-16 w-16 rounded-full flex justify-center items-center bg-white transform group-hover:scale-110 custom-transition"
 							on:click={() => (showModal = true)}
 						>
 							<svg
@@ -74,8 +74,8 @@
 				</div>
 			</div>
 
-			<div class="absolute top-0 left-1/2 -mt-14 transform -translate-x-1/2 z-0 move_left">
-				<Figure classNames="h-[150px] w-[150px]" />
+			<div class="absolute top-0 left-1/2 -mt-14 transform -translate-x-1/2 z-0 animate-move-left">
+				<Figure classNames="h-36 w-36" />
 			</div>
 		</div>
 	</div>
@@ -84,8 +84,8 @@
 	<HeroBg classNames="w-[65%] absolute top-0 left-0 z-0 text-gray-10 dark:text-gray" />
 
 	<!-- figure -->
-	<div class="absolute bottom-[20px] -left-[130px] transform z-0 hidden lg:block hero_footer_svg">
-		<Figure classNames="h-[201px] w-[201px]" />
+	<div class="absolute bottom-5 -left-32 transform z-0 hidden lg:block animate-move-top">
+		<Figure classNames="h-52 w-52" />
 	</div>
 </section>
 
@@ -93,7 +93,7 @@
 	<div
 		class="h-screen w-screen fixed top-0 left-0 z-[1000] bg-black bg-opacity-70 p-2 flex justify-center items-center"
 	>
-		<div class="aspect-video max-w-[900px] w-full relative">
+		<div class="aspect-video max-w-4xl w-full relative">
 			<iframe
 				src="https://www.youtube.com/embed/dQw4w9WgXcQ"
 				title="YouTube video player"
@@ -109,21 +109,3 @@
 		</div>
 	</div>
 {/if}
-
-<style lang="scss">
-	.hero_footer_svg {
-		animation: hero_footer_svg_move_top 5s infinite linear;
-	}
-
-	@keyframes hero_footer_svg_move_top {
-		0% {
-			transform: translateY(0);
-		}
-		50% {
-			transform: translateY(15px);
-		}
-		100% {
-			transform: translateY(0);
-		}
-	}
-</style>

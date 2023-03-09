@@ -36,7 +36,7 @@
 	];
 </script>
 
-<section id="blog" class="py-[82px] md:py-[50px] lg:py-[73px] xl:py-[100px] relative">
+<section id="blog" class="py-20 md:py-12 xl:py-24 relative">
 	<div class="container z-10 relative">
 		<div class="lg:flex justify-between items-end">
 			<div>
@@ -57,7 +57,7 @@
 				<div class="group w-full relative">
 					<a href="/">
 						<div>
-							<div class="rounded-[20px] overflow-hidden w-[80%] mx-auto lg:w-[90%] lg:ml-0">
+							<div class="rounded-20 overflow-hidden w-4/5 mx-auto lg:w-[90%] lg:ml-0">
 								<img
 									src={post.image.src}
 									alt={post.image.alt}
@@ -67,7 +67,7 @@
 						</div>
 
 						<div
-							class="bg-white p-[30px] absolute bottom-[-100px] left-0 md:left-10 lg:right-0 rounded-[20px] dark:bg-gray"
+							class="bg-white p-8 absolute -bottom-24 left-0 md:left-10 lg:right-0 rounded-20 dark:bg-gray"
 							style="box-shadow: 0 20px 40px rgb(50 65 141 / 12%);"
 						>
 							<span class="text-primary text-base pre-line-top-title">{post.date}</span>
@@ -83,7 +83,7 @@
 		</div>
 	</div>
 
-	<div class="absolute top-[11%] right-[12%] z-0 ">
-		<BlogBlob classNames="h-[300px] w-[300px] text-gray-10" />
+	<div class="absolute top-[11%] right-[12%] z-0">
+		<BlogBlob classNames="h-72 w-72 text-gray-10" />
 	</div>
 </section>

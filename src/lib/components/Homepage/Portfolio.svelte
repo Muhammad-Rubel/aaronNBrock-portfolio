@@ -46,7 +46,7 @@
 	];
 </script>
 
-<section id="portfolio" class="services py-[50px] lg:py-[65px] xl:pt-[100px] xl:pb-[135px]">
+<section id="portfolio" class="services py-12 lg:py-16 xl:pt-24 xl:pb-32">
 	<div class="container">
 		<div>
 			<span class="top-title mb-4 text-center inline-block w-full">My Portfolio</span>

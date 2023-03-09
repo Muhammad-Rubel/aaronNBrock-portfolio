@@ -28,16 +28,16 @@
 </script>
 
 <section class="relative">
-	<div class="absolute top-[15%] -left-[7%] transform z-0 hidden lg:block contact_svg">
-		<Figure classNames="h-[201px] w-[201px]" />
+	<div class="absolute top-[15%] -left-[7%] transform z-0 hidden lg:block animate-move-top">
+		<Figure classNames="h-52 w-52" />
 	</div>
 
-	<div class="hidden lg:block absolute top-[15%] right-[10%] transform z-0 move_top">
-		<FigureSmall classNames="h-[100px] w-[100px]" />
+	<div class="hidden lg:block absolute top-[15%] right-[10%] transform z-0 animate-move-top">
+		<FigureSmall classNames="h-24 w-24" />
 	</div>
 
-	<div class="hidden lg:block absolute top-[6%] right-[2%] transform z-[-1] amin_spin">
-		<ContactBgBlob classNames="h-[200px] w-[200px] text-gray-10" />
+	<div class="hidden lg:block absolute top-[6%] right-[2%] transform z-00 amin_spin">
+		<ContactBgBlob classNames="h-52 w-52 text-gray-10" />
 	</div>
 
 	<div class="container relative">
@@ -46,19 +46,19 @@
 
 		<!-- contact options -->
 		<div
-			class="py-[50px] lg:py-[100px] space-y-8 lg:flex justify-between items-stretch lg:space-y-0 lg:space-x-8"
+			class="py-12 lg:py-24 space-y-8 lg:flex justify-between items-stretch lg:space-y-0 lg:space-x-8"
 		>
 			{#each contactOptions as item}
 				<div
-					class="p-[30px] bg-white rounded-[20px] w-full dark:bg-gray"
+					class="p-8 bg-white rounded-20 w-full dark:bg-gray"
 					style="box-shadow: 0 20px 40px rgb(50 65 141 / 12%);"
 				>
 					<!-- render icon -->
 					{#if item.icon}
-						<div class="mb-4 relative h-[125px] w-[100px] flex justify-start items-end z-0">
+						<div class="mb-4 relative h-32 w-24 flex justify-start items-end z-0">
 							<svelte:component this={item.icon} classNames="h-16 text-primary" />
 
-							<div class="absolute top-0 left-0 z-[-1]">
+							<div class="absolute top-0 left-0 z-00">
 								<ContactCardBlob classNames="text-gray-10" />
 							</div>
 						</div>
@@ -71,21 +71,3 @@
 		</div>
 	</div>
 </section>
-
-<style lang="scss">
-	.contact_svg {
-		animation: contact_svg_move_top 5s infinite linear;
-	}
-
-	@keyframes contact_svg_move_top {
-		0% {
-			transform: translateY(0);
-		}
-		50% {
-			transform: translateY(15px);
-		}
-		100% {
-			transform: translateY(0);
-		}
-	}
-</style>

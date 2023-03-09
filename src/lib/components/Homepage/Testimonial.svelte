@@ -65,9 +65,7 @@
 		>
 	</div>
 
-	<div
-		class="container pt-[100px] pb-[92px] md:py-[50px] lg:pt-[146px] lg:pb-[130px] xl:pt-[170px] xl:pb-[150px] overflow-hidden"
-	>
+	<div class="container py-24 md:py-12 lg:pt-36 lg:pb-32 xl:pt-44 xl:pb-36 overflow-hidden">
 		<div>
 			<span class="top-title text-center w-full inline-block">Testimonials</span>
 			<h2 class="h2 text-center">What People Are Saying About Me?</h2>
@@ -77,12 +75,10 @@
 			<Splide {options}>
 				{#each testimonials as item, i}
 					<SplideSlide>
-						<div
-							class="bg-white dark:bg-dark py-12 px-8 md:py-[60px] md:px-12 rounded-[20px] h-full"
-						>
+						<div class="bg-white dark:bg-dark py-12 px-8 md:py-16 md:px-12 rounded-20 h-full">
 							<div>
 								{#each Array(item.star) as star, i}
-									<Star classNames="w-5 h-5 text-[#ffc219] inline-block fill-[#ffc219]" />
+									<Star classNames="w-5 h-5 text-yellow-dark inline-block fill-yellow-dark" />
 								{/each}
 							</div>
 

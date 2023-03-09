@@ -80,8 +80,8 @@
 	};
 </script>
 
-<section id="resume" class="relative py-[50px] md:py-[100px] lg:py-[150px] mb-10 lg:mb-[100px]">
-	<div class="bg-[#1b2031] absolute top-0 left-0 right-0 bottom-0 transform -skew-y-2 z-[-1]" />
+<section id="resume" class="relative py-12 md:py-24 lg:py-36 mb-10 lg:mb-24">
+	<div class="bg-gray-20 absolute top-0 left-0 right-0 bottom-0 transform -skew-y-2 z-00" />
 
 	<div class="container lg:flex justify-between items-start gap-x-6 relative">
 		<div class="text-light lg:pr-20 lg:!sticky !top-48 w-full">
@@ -104,16 +104,16 @@
 			</div>
 		</div>
 
-		<div class="mt-8 space-y-[30px] w-full">
+		<div class="mt-8 space-y-8 w-full">
 			{#each resume as section}
 				{#if section.title === currentTab}
 					{#each section.items as item}
-						<div class="bg-white p-[30px] rounded-[20px] dark:bg-gray">
+						<div class="bg-white p-8 rounded-20 dark:bg-gray">
 							<span class="text-xl leading-normal text-primary pre-line-top-title before:bg-primary"
 								>{item.date}</span
 							>
 							<h4
-								class="mt-5 mb-6 text-2xl md:text-3xl leading-[1.2] font-semibold font-source-sans-pro"
+								class="mt-5 mb-6 text-2xl md:text-3xl leading-tight font-semibold font-source-sans-pro"
 							>
 								{item.title}
 							</h4>

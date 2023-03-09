@@ -1,11 +1,11 @@
-<section class="pt-[50px] pb-[100px] relative">
-	<div class="container space-y-16 lg:space-y-0 lg:grid grid-cols-2 lg:gap-x-[30px]">
+<section class="pt-12 pb-24 relative">
+	<div class="container space-y-16 lg:space-y-0 lg:grid grid-cols-2 lg:gap-x-8">
 		<!-- contact form -->
 		<div>
 			<h3 class="h3">Contact Form</h3>
 
-			<form action="" class="w-full space-y-[30px]">
-				<div class="space-y-[30px]">
+			<form action="" class="w-full space-y-8">
+				<div class="space-y-8">
 					<input type="text" placeholder="Name" required class="input" />
 					<input type="email" placeholder="Email" required class="input" />
 				</div>
@@ -22,7 +22,7 @@
 				<!-- checkbox -->
 				<div class="flex items-start space-x-2 w-full">
 					<input type="checkbox" id="checkbox" />
-					<label for="checkbox" class="text-[#495057] -mt-1.5 text-base"
+					<label for="checkbox" class="text-gray-15 -mt-1.5 text-base"
 						>I agree that my submitted data is being collected and stored.</label
 					>
 				</div>
@@ -31,17 +31,17 @@
 		</div>
 
 		<!-- empty div -->
-		<div class="h-[400px] lg:h-full bg-[#E5E3DF] rounded-[20px]" />
+		<div class="h-96 lg:h-full bg-gray-10 rounded-20" />
 	</div>
 </section>
 
 <style lang="scss">
 	.input {
-		@apply w-full py-1.5 px-3 text-[#495057] bg-white border border-[#ced4da] rounded transition-all duration-150 ease-in-out;
+		@apply w-full py-1.5 px-3 text-gray-15 bg-white border border-gray-15/40 rounded transition-all duration-150 ease-in-out;
 	}
 
 	.input:focus {
-		@apply outline-none border-[#8001ff];
+		@apply outline-none border-blue-light;
 		box-shadow: 0 0 0 0.2rem rgb(64 0 128 / 25%);
 	}
 </style>

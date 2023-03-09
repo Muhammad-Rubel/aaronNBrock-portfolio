@@ -17,27 +17,27 @@
 @layer components {
 	.h1 {
 		font-size: calc(1.4625rem + 2.55vw);
-		@apply leading-[1.2] font-source-sans-pro font-semibold xl:text-[3.375rem] mb-6;
+		@apply leading-tight font-source-sans-pro font-semibold xl:text-6xl mb-6;
 	}
 
 	.h2 {
 		font-size: calc(1.425rem + 2.1vw);
-		@apply leading-[1.2] font-source-sans-pro font-semibold xl:text-5xl xl:leading-[1.2] mb-6;
+		@apply leading-tight font-source-sans-pro font-semibold xl:text-5xl xl:leading-tight mb-6;
 	}
 
 	.h3 {
 		font-size: calc(1.3875rem + 1.65vw);
-		@apply leading-[1.2] font-source-sans-pro font-semibold xl:text-[2.625rem] mb-6;
+		@apply leading-tight font-source-sans-pro font-semibold xl:text-4xl mb-6;
 	}
 
 	.h4 {
 		font-size: calc(1.35rem + 1.2vw);
-		@apply leading-[1.2] font-source-sans-pro font-semibold xl:text-[2.25rem] mb-6;
+		@apply leading-tight font-source-sans-pro font-semibold xl:text-4xl mb-6;
 	}
 
 	.h5 {
 		font-size: calc(1.3125rem + 0.75vw);
-		@apply leading-[1.2] font-source-sans-pro font-semibold xl:text-[1.875rem] mb-6;
+		@apply leading-tight font-source-sans-pro font-semibold xl:text-3xl mb-6;
 	}
 
 	.container {
@@ -45,7 +45,7 @@
 	}
 
 	.btn {
-		@apply py-[15px] px-[30px] text-base rounded-lg text-center transform transition-all duration-300 ease-in-out;
+		@apply py-4 px-8 text-base rounded-lg text-center transform transition-all duration-300 ease-in-out;
 	}
 
 	.primary-btn {
@@ -82,52 +82,9 @@
 
 	.btn-zoom:hover {
 		box-shadow: 0 8px 20px rgb(56 87 241 / 30%);
-		/* transform: scale(1.03); */
 	}
 
 	.pre-line-top-title {
-		@apply relative ml-[30px] before:absolute before:top-1/2 before:-left-[30px] before:w-5 before:h-0.5 before:bg-secondary transform -translate-x-1/2 dark:before:bg-light;
-	}
-
-	.move_top {
-		animation: move_top 4s infinite;
-	}
-
-	.move_left {
-		animation: move_left 4s infinite;
-	}
-
-	.amin_spin {
-		animation: spin 20s linear infinite;
-	}
-}
-
-@keyframes move_top {
-	0% {
-		transform: translateY(0);
-	}
-	50% {
-		transform: translateY(15px);
-	}
-	100% {
-		transform: translateY(0);
-	}
-}
-
-@keyframes move_left {
-	0% {
-		transform: translateX(-50%);
-	}
-	50% {
-		transform: translateX(-57%);
-	}
-}
-
-@keyframes spin {
-	0% {
-		transform: rotate(0deg);
-	}
-	100% {
-		transform: rotate(360deg);
+		@apply relative ml-8 before:absolute before:top-1/2 before:-left-8 before:w-5 before:h-0.5 before:bg-secondary transform -translate-x-1/2 dark:before:bg-light;
 	}
 }

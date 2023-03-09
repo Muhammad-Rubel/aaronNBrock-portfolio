@@ -67,7 +67,7 @@
 	};
 </script>
 
-<section id="services" class="py-[50px] lg:pt-[100px] lg:pb-[275px] relative overflow-hidden">
+<section id="services" class="py-12 lg:pt-24 lg:pb-72 relative overflow-hidden">
 	<div>
 		<div class="container">
 			<div class="lg:w-1/2">
@@ -98,15 +98,15 @@
 		</div>
 	</div>
 
-	<div class="hidden lg:block absolute bottom-[4%] left-[6%] transform z-0 move_top">
+	<div class="hidden lg:block absolute bottom-[4%] left-[6%] transform z-0 animate-move-top">
 		<FigureSmall classNames="h-[120px] w-[120px]" />
 	</div>
 
-	<div class="hidden lg:block absolute -bottom-[10%] -left-[7%] transform z-[-1]">
+	<div class="hidden lg:block absolute -bottom-[10%] -left-[7%] transform z-00">
 		<ServiceBlob classNames="h-[465px] w-[410px] text-gray-10 dark:text-gray" />
 	</div>
 
-	<ServiceBg classNames="w-[61%] absolute top-0 right-0 z-[-2] text-gray-10 dark:text-gray" />
+	<ServiceBg classNames="w-3/5 absolute top-0 right-0 z-[-2] text-gray-10 dark:text-gray" />
 </section>
 
 <style lang="scss">

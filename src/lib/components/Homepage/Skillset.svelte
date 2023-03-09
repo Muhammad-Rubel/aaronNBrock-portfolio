@@ -27,7 +27,7 @@
 
 <section id="skill" class="relative">
 	<div
-		class="container py-[50px] lg:pt-[73px] lg:pb-[97px] xl:pt-[100px] xl:pb-[150px] lg:grid grid-cols-2 items-center gap-x-16 space-y-8 lg:space-y-0"
+		class="container py-12 lg:pt-20 lg:pb-24 xl:pt-24 xl:pb-36 lg:grid grid-cols-2 items-center gap-x-16 space-y-8 lg:space-y-0"
 	>
 		<div class="relative">
 			<!-- <img src={SkillImage} alt="" /> -->
@@ -38,8 +38,8 @@
 				style="-webkit-mask:url({SkillMask});-webkit-mask-repeat:no-repeat;-webkit-mask-size:contain;-webkit-mask-position:center center"
 			/>
 
-			<div class="absolute -top-[11%] -left-[17%] transform z-0 move_top">
-				<Figure classNames="h-[150px] w-[150px]" />
+			<div class="absolute -top-[11%] -left-[17%] transform z-0 animate-move-top">
+				<Figure classNames="h-36 w-36" />
 			</div>
 		</div>
 
@@ -53,7 +53,7 @@
 
 			<div class="grid grid-cols-3">
 				{#each skills as skill}
-					<span class="flex justify-start items-center space-x-2 p-1 border-t border-[#dee2e6]">
+					<span class="flex justify-start items-center space-x-2 p-1 border-t border-gray-5">
 						<Check classNames="h-5 w-5 text-primary fill-current" />
 						<span class="text-xl leading-normal">{skill}</span>
 					</span>
@@ -62,11 +62,11 @@
 		</div>
 	</div>
 
-	<div class="hidden lg:block absolute bottom-[5%] right-[10%] transform z-0 move_top">
-		<FigureSmall classNames="h-[100px] w-[100px]" />
+	<div class="hidden lg:block absolute bottom-[5%] right-[10%] transform z-0 animate-move-top">
+		<FigureSmall classNames="h-24 w-24" />
 	</div>
 
-	<div class="hidden lg:block absolute bottom-[2%] right-[2%] transform z-[-1]">
-		<SkillBlob classNames="h-[300px] w-[300px]" />
+	<div class="hidden lg:block absolute bottom-[2%] right-[2%] transform z-00">
+		<SkillBlob classNames="h-72 w-72" />
 	</div>
 </section>

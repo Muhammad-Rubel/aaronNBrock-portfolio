@@ -37,8 +37,8 @@
 	];
 </script>
 
-<footer class="bg-[#1b2031] mt-40 relative z-0">
-	<div class="relative z-[-1] text-white dark:text-dark">
+<footer class="bg-gray-20 mt-40 relative z-0">
+	<div class="relative z-00 text-white dark:text-dark">
 		<svg viewBox="0 0 1920 79"
 			><path d="M0 0h1920v79L0 0z" data-name="Path 1450" fill="currentColor" /></svg
 		>
@@ -47,7 +47,7 @@
 	<div class="container">
 		<!-- contact -->
 		<div
-			class="relative bg-primary dark:bg-teal text-light py-[70px] px-10 md:px-20 lg:py-[84px] xl:py-[100px] rounded-[20px] -mt-32 overflow-hidden"
+			class="relative bg-primary dark:bg-teal text-light py-16 px-10 md:px-20 lg:py-20 xl:py-24 rounded-20 -mt-32 overflow-hidden"
 		>
 			<div class="md:flex justify-between gap-4 relative z-10">
 				<div class="">
@@ -60,20 +60,18 @@
 				</div>
 			</div>
 
-			<div
-				class="absolute -top-[43%] left-[2%] transform -rotate-[20deg] z-0 footer-shape-1-move-left"
-			>
-				<Shape1 classNames="h-[315px] w-[357px] fill-[#0101011a] dark:fill-[#0101011a]" />
+			<div class="absolute -top-[43%] left-[2%] transform -rotate-[20deg] z-0 animate-anim-spin">
+				<Shape1 classNames="h-80 w-[357px] fill-gray-20/20 dark:fill-gray-20/20" />
 			</div>
 
-			<div class="absolute top-[12%] -right-[9%] transform rotate-[80deg] z-0">
-				<Shape2 classNames="h-[208px] w-[235px] fill-[#0101011a] dark:fill-[#0101011a]" />
+			<div class="absolute top-[12%] -right-[9%] transform rotate-[80deg] z-0 animate-anim-spin">
+				<Shape2 classNames="h-52 w-60 fill-gray-20/20 dark:fill-gray-20/20" />
 			</div>
 		</div>
 
 		<!-- footer -->
 		<div
-			class="text-light space-y-12 py-12 flex flex-col items-center lg:py-[74px] lg:flex-row lg:justify-between lg:items-center"
+			class="text-light space-y-12 py-12 flex flex-col items-center lg:py-20 lg:flex-row lg:justify-between lg:items-center"
 		>
 			<div>
 				<img src={Logo} alt="" />
@@ -108,14 +106,14 @@
 						class="flex justify-center items-center w-full space-x-3 lg:justify-start"
 					>
 						<span class="w-6 flex justify-center items-center">
-							<Envelope classNames="fill-light w-6 stroke-[#1b2031]" />
+							<Envelope classNames="fill-light w-6 stroke-gray-20" />
 						</span>
 						<span>Hello@AaronNBrock.com</span>
 					</a>
 
 					<span class="flex justify-center items-center w-full space-x-3 lg:justify-start">
 						<span class="w-6 flex justify-center items-center">
-							<Location classNames="fill-light w-4 stroke-[#1b2031]" />
+							<Location classNames="fill-light w-4 stroke-gray-20" />
 						</span>
 						<span>1234 Main Street, Anytown, USA 12345</span>
 					</span>
@@ -145,18 +143,3 @@
 		</div>
 	</div>
 </footer>
-
-<style lang="scss">
-	.footer-shape-1-move-left {
-		animation: footer-shape-1-move-left 5s linear infinite;
-	}
-
-	@keyframes footer-shape-1-move-left {
-		0% {
-			transform: translateX(0) rotate(-20deg);
-		}
-		50% {
-			transform: translateX(15px) rotate(-20deg);
-		}
-	}
-</style>
