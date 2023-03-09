@@ -43,8 +43,16 @@
 				</p>
 
 				<div class="space-x-7 pb-4">
-					<a href="/contact" class="btn primary-btn btn-zoom inline-block">Contact me</a>
-					<a href="/" class="btn btn-zoom btn-outline-light inline-block">Let's Chat</a>
+					<a
+						href="/contact"
+						class="btn primary-btn hover:scale-105 hover:shadow-[0 8px 20px rgb(56 87 241 / 30%)] inline-block"
+						>Contact me</a
+					>
+					<a
+						href="/"
+						class="btn hover:scale-105 hover:shadow-[0 8px 20px rgb(56 87 241 / 30%)] text-light border border-light hover:text-dark hover:border-light hover:bg-light active:border-light active:bg-light active:text-[#212529] inline-block"
+						>Let's Chat</a
+					>
 				</div>
 			</div>
 

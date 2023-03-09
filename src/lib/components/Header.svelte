@@ -72,7 +72,7 @@
 					<li>
 						<a
 							href={item.href}
-							class="text-gray-dark p-2 hover:text-primary active:text-primary custom-transition text-center text-lg"
+							class="text-gray-dark p-2 hover:text-primary active:text-primary transition-all duration-300 ease-in-out text-center text-lg"
 							>{item.name}</a
 						>
 					</li>
@@ -89,7 +89,11 @@
 				{/if}
 			</button>
 
-			<a href="/contact" class="hidden lg:block btn primary-btn btn-zoom">Get in Touch</a>
+			<a
+				href="/contact"
+				class="hidden lg:block btn primary-btn hover:scale-105 hover:shadow-[0 8px 20px rgb(56 87 241 / 30%)]"
+				>Get in Touch</a
+			>
 
 			<button class="lg:hidden" on:click={() => (showMobileMenu = !showMobileMenu)}>
 				<span class="navbar-toggle-icon {showMobileMenu && 'icon-1'}" />
@@ -108,14 +112,18 @@
 						<li>
 							<a
 								href={item.href}
-								class="text-gray-dark p-2 hover:text-primary active:text-primary custom-transition text-center text-lg"
+								class="text-gray-dark p-2 hover:text-primary active:text-primary transition-all duration-300 ease-in-out text-center text-lg"
 								>{item.name}</a
 							>
 						</li>
 					{/each}
 
 					<li>
-						<a href="/contact" class="btn primary-btn btn-zoom inline-block w-full">Get in Touch</a>
+						<a
+							href="/contact"
+							class="btn primary-btn inline-block w-full hover:scale-105 hover:shadow-[0 8px 20px rgb(56 87 241 / 30%)]"
+							>Get in Touch</a
+						>
 					</li>
 				</ul>
 			</nav>

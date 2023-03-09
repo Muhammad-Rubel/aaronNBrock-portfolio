@@ -56,7 +56,10 @@
 				</div>
 
 				<div class="mt-8 flex justify-center md:justify-end md:mt-0 md:items-end">
-					<button class="btn btn-light btn-zoom">Get In Touch</button>
+					<button
+						class="btn text-primary bg-light border border-light hover:bg-[#e2e6ea] hover:border-[#dae0e5] active:text-[#212529] active:bg-[#dae0e5] active:border-[#d3d9df] hover:scale-105 hover:shadow-[0 8px 20px rgb(56 87 241 / 30%)]"
+						>Get In Touch</button
+					>
 				</div>
 			</div>
 

@@ -52,36 +52,8 @@
 		@apply text-white bg-primary border border-primary hover:border-purple-20 hover:bg-purple-40 active:border-purple-30 active:bg-purple-20;
 	}
 
-	.btn-light {
-		@apply text-primary bg-light border border-light hover:bg-[#e2e6ea] hover:border-[#dae0e5] active:text-[#212529] active:bg-[#dae0e5] active:border-[#d3d9df];
-	}
-
-	.primary-btn-alt {
-		@apply text-white bg-purple-20 border hover:text-light active:border-primary active:bg-primary hover:border-purple-20 hover:bg-purple-40 border-purple-30;
-	}
-
-	.btn-outline-light {
-		@apply text-light border border-light hover:text-dark hover:border-light hover:bg-light active:border-light active:bg-light active:text-[#212529];
-	}
-
-	.btn-outline-secondary {
-		@apply text-secondary border border-secondary hover:border-secondary hover:bg-secondary active:border-secondary active:bg-secondary hover:text-white active:text-white;
-	}
-
-	.btn-zoom {
-		@apply hover:scale-105;
-	}
-
 	.top-title {
 		@apply text-xl leading-normal text-gray-dark mb-4 dark:text-light;
-	}
-
-	.custom-transition {
-		@apply transform transition-all duration-300 ease-in-out hover:scale-105;
-	}
-
-	.btn-zoom:hover {
-		box-shadow: 0 8px 20px rgb(56 87 241 / 30%);
 	}
 
 	.pre-line-top-title {

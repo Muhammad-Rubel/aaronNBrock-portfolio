@@ -27,7 +27,11 @@
 					Effortlessly navigate your way to success on Google Cloud with expert guidance.
 				</p>
 
-				<a href="/contact" class="btn primary-btn btn-zoom inline-block">Contact me</a>
+				<a
+					href="/contact"
+					class="btn primary-btn hover:scale-105 hover:shadow-[0 8px 20px rgb(56 87 241 / 30%)] inline-block"
+					>Contact me</a
+				>
 			</div>
 
 			<div class="hidden lg:block absolute -top-[45%] -left-[45%] z-00">
@@ -55,7 +59,7 @@
 						class="absolute top-0 left-0 right-0 bottom-0 bg-[rgba(0,0,0,.6)] z-10 flex justify-center items-center group"
 					>
 						<button
-							class="h-16 w-16 rounded-full flex justify-center items-center bg-white transform group-hover:scale-110 custom-transition"
+							class="h-16 w-16 rounded-full flex justify-center items-center bg-white transform group-hover:scale-110 transition-all duration-300 ease-in-out"
 							on:click={() => (showModal = true)}
 						>
 							<svg

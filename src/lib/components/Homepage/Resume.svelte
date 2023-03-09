@@ -98,7 +98,7 @@
 					on:click={() => setActiveTab(ActiveTab.Achievements)}>Achievements</button
 				>
 				<button
-					class="btn primary-btn-alt !rounded-l-none w-full"
+					class="btn text-white bg-purple-20 border hover:text-light active:border-primary active:bg-primary hover:border-purple-20 hover:bg-purple-40 border-purple-30 !rounded-l-none w-full"
 					on:click={() => setActiveTab(ActiveTab.Experience)}>Experience</button
 				>
 			</div>

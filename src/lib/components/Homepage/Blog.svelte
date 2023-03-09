@@ -46,7 +46,10 @@
 			</div>
 
 			<div class="hidden lg:block">
-				<button class="btn btn-outline-secondary">See All Posts</button>
+				<button
+					class="btn text-secondary border border-secondary hover:border-secondary hover:bg-secondary active:border-secondary active:bg-secondary hover:text-white active:text-white"
+					>See All Posts</button
+				>
 			</div>
 		</div>
 
@@ -61,7 +64,7 @@
 								<img
 									src={post.image.src}
 									alt={post.image.alt}
-									class="transform group-hover:scale-110 custom-transition w-full"
+									class="transform group-hover:scale-110 transition-all duration-300 ease-in-out w-full"
 								/>
 							</div>
 						</div>
@@ -79,7 +82,10 @@
 		</div>
 
 		<div class="lg:hidden flex justify-center mt-8">
-			<button class="btn btn-outline-secondary">See All Posts</button>
+			<button
+				class="btn text-secondary border border-secondary hover:border-secondary hover:bg-secondary active:border-secondary active:bg-secondary hover:text-white active:text-white"
+				>See All Posts</button
+			>
 		</div>
 	</div>
 

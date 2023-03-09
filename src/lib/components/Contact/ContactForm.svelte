@@ -26,7 +26,11 @@
 						>I agree that my submitted data is being collected and stored.</label
 					>
 				</div>
-				<button type="submit" class="btn primary-btn btn-zoom">Send Message</button>
+				<button
+					type="submit"
+					class="btn primary-btn hover:scale-105 hover:shadow-[0 8px 20px rgb(56 87 241 / 30%)]"
+					>Send Message</button
+				>
 			</form>
 		</div>
 
