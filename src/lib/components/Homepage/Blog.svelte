@@ -1,8 +1,8 @@
 <script lang="ts">
 	import type { IBlog } from '$lib/types/generalTypes';
 	import Blog1 from '$lib/assets/images/blog/person-reaching-out-to-robot.jpg';
-	import Blog2 from '$lib/assets/images/allPost/turtles-all-the-way-down.jpeg';
-	import Blog3 from '$lib/assets/images/allPost/allPost-6.jpg';
+	import Blog2 from '$lib/assets/images/allpost/turtles-all-the-way-down.jpeg';
+	import Blog3 from '$lib/assets/images/allpost/allPost-6.jpg';
 	import BlogBlob from '$lib/components/Svg/Homepage/Blog/BlogBlob.svelte';
 
 	const blogPosts: IBlog[] = [

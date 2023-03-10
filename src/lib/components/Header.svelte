@@ -131,7 +131,7 @@
 	{/if}
 </header>
 
-<style lang="scss">
+<style lang="postcss">
 	.navbar-toggle-icon {
 		@apply h-0.5 w-6 bg-primary block mb-[5px] transition-all duration-300 ease-linear;
 	}
