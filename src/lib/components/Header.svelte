@@ -52,13 +52,13 @@
 
 <header
 	class="fixed bg-white dark:bg-dark top-4 left-5 right-5 z-50 rounded-lg lg:top-0 lg:left-0 lg:right-0 lg:rounded-none transition-all duration-300 ease-linear {scrollY >
-	300
+	100
 		? 'shadow-lg bg-opacity-100'
 		: 'bg-transparent lg:bg-opacity-0'}"
 >
 	<div
 		class="flex justify-between items-center container transition-all duration-300 ease-in-out {scrollY >
-		300
+		100
 			? 'py-4 lg:py-5'
 			: 'py-4 lg:py-10'}"
 	>
