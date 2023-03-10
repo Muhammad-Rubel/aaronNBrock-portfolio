@@ -21,7 +21,7 @@
 				<h3 class="h3 !mb-0">{item?.title}</h3>
 
 				<span
-					class="text-primary relative ml-8 pre-line-top-title before:!bg-primary xl:inline-block xl:transform translate-y-20 xl:translate-x-2 group-hover:translate-y-0 transition-all duration-300 ease-in-out"
+					class="text-primary relative ml-8 pre-line-text-xl leading-normal text-gray-dark mb-4 dark:text-light before:!bg-primary xl:inline-block xl:transform translate-y-20 xl:translate-x-2 group-hover:translate-y-0 transition-all duration-300 ease-in-out"
 				>
 					See Details
 				</span>

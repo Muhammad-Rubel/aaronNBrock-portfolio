@@ -40,7 +40,9 @@
 	<div class="container z-10 relative">
 		<div class="lg:flex justify-between items-end">
 			<div>
-				<span class="top-title pre-line-top-title">Blog</span>
+				<span class="text-xl leading-normal text-gray-dark mb-4 dark:text-light pre-line-top-title"
+					>Blog</span
+				>
 				<h2 class="h2 mt-4">Recent Article</h2>
 				<p class="mb-4">Just a place for my thoughts...</p>
 			</div>

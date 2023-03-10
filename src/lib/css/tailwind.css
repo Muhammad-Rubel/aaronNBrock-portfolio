@@ -52,10 +52,6 @@
 		@apply text-white bg-primary border border-primary hover:border-purple-20 hover:bg-purple-40 active:border-purple-30 active:bg-purple-20;
 	}
 
-	.top-title {
-		@apply text-xl leading-normal text-gray-dark mb-4 dark:text-light;
-	}
-
 	.pre-line-top-title {
 		@apply relative ml-8 before:absolute before:top-1/2 before:-left-8 before:w-5 before:h-0.5 before:bg-secondary transform -translate-x-1/2 dark:before:bg-light;
 	}

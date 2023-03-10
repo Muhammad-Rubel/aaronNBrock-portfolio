@@ -44,7 +44,9 @@
 		</div>
 
 		<div class="">
-			<span class="top-title pre-line-top-title">My Skills</span>
+			<span class="text-xl leading-normal text-gray-dark mb-4 dark:text-light pre-line-top-title"
+				>My Skills</span
+			>
 			<h2 class="h2 mt-4">What's my Skillset?</h2>
 			<p class="mb-4">
 				I'll be honest, this section here is just the "buzzword bingo" that I play with the search

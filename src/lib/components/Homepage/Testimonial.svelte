@@ -67,7 +67,10 @@
 
 	<div class="container py-24 md:py-12 lg:pt-36 lg:pb-32 xl:pt-44 xl:pb-36 overflow-hidden">
 		<div>
-			<span class="top-title text-center w-full inline-block">Testimonials</span>
+			<span
+				class="text-xl leading-normal text-gray-dark mb-4 dark:text-light text-center w-full inline-block"
+				>Testimonials</span
+			>
 			<h2 class="h2 text-center">What People Are Saying About Me?</h2>
 		</div>
 

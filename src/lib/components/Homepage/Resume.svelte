@@ -85,7 +85,10 @@
 
 	<div class="container lg:flex justify-between items-start gap-x-6 relative">
 		<div class="text-light lg:pr-20 lg:!sticky !top-48 w-full">
-			<span class="top-title !text-light pre-line-top-title before:bg-light">Resume</span>
+			<span
+				class="text-xl leading-normal text-gray-dark mb-4 dark:text-light !text-light pre-line-top-title before:bg-light"
+				>Resume</span
+			>
 			<h2 class="h2 mt-4">Experiences.</h2>
 			<p class="mb-4">
 				What? You don’t want to just take my word for it that I know what I’m talking about? I guess

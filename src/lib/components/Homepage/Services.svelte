@@ -71,7 +71,9 @@
 	<div>
 		<div class="container">
 			<div class="lg:w-1/2">
-				<span class="top-title pre-line-top-title">Area of Work</span>
+				<span class="text-xl leading-normal text-gray-dark mb-4 dark:text-light pre-line-top-title"
+					>Area of Work</span
+				>
 				<h2 class="h2 mt-4">Google Cloud</h2>
 				<p class="mb-4 text-xl leading-normal">
 					Using technology to empower development teams to deliver software better faster stronger.

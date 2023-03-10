@@ -17,7 +17,9 @@
 		<!-- text -->
 		<div class="text-center lg:text-left w-full relative lg:pr-20">
 			<div class="relative z-0">
-				<span class="top-title pre-line-top-title">Hello there,</span>
+				<span class="text-xl leading-normal text-gray-dark mb-4 dark:text-light pre-line-top-title"
+					>Hello there,</span
+				>
 
 				<h1 class="h1 mt-4">
 					Let’s make <br /> <span class="text-primary">Google Cloud</span> <br /> simple

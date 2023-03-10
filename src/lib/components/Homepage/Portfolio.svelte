@@ -49,7 +49,10 @@
 <section id="portfolio" class="services py-12 lg:py-16 xl:pt-24 xl:pb-32">
 	<div class="container">
 		<div>
-			<span class="top-title mb-4 text-center inline-block w-full">My Portfolio</span>
+			<span
+				class="text-xl leading-normal text-gray-dark mb-4 dark:text-light mb-4 text-center inline-block w-full"
+				>My Portfolio</span
+			>
 			<h2 class="h2 text-center">Check Some of My Recent Work</h2>
 		</div>
 
