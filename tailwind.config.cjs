@@ -1,4 +1,7 @@
 /** @type {import('tailwindcss').Config} */
+const defaultTheme = require('tailwindcss/defaultTheme');
+const colors = require('tailwindcss/colors');
+
 module.exports = {
 	darkMode: 'class', // or 'media' or 'class'
 	content: ['./src/**/*.{html,js,svelte,ts}'],
@@ -38,8 +41,9 @@ module.exports = {
 				dark: '#343a40' //
 			},
 			fontFamily: {
-				'source-sans-pro': ['Source Sans Pro', 'sans-serif'],
-				'source-serif-pro': ['Source Serif Pro', 'serif']
+				sans: ['"Source Sans Pro"', ...defaultTheme.fontFamily.sans],
+				serif: ['"Source Serif Pro"', ...defaultTheme.fontFamily.serif],
+				mono: ['"Source Code Pro"', ...defaultTheme.fontFamily.mono]
 			},
 			keyframes: {
 				'move-top': {

@@ -25,7 +25,7 @@
 					Let’s make <br /> <span class="text-primary">Google Cloud</span> <br /> simple
 				</h1>
 
-				<p class="text-2xl mb-16 leading-normal">
+				<p class="text-lg md:text-2xl mb-8 leading-normal">
 					Effortlessly navigate your way to success on Google Cloud with expert guidance.
 				</p>
 

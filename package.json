@@ -33,6 +33,9 @@
 	},
 	"type": "module",
 	"dependencies": {
+		"@fontsource/source-code-pro": "^4.5.14",
+		"@fontsource/source-sans-pro": "^4.5.11",
+		"@fontsource/source-serif-pro": "^4.5.9",
 		"@splidejs/svelte-splide": "^0.2.9",
 		"node-sass": "^8.0.0",
 		"sass": "^1.58.3"
