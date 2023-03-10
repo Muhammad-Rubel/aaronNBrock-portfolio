@@ -10,7 +10,7 @@
 	let showModal = false;
 </script>
 
-<section id="home" class="pt-36 pb-8 lg:pt-44 lg:pb-48 xl:py-48 relative z-0">
+<section id="home" class="pt-36 pb-8 lg:py-40 xl:py-44 relative z-0">
 	<div
 		class="container space-y-16 lg:flex justify-between items-center lg:space-x-20 lg:space-y-0 relative z-10"
 	>

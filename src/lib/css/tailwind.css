@@ -52,7 +52,7 @@
 
 	body,
 	.body {
-		@apply font-serif text-base md:text-xl dark:text-light bg-white dark:bg-dark leading-normal selection:text-light selection:bg-primary;
+		@apply font-serif text-base md:text-xl text-gray-dark dark:text-light bg-white dark:bg-dark leading-normal selection:text-light selection:bg-primary;
 	}
 
 	p,

@@ -51,9 +51,9 @@
 <svelte:window />
 
 <header
-	class="fixed bg-white dark:bg-dark top-4 left-5 right-5 z-50 rounded-lg lg:top-0 lg:left-0 lg:right-0 lg:rounded-none transition-all duration-300 ease-linear {scrollY >
+	class="fixed top-4 left-5 right-5 z-50 rounded-lg lg:top-0 lg:left-0 lg:right-0 lg:rounded-none transition-all duration-300 ease-linear {scrollY >
 	100
-		? 'shadow-lg bg-opacity-100'
+		? 'shadow-lg bg-opacity-100 bg-white dark:bg-dark'
 		: 'bg-transparent lg:bg-opacity-0'}"
 >
 	<div
@@ -72,7 +72,7 @@
 					<li>
 						<a
 							href={item.href}
-							class="text-gray-dark p-2 hover:text-primary active:text-primary transition-all duration-300 ease-in-out text-center text-lg"
+							class="p-2 hover:text-primary active:text-primary transition-all duration-300 ease-in-out text-center text-lg"
 							>{item.name}</a
 						>
 					</li>
@@ -105,14 +105,17 @@
 
 	<!-- mobile nav -->
 	{#if showMobileMenu}
-		<div transition:slide={{ duration: 400 }} class="lg:hidden bg-white rounded-xl shadow-lg">
+		<div
+			transition:slide={{ duration: 400 }}
+			class="lg:hidden bg-white dark:bg-dark rounded-xl shadow-lg"
+		>
 			<nav class="px-5 py-4 ">
 				<ul class="space-y-2">
 					{#each navItems as item}
 						<li>
 							<a
 								href={item.href}
-								class="text-gray-dark p-2 hover:text-primary active:text-primary transition-all duration-300 ease-in-out text-center text-lg"
+								class=" p-2 hover:text-primary active:text-primary transition-all duration-300 ease-in-out text-center text-lg"
 								>{item.name}</a
 							>
 						</li>
